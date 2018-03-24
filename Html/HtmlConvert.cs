@@ -3,12 +3,15 @@
 using HtmlAgilityPack;
 using System;
 using System.Collections;
+using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 
 #endregion
 
 namespace app_el_sys
 {
+
 
     /// <summary>
     /// Represents a document that needs linked files to be rendered, such as images or css files, and points to other HTML documents.

@@ -48,6 +48,8 @@
   <ItemGroup>
     <Compile Include="app.cs" />
     <Compile Include="English\el.cs" />
+    <Compile Include="English\EL_SPEAK_MSG.cs" />
+    <Compile Include="English\HtmlBuilder.cs" />
     <Compile Include="Fleck2\FleckLog.cs" />
     <Compile Include="Fleck2\FrameType.cs" />
     <Compile Include="Fleck2\HandlerFactory.cs" />

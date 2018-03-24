@@ -1,43 +1,56 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 
 namespace app_el_sys
 {
+
     public class EL
     {
+        public const int _TIMEOUT_SPEAK_WORD = 0;
+        public const int _TIMEOUT_SPEAK_CLAUSE = 1000;
+        public const int _TIMEOUT_SPEAK_SENTENCE = 3000;
+
+        public const string _SOCKET_CMD_REPLAY = "REPLAY";
+        public const string _SOCKET_CMD_REPEATE = "REPEATE";
+        public const string _SOCKET_CMD_TRANSLATE = "TRANSLATE";
+
+        public const string _STATUS_SPEAK_OK = "OK";
+        public const string _STATUS_SPEAK_FAIL = "FAIL";
+
         public static readonly string[] _WORD_SKIP_WHEN_READING = { "is", "are", "was", "were", "the", "to", "and", "of" };
 
         public static readonly string[] _SPLIT_PARAGRAPH_TO_SENTENCE = { "." };
         public static readonly string[] _SPLIT_PARAGRAPH_TO_CLAUSE = { ":", ",", "(", ")", "when", "that", "from", "of" };
 
-        public const string _TAG_CODE_CHAR_BEGIN                     = "//#";
-        public const string _TAG_CODE_CHAR_END                       = "//.";
+        public const string _TAG_CODE_CHAR_BEGIN = "//#";
+        public const string _TAG_CODE_CHAR_END = "//.";
 
-        public const string DO_SPEECH_ALL                            = "__s_0";
-        public const string DO_SPEECH_WORD                           = "__s_1";
-        public const string DO_SPEECH_PARAGRAPH                      = "__s_2";
-        public const string DO_SPEECH_SENTENCE                       = "__s_3";
-        public const string DO_SPEECH_SENTENCE_KEY_WORD              = "__s_4";
+        public const string DO_SPEECH_ALL = "__s_0";
+        public const string DO_SPEECH_WORD = "__s_1";
+        public const string DO_SPEECH_PARAGRAPH = "__s_2";
+        public const string DO_SPEECH_SENTENCE = "__s_3";
+        public const string DO_SPEECH_SENTENCE_KEY_WORD = "__s_4";
 
-        public const string TAG_CODE                                 = "pre";
-        public const string TAG_ARTICLE                              = "article";
-        public const string TAG_TITLE                                = "h2";
-        public const string TAG_HEADING                              = "h3";
-        public const string TAG_LINK                                 = "a";
-        public const string TAG_NOTE                                 = "span";
-        public const string TAG_PARAGRAPH                            = "p";        
-        public const string TAG_SENTENCE                             = "b";         
-        public const string TAG_CLAUSE                               = "em";         
-        public const string TAG_WORD                                 = "i";         
+        public const string TAG_CODE = "pre";
+        public const string TAG_ARTICLE = "article";
+        public const string TAG_TITLE = "h2";
+        public const string TAG_HEADING = "h3";
+        public const string TAG_LINK = "a";
+        public const string TAG_NOTE = "span";
+        public const string TAG_PARAGRAPH = "p";
+        public const string TAG_SENTENCE = "b";
+        public const string TAG_CLAUSE = "em";
+        public const string TAG_WORD = "i";
 
-        public const string ATTR_SPEECH_WORD_VOCABULARY              = "nv";       // word is vocabulary new: tu moi
-        public const string ATTR_SPEECH_WORD_QUESTION_WH             = "wh";       // what, where, which, how: many, much ...
-        public const string ATTR_SPEECH_WORD_VERB_TOBE               = "vb";       // word is verb tobe: is, am, are, be, will, was, were
-        public const string ATTR_SPEECH_WORD_VERB_MODAL              = "vm";       // word is modal verb: Động từ khuyết thiếu
-        public const string ATTR_SPEECH_WORD_VERB_INFINITIVE         = "vi";       // word is verb infinitive        
-        public const string ATTR_SPEECH_WORD_IDOM                    = "id";       // word is idom or struct grammar   
-        public const string ATTR_SPEECH_WORD_GRAMMAR                 = "gm";       // word is idom or struct grammar
-        public const string ATTR_SPEECH_WORD_SPECIALIZE              = "sp";       // word is specialize
+        public const string ATTR_SPEECH_WORD_VOCABULARY = "nv";       // word is vocabulary new: tu moi
+        public const string ATTR_SPEECH_WORD_QUESTION_WH = "wh";       // what, where, which, how: many, much ...
+        public const string ATTR_SPEECH_WORD_VERB_TOBE = "vb";       // word is verb tobe: is, am, are, be, will, was, were
+        public const string ATTR_SPEECH_WORD_VERB_MODAL = "vm";       // word is modal verb: Động từ khuyết thiếu
+        public const string ATTR_SPEECH_WORD_VERB_INFINITIVE = "vi";       // word is verb infinitive        
+        public const string ATTR_SPEECH_WORD_IDOM = "id";       // word is idom or struct grammar   
+        public const string ATTR_SPEECH_WORD_GRAMMAR = "gm";       // word is idom or struct grammar
+        public const string ATTR_SPEECH_WORD_SPECIALIZE = "sp";       // word is specialize
 
         /*
         WHO   (ai)
@@ -294,6 +307,34 @@ namespace app_el_sys
                                                     " wring ; wrung ; wrung ; " +                                      //-vặn  ;  siết chặt
                                                     " write ; wrote ; written ; ";                                    //-viết
         #endregion
-
+        
     }
+
+    /// <summary>
+    /// speech type
+    /// </summary>
+    public enum EL_SPEAK_TYPE
+    {
+        /// <summary>
+        /// chỉ đọc các từ chính
+        /// </summary>
+        SPEAK_WORD,
+        /// <summary>
+        /// chỉ đọc các từ chính
+        /// </summary>
+        SPEAK_KEYWORD,
+        /// <summary>
+        /// đọc cụm từ trong câu
+        /// </summary>
+        SPEAK_CLAUSE,
+        /// <summary>
+        /// đọc cả câu cách nhau bởi dấu (.)
+        /// </summary>
+        SPEAK_SENTENCE,
+        /// <summary>
+        /// đọc cả 1 đoạn gồm nhiều câu
+        /// </summary>
+        SPEAK_PARAGRAPH,
+    }
+
 }

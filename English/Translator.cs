@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Net;
 using System.Text;
+using System.Web;
 
 namespace app_el_sys
 {
@@ -13,30 +14,27 @@ namespace app_el_sys
         /// <param name="input"></param>
         /// <param name="languagePair"></param>
         /// <returns></returns>
-        public static string TranslateText(string input, string languagePair)
+        public static string TranslateText(string input)
         {
-            return TranslateText(input, languagePair, System.Text.Encoding.UTF7);
+            return TranslateText(input, System.Text.Encoding.UTF7);
         }
 
-        /// <summary>
-        /// Translate Text using Google Translate The string you want translated 2 letter Language Pair, 
-        /// delimited by "|". en|vi e.g. "en|da" language pair means to translate from English to Danish The encoding. 
-        /// Translated to String
-        /// </summary>
-        /// <param name="input"></param>
-        /// <param name="languagePair">en|vi or en|ja</param>
-        /// <param name="encoding"></param>
-        /// <returns></returns>
-        public static string TranslateText(string input, string languagePair, Encoding encoding)
+        public static string TranslateText(string input, Encoding encoding)
         {
             string result = String.Empty;
-            string url = String.Format("http://www.google.com/translate_t?hl=en&ie=UTF8&text={0}&langpair={1}", input, languagePair);
+
+            string temp = HttpUtility.UrlEncode(input.Replace(" ", "-----"));
+            temp = temp.Replace("-----", "%20");
+            string url = String.Format("http://www.google.com/translate_t?hl=en&ie=UTF8&text={0}&langpair={1}", temp, "en|vi");
+
             string s = String.Empty;
             using (WebClient webClient = new WebClient())
             {
                 webClient.Encoding = encoding;
                 s = webClient.DownloadString(url);
             }
+            string ht = HttpUtility.HtmlDecode(s);
+
             int p = s.IndexOf("id=result_box");
             if (p > 0)
                 s = s.Substring(p, s.Length - p);
@@ -46,7 +44,10 @@ namespace app_el_sys
                 s = s.Substring(0, p);
                 p = s.IndexOf(@"'"">");
                 if (p > 0)
+                {
                     result = s.Substring(p + 3, s.Length - (p + 3));
+                    result = HttpUtility.HtmlDecode(result);
+                }
             }
             return result;
         }
