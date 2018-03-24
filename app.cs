@@ -33,10 +33,20 @@ namespace app_el_sys
             {
                 _autoEvent.WaitOne();
                 if (_data == null) continue;
+                if (_data.RepeatComplete) continue;
+
+                if (_data.TextCounter >= _data.Text.Length)
+                {
+                    _data.TextCounter = 0;
+                    _data.RepeatCounter++;
+                    if (_data.RepeatComplete)
+                        continue;
+                }
+                _state = SynthesizerState.Speaking;
                 switch (_data.Type)
                 {
                     case EL_SPEAK_TYPE.SPEAK_WORD:
-                        _speaker.Speak(_data.Text);
+                        _speaker.Speak(_data.Text[_data.TextCounter]);
                         break;
                     case EL_SPEAK_TYPE.SPEAK_CLAUSE:
                         break;
@@ -47,6 +57,7 @@ namespace app_el_sys
                     case EL_SPEAK_TYPE.SPEAK_PARAGRAPH:
                         break;
                 }
+                _data.TextCounter++;
             }
         }
 
@@ -54,8 +65,8 @@ namespace app_el_sys
         {
             if (e.State == SynthesizerState.Ready)
             {
-                _data.RepeatCounter++;
-                if (!_data.RepeatComplete) _autoEvent.Set();
+                _state = SynthesizerState.Ready;
+                _autoEvent.Set();
             }
         }
 
@@ -72,11 +83,21 @@ namespace app_el_sys
         {
             if (_state == SynthesizerState.Ready)
             {
-                switch (s[0]) {
+                switch (s[0])
+                {
                     case '@': // TRANSLATE
                         s = s.Substring(1).Trim();
                         string temp = Translator.TranslateText(s);
                         _socketCurrent.Send("=" + temp);
+                        break;
+                    case '%': // set speech Rate from -10 to 10 
+                        int rate = 10;
+                        int.TryParse(s.Substring(1), out rate);
+                        if (rate > -10 && rate < 11)
+                        {
+                            _speaker.Rate = rate;
+                            _socketCurrent.Send(s);
+                        }
                         break;
                     default:
                         switch (s)
@@ -84,23 +105,13 @@ namespace app_el_sys
                             case EL._SOCKET_CMD_REPLAY:
                                 _autoEvent.Set();
                                 break;
-                            case EL._SOCKET_CMD_REPEATE:
-                                _autoEvent.Set();
-                                break;
-                            case EL._SOCKET_CMD_TRANSLATE:
-                                if (string.IsNullOrEmpty(_data.TranslateResult))
-                                    _data.TranslateResult = Translator.TranslateText(_data.Text);
-                                _socketCurrent.Send("=" + _data.TranslateResult);
+                            case EL._SOCKET_CMD_STOP:
+                                _speaker.SpeakAsyncCancel(null);
                                 break;
                             default:
                                 _data = new EL_SPEAK_MSG(s);
                                 _autoEvent.Set();
-                                _socketCurrent.Send(EL._STATUS_SPEAK_OK);
-                                if (_data.Translate)
-                                {
-                                    _data.TranslateResult = Translator.TranslateText(_data.Text);
-                                    _socketCurrent.Send("=" + _data.TranslateResult);
-                                }
+                                _socketCurrent.Send(string.Format("{0}:{1}", EL._STATUS_SPEAK_OK, _data.ID));
                                 break;
                         }
                         break;
@@ -144,6 +155,7 @@ namespace app_el_sys
 
             // Configure the audio output. 
             _speaker.SetOutputToDefaultAudioDevice();
+            _speaker.Rate = EL._SPEAK_RATE_DEFAULT_WORD;
 
             _speaker.StateChanged += new EventHandler<StateChangedEventArgs>(_speaker_StateChanged);
             _speaker.SpeakProgress += new EventHandler<SpeakProgressEventArgs>(_speaker_SpeakProgress);
@@ -171,14 +183,14 @@ namespace app_el_sys
             });
             Console.ReadLine();
         }
-         
+
     }
 
     class Program
     {
         static void Main(string[] args)
         {
-            app.RUN(); 
+            app.RUN();
         }
     }
 }

@@ -7,12 +7,17 @@ namespace app_el_sys
 
     public class EL
     {
+        public const int _SPEAK_RATE_DEFAULT_WORD = -5; // -10 -> 10
+        public const int _SPEAK_RATE_DEFAULT_CLAUSE = -5; // -10 -> 10
+        public const int _SPEAK_RATE_DEFAULT_SENTENCE = -5; // -10 -> 10
+        public const int _SPEAK_RATE_DEFAULT_PARAGRAPH = -5; // -10 -> 10
+
         public const int _TIMEOUT_SPEAK_WORD = 0;
         public const int _TIMEOUT_SPEAK_CLAUSE = 1000;
         public const int _TIMEOUT_SPEAK_SENTENCE = 3000;
 
         public const string _SOCKET_CMD_REPLAY = "REPLAY";
-        public const string _SOCKET_CMD_REPEATE = "REPEATE";
+        public const string _SOCKET_CMD_STOP = "STOP";
         public const string _SOCKET_CMD_TRANSLATE = "TRANSLATE";
 
         public const string _STATUS_SPEAK_OK = "OK";

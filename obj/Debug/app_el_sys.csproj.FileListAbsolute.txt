@@ -1,5 +1,5 @@
 C:\nginx\app_el_sys\bin\Debug\app_el_sys.exe
 C:\nginx\app_el_sys\bin\Debug\app_el_sys.pdb
-C:\nginx\app_el_sys\obj\Debug\app_el_sys.csprojResolveAssemblyReference.cache
 C:\nginx\app_el_sys\obj\Debug\app_el_sys.exe
 C:\nginx\app_el_sys\obj\Debug\app_el_sys.pdb
+C:\nginx\app_el_sys\obj\Debug\app_el_sys.csprojResolveAssemblyReference.cache
