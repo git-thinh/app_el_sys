@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7E494A78-AC7C-4412-A4A3-535C30F0EFAC}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>app_el_sys</RootNamespace>
+    <AssemblyName>app_el_sys</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>DLL\Newtonsoft.Json.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Speech">
+      <HintPath>DLL\System.Speech.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="app.cs" />
+    <Compile Include="English\el.cs" />
+    <Compile Include="Fleck2\FleckLog.cs" />
+    <Compile Include="Fleck2\FrameType.cs" />
+    <Compile Include="Fleck2\HandlerFactory.cs" />
+    <Compile Include="Fleck2\Handlers\ComposableHandler.cs" />
+    <Compile Include="Fleck2\Handlers\Draft76Handler.cs" />
+    <Compile Include="Fleck2\Handlers\Hybi13Handler.cs" />
+    <Compile Include="Fleck2\HandshakeException.cs" />
+    <Compile Include="Fleck2\Interfaces\ICancellationToken.cs" />
+    <Compile Include="Fleck2\Interfaces\IHandler.cs" />
+    <Compile Include="Fleck2\Interfaces\ISocket.cs" />
+    <Compile Include="Fleck2\Interfaces\IWebSocketConnection.cs" />
+    <Compile Include="Fleck2\Interfaces\IWebSocketConnectionInfo.cs" />
+    <Compile Include="Fleck2\Interfaces\IWebSocketServer.cs" />
+    <Compile Include="Fleck2\IntExtensions.cs" />
+    <Compile Include="Fleck2\ReadState.cs" />
+    <Compile Include="Fleck2\RequestParser.cs" />
+    <Compile Include="Fleck2\SocketCancellationToken.cs" />
+    <Compile Include="Fleck2\SocketCancellationTokenException.cs" />
+    <Compile Include="Fleck2\SocketFactory.cs" />
+    <Compile Include="Fleck2\SocketResult.cs" />
+    <Compile Include="Fleck2\SocketWrapper.cs" />
+    <Compile Include="Fleck2\WebSocketConnection.cs" />
+    <Compile Include="Fleck2\WebSocketConnectionInfo.cs" />
+    <Compile Include="Fleck2\WebSocketException.cs" />
+    <Compile Include="Fleck2\WebSocketHttpRequest.cs" />
+    <Compile Include="Fleck2\WebSocketServer.cs" />
+    <Compile Include="Fleck2\WebSocketStatusCodes.cs" />
+    <Compile Include="Html\HtmlAgilityPack\crc32.cs" />
+    <Compile Include="Html\HtmlAgilityPack\EncodingFoundException.cs" />
+    <Compile Include="Html\HtmlAgilityPack\HtmlAttribute.cs" />
+    <Compile Include="Html\HtmlAgilityPack\HtmlAttributeCollection.cs" />
+    <Compile Include="Html\HtmlAgilityPack\HtmlCmdLine.cs" />
+    <Compile Include="Html\HtmlAgilityPack\HtmlCommentNode.cs" />
+    <Compile Include="Html\HtmlAgilityPack\HtmlConsoleListener.cs" />
+    <Compile Include="Html\HtmlAgilityPack\HtmlDocument.cs" />
+    <Compile Include="Html\HtmlAgilityPack\HtmlDocument.PathMethods.cs" />
+    <Compile Include="Html\HtmlAgilityPack\HtmlDocument.Xpath.cs" />
+    <Compile Include="Html\HtmlAgilityPack\HtmlElementFlag.cs" />
+    <Compile Include="Html\HtmlAgilityPack\HtmlEntity.cs" />
+    <Compile Include="Html\HtmlAgilityPack\HtmlNameTable.cs" />
+    <Compile Include="Html\HtmlAgilityPack\HtmlNode.cs" />
+    <Compile Include="Html\HtmlAgilityPack\HtmlNode.Encapsulator.cs" />
+    <Compile Include="Html\HtmlAgilityPack\HtmlNode.Xpath.cs" />
+    <Compile Include="Html\HtmlAgilityPack\HtmlNodeCollection.cs" />
+    <Compile Include="Html\HtmlAgilityPack\HtmlNodeNavigator.cs" />
+    <Compile Include="Html\HtmlAgilityPack\HtmlNodeType.cs" />
+    <Compile Include="Html\HtmlAgilityPack\HtmlParseError.cs" />
+    <Compile Include="Html\HtmlAgilityPack\HtmlParseErrorCode.cs" />
+    <Compile Include="Html\HtmlAgilityPack\HtmlTextNode.cs" />
+    <Compile Include="Html\HtmlAgilityPack\HtmlWeb.cs" />
+    <Compile Include="Html\HtmlAgilityPack\HtmlWeb.Xpath.cs" />
+    <Compile Include="Html\HtmlAgilityPack\HtmlWebException.cs" />
+    <Compile Include="Html\HtmlAgilityPack\InvalidProgramException.cs" />
+    <Compile Include="Html\HtmlAgilityPack\IOLibrary.cs" />
+    <Compile Include="Html\HtmlAgilityPack\Metro\HtmlWeb.cs" />
+    <Compile Include="Html\HtmlAgilityPack\Metro\InvalidProgramException.cs" />
+    <Compile Include="Html\HtmlAgilityPack\MixedCodeDocument.cs" />
+    <Compile Include="Html\HtmlAgilityPack\MixedCodeDocumentCodeFragment.cs" />
+    <Compile Include="Html\HtmlAgilityPack\MixedCodeDocumentFragment.cs" />
+    <Compile Include="Html\HtmlAgilityPack\MixedCodeDocumentFragmentList.cs" />
+    <Compile Include="Html\HtmlAgilityPack\MixedCodeDocumentFragmentType.cs" />
+    <Compile Include="Html\HtmlAgilityPack\MixedCodeDocumentTextFragment.cs" />
+    <Compile Include="Html\HtmlAgilityPack\NameValuePair.cs" />
+    <Compile Include="Html\HtmlAgilityPack\NameValuePairList.cs" />
+    <Compile Include="Html\HtmlAgilityPack\Trace.cs" />
+    <Compile Include="Html\HtmlAgilityPack\Trace.FullFramework.cs" />
+    <Compile Include="Html\HtmlAgilityPack\Utilities.cs" />
+    <Compile Include="Html\HtmlConvert.cs" />
+    <Compile Include="Http\HttpProxyServer.cs" />
+    <Compile Include="Http\HttpServer.cs" />
+    <Compile Include="Linq\DeepCopy.Assign.cs" />
+    <Compile Include="Linq\IsNumber.cs" />
+    <Compile Include="Linq\Lucene.Net.cs" />
+    <Compile Include="Linq\ReaderWriterLockSlim.cs" />
+    <Compile Include="Linq\System.Collections.Generic\HashSet.cs" />
+    <Compile Include="Linq\System.Collections.Generic\ISet.cs" />
+    <Compile Include="Linq\System.Data.Linq\MonoTODOAttribute.cs" />
+    <Compile Include="Linq\System.Linq.Dynamic\System.Linq.Dynamic.cs" />
+    <Compile Include="Linq\System.Linq.Expressions\BinaryExpression.cs" />
+    <Compile Include="Linq\System.Linq.Expressions\ConditionalExpression.cs" />
+    <Compile Include="Linq\System.Linq.Expressions\ConstantExpression.cs" />
+    <Compile Include="Linq\System.Linq.Expressions\ElementInit.cs" />
+    <Compile Include="Linq\System.Linq.Expressions\EmitContext.cs" />
+    <Compile Include="Linq\System.Linq.Expressions\Expression.cs" />
+    <Compile Include="Linq\System.Linq.Expressions\ExpressionPrinter.cs" />
+    <Compile Include="Linq\System.Linq.Expressions\ExpressionTransformer.cs" />
+    <Compile Include="Linq\System.Linq.Expressions\ExpressionType.cs" />
+    <Compile Include="Linq\System.Linq.Expressions\ExpressionVisitor.cs" />
+    <Compile Include="Linq\System.Linq.Expressions\Expression_T.cs" />
+    <Compile Include="Linq\System.Linq.Expressions\Extensions.cs" />
+    <Compile Include="Linq\System.Linq.Expressions\InvocationExpression.cs" />
+    <Compile Include="Linq\System.Linq.Expressions\LambdaExpression.cs" />
+    <Compile Include="Linq\System.Linq.Expressions\ListInitExpression.cs" />
+    <Compile Include="Linq\System.Linq.Expressions\MemberAssignment.cs" />
+    <Compile Include="Linq\System.Linq.Expressions\MemberBinding.cs" />
+    <Compile Include="Linq\System.Linq.Expressions\MemberBindingType.cs" />
+    <Compile Include="Linq\System.Linq.Expressions\MemberExpression.cs" />
+    <Compile Include="Linq\System.Linq.Expressions\MemberInitExpression.cs" />
+    <Compile Include="Linq\System.Linq.Expressions\MemberListBinding.cs" />
+    <Compile Include="Linq\System.Linq.Expressions\MemberMemberBinding.cs" />
+    <Compile Include="Linq\System.Linq.Expressions\MethodCallExpression.cs" />
+    <Compile Include="Linq\System.Linq.Expressions\NewArrayExpression.cs" />
+    <Compile Include="Linq\System.Linq.Expressions\NewExpression.cs" />
+    <Compile Include="Linq\System.Linq.Expressions\ParameterExpression.cs" />
+    <Compile Include="Linq\System.Linq.Expressions\TypeBinaryExpression.cs" />
+    <Compile Include="Linq\System.Linq.Expressions\UnaryExpression.cs" />
+    <Compile Include="Linq\System.Linq.Ext.cs" />
+    <Compile Include="Linq\System.Linq\Check.cs" />
+    <Compile Include="Linq\System.Linq\Enumerable.cs" />
+    <Compile Include="Linq\System.Linq\Grouping.cs" />
+    <Compile Include="Linq\System.Linq\IGrouping.cs" />
+    <Compile Include="Linq\System.Linq\ILookup_T.cs" />
+    <Compile Include="Linq\System.Linq\IOrderedEnumerable_T.cs" />
+    <Compile Include="Linq\System.Linq\IOrderedQueryable.cs" />
+    <Compile Include="Linq\System.Linq\IOrderedQueryable_T.cs" />
+    <Compile Include="Linq\System.Linq\IQueryable.cs" />
+    <Compile Include="Linq\System.Linq\IQueryable_T.cs" />
+    <Compile Include="Linq\System.Linq\IQueryProvider.cs" />
+    <Compile Include="Linq\System.Linq\Lookup.cs" />
+    <Compile Include="Linq\System.Linq\OrderedEnumerable.cs" />
+    <Compile Include="Linq\System.Linq\OrderedSequence.cs" />
+    <Compile Include="Linq\System.Linq\Queryable.cs" />
+    <Compile Include="Linq\System.Linq\QueryableEnumerable.cs" />
+    <Compile Include="Linq\System.Linq\QueryableTransformer.cs" />
+    <Compile Include="Linq\System.Linq\QuickSort.cs" />
+    <Compile Include="Linq\System.Linq\SortContext.cs" />
+    <Compile Include="Linq\System.Linq\SortDirection.cs" />
+    <Compile Include="Linq\System.Linq\SortSequenceContext.cs" />
+    <Compile Include="Linq\System.Runtime.CompilerServices\DynamicAttribute.cs" />
+    <Compile Include="Linq\System.Runtime.CompilerServices\ExecutionScope.cs" />
+    <Compile Include="Linq\System.Runtime.CompilerServices\ExtensionAttribute.cs" />
+    <Compile Include="Linq\System.Runtime.CompilerServices\IStrongBox.cs" />
+    <Compile Include="Linq\System.Runtime.CompilerServices\StrongBox_T.cs" />
+    <Compile Include="Linq\System\Action.cs" />
+    <Compile Include="Linq\System\Func.cs" />
+    <Compile Include="Linq\Tuple\IStructuralComparable.cs" />
+    <Compile Include="Linq\Tuple\IStructuralEquatable.cs" />
+    <Compile Include="Linq\Tuple\Tuple.cs" />
+    <Compile Include="English\MSG.cs" />
+    <Compile Include="English\Paragraph.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="English\Translator.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="DLL\Newtonsoft.Json.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="DLL\System.Speech.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Linq\_demo\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
