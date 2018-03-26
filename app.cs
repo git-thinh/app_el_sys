@@ -18,6 +18,7 @@ namespace app_el_sys
     [PermissionSet(SecurityAction.LinkDemand, Name = "Everything"), PermissionSet(SecurityAction.InheritanceDemand, Name = "FullTrust")]
     public class app
     {
+        static Dictionary<string, string> dicTranslate = new Dictionary<string, string>() { };
         static AutoResetEvent _autoEvent = new AutoResetEvent(false);
         static IWebSocketConnection _socketCurrent = null;
         static SpeechSynthesizer _speaker = new SpeechSynthesizer();
@@ -26,6 +27,24 @@ namespace app_el_sys
 
         static EL_SPEAK_MSG _data = null;
         static SynthesizerState _state = SynthesizerState.Ready;
+
+        static void translateExecute(string text)
+        {
+            text = text.Trim().ToLower();
+            string result = string.Empty;
+            if (dicTranslate.ContainsKey(text))
+                result = dicTranslate[text];
+            else
+            {
+                string temp = Translator.TranslateText(text);
+                if (!string.IsNullOrEmpty(temp))
+                {
+                    dicTranslate.Add(text, temp);
+                    result = temp;
+                }
+            }
+            _socketCurrent.Send("=" + result); 
+        }
 
         static void speakExecute()
         {
@@ -81,14 +100,34 @@ namespace app_el_sys
 
         static void processMessage(string s)
         {
+            string temp = string.Empty, file = string.Empty;
             if (_state == SynthesizerState.Ready)
             {
                 switch (s[0])
                 {
+                    case '!': // SHOW HTTP PORT 
+                        _socketCurrent.Send("!" + _portHTTP.ToString());
+                        break;
                     case '@': // TRANSLATE
-                        s = s.Substring(1).Trim();
-                        string temp = Translator.TranslateText(s);
-                        _socketCurrent.Send("=" + temp);
+                        s = s.ToLower();
+                        switch (s)
+                        {
+                            case "@write":
+                                temp = string.Join(Environment.NewLine,
+                                    dicTranslate.Select(x => string.Format("{0}:{1}", x.Key, x.Value)).ToArray());
+                                file = string.Format("en-vi.{0}.txt", DateTime.Now.ToString("yyMMdd"));
+                                File.WriteAllText(file, temp);
+                                _socketCurrent.Send(string.Format("@write{0}", file));
+                                break;
+                            case "@getall":
+                                temp = string.Join(Environment.NewLine,
+                                    dicTranslate.Select(x => string.Format("{0}:{1}", x.Key, x.Value)).ToArray()); 
+                                _socketCurrent.Send(string.Format("@getall{0}{1}", Environment.NewLine, temp));
+                                break;
+                            default:
+                                translateExecute(s.Substring(1));
+                                break;
+                        }
                         break;
                     case '%': // set speech Rate from -10 to 10 
                         int rate = 10;
@@ -151,6 +190,18 @@ namespace app_el_sys
 
         public static void RUN()
         {
+            TcpListener l = new TcpListener(IPAddress.Loopback, 0);
+            l.Start();
+            _portHTTP = ((IPEndPoint)l.LocalEndpoint).Port;
+            l.Stop(); 
+            Console.Title = _portHTTP.ToString();
+
+            //http://127.0.0.1:8888/http_-_genk.vn/ai-nay-da-danh-bai-20-luat-su-hang-dau-nuoc-my-trong-linh-vuc-ma-ho-gioi-nhat-20180227012111793.chn?_format=text
+            //HttpServer _serverHTTP = null;
+            _serverHTTP = new HttpProxyServer();
+            _serverHTTP.Start(string.Format("http://127.0.0.1:{0}/", _portHTTP));
+            //_serverHTTP.Stop();
+
             new Thread(new ThreadStart(speakExecute)).Start();
 
             // Configure the audio output. 
@@ -160,14 +211,6 @@ namespace app_el_sys
             _speaker.StateChanged += new EventHandler<StateChangedEventArgs>(_speaker_StateChanged);
             _speaker.SpeakProgress += new EventHandler<SpeakProgressEventArgs>(_speaker_SpeakProgress);
             _speaker.SpeakCompleted += new EventHandler<SpeakCompletedEventArgs>(_speaker_SpeakCompleted);
-
-            TcpListener l = new TcpListener(IPAddress.Loopback, 0);
-            l.Start();
-            _portHTTP = ((IPEndPoint)l.LocalEndpoint).Port;
-            l.Stop();
-            _portHTTP = 8888;
-            string uri = string.Format("http://127.0.0.1:{0}/", _portHTTP);
-            Console.Title = _portHTTP.ToString();
 
 
             //FleckLog.Level = LogLevel.Debug;
@@ -183,7 +226,6 @@ namespace app_el_sys
             });
             Console.ReadLine();
         }
-
     }
 
     class Program

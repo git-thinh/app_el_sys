@@ -7,6 +7,11 @@ namespace app_el_sys
 
     public class EL
     {
+        public const int _SPEAK_REPEAT_DEFAULT_WORD = 3;
+        public const int _SPEAK_REPEAT_DEFAULT_CLAUSE = 4;
+        public const int _SPEAK_REPEAT_DEFAULT_SENTENCE = 5;
+        public const int _SPEAK_REPEAT_DEFAULT_PARAGRAPH = 5;
+
         public const int _SPEAK_RATE_DEFAULT_WORD = -5; // -10 -> 10
         public const int _SPEAK_RATE_DEFAULT_CLAUSE = -5; // -10 -> 10
         public const int _SPEAK_RATE_DEFAULT_SENTENCE = -5; // -10 -> 10

@@ -45,7 +45,7 @@ namespace app_el_sys
             if (!string.IsNullOrEmpty(config))
             {
                 string[] cf = config.Split('^');
-                if (cf.Length > 0) this.Repeat = TryParser(cf[0], 1);
+                if (cf.Length > 0) this.Repeat = TryParser(cf[0], EL._SPEAK_REPEAT_DEFAULT_WORD);
                 if (cf.Length > 1)
                     switch (cf[1].ToUpper().Trim())
                     {
