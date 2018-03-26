@@ -1,0 +1,1913 @@
+Accumulator                : Tổng
+
+Addition                   : Phép  cộng
+
+Address                    : Địa chỉ
+
+Appropriate                : Thích  hợp
+
+Arithmetic                 : Số học
+
+Alphabetical catalog       : Mục lục xếp theo trật tự chữ cái
+
+Broad classification       : Phân loại tổng quát
+
+Cluster controller (n) Bộ điều khiển trùm
+
+Cataloging                 : Công tác biên mục. Nếu làm trong các tổ chức phi lợi nhuận thì gọi là cataloging
+
+Capability                 : Khả năng
+
+Circuit                    : Mạch
+
+Complex                    : Phức tạp
+
+Component                  : Thành  phần
+
+Computer                   : Máy  tính
+
+Computerize                : Tin  học hóa
+
+Convert                    : Chuyển đổi
+
+Chief source of information: Nguồn thông tin chính. Dùng tạo ra phần mô tả của một biểu ghi thay thế như trang bìa sách, hình nhan đề phim hoạt hình hay nhãn băng đĩa.
+
+Data                       : Dữ liệu
+
+Decision                   : Quyết định
+
+Demagnetize                : Khử từ hóa
+
+Device                     : Thiết bị
+
+Disk                       : Đĩa
+
+Division                   : Phép  chia
+
+Electronic                 : Điện tử, có liên quan đến máy tính
+
+Equal                      : Bằng
+
+Exponentiation             : Lũy thừa, hàm mũ
+
+External                   : Ngoài, bên ngoài
+
+Feature                    : Thuộc tính
+
+Firmware                   : Phần mềm được cứng hóa
+
+Function                   : Hàm, chức năng
+
+Fundamental                : Cơ bản
+
+Greater                    : Lớn hơn
+
+Graphics
+
+Hardware                   : Phần cứng/ software: phần mềm
+
+Handle                     : Giải quyết, xử lý
+
+Input                      : Vào, nhập vào
+
+Instruction                : Chỉ dẫn
+
+Internal                   : Trong, bên trong
+
+Intricate                  : Phức tạp
+
+Less                       : Ít  hơn
+
+Logical                    : Một cách logic
+
+Magnetic                   : Từ
+
+Magnetize                  : Từ hóa, nhiễm từ
+
+Manipulate                 : Xử lý
+
+Mathematical               : Toán  học, có tính chất toán học
+
+Mechanical                 : Cơ khí, có tính chất cơ khí
+
+Memory                     : Bộ nhớ
+
+Microcomputer              : Máy vi tính
+
+Microprocessor             : Bộ vi xử lý
+
+Minicomputer               : Máy tính mini
+
+Multiplication             : Phép  nhân
+
+Numeric                    : Số học, thuộc về số học
+
+Operation                  : Thao  tác
+
+Output                     : Ra,  đưa ra
+
+Perform                    : Tiến hành, thi hành
+
+Port                       : Cổng
+
+Process                    : Xử lý
+
+Packet                     : Gói dữ liệu
+
+Pulse                      : Xung
+
+Remote Access              : Truy cập từ xa qua mạng
+
+Signal                     : Tín hiệu
+
+Solution                   : Giải pháp, lời giải
+
+Store                      : Lưu trữ
+
+Storage                    : lưu trữ
+
+Subtraction                : Phép trừ
+
+Source Code                : Mã nguồn (của của file hay một chương trình nào đó)
+
+Switch                     : Chuyển
+
+Tape                       : Ghi băng, băng
+
+Terminal                   : Máy trạm
+
+Text					:(n) Văn bản chỉ bao gồm ký tự
+
+Transmit                   : Truyền
+
+Union catalog              : Mục lục liên hợp. Thư mục thể hiện những tài liệu ở nhiều thư viện hay kho từ
+
+
+
+advertising                           [/ˈæd.və.taɪ.zɪŋ/] = quảng cáo
+auction-type pricing                  [/’ɔ:k∫n/] = định giá trên cơ sở đấu giá
+benefit                               [/’benɪfɪt/] = lợi ích
+brand acceptability                   [/ək,septə’biliti /] = chấp nhận nhãn hiệu
+brand awareness                       [/ə´wɛənis/] = nhận thức nhãn hiệu
+brand equity                          [ /’ekwiti/] = giá trị nhãn hiệu
+brand loyalty                         [/’lɔiəlti/] = trung thành nhãn hiệu
+brand mark                            = dấu hiệu của nhãn hiệu
+brand name                            = nhãn hiệu/tên hiệu
+brand preference                      [/’prefərəns/] = ưa thích nhãn hiệu
+break-even analysis                   [/’ænəlaɪz/] = phân tích hoà vốn
+break-even point                      = điểm hoà vốn
+buyer                                 [/´baiə/] = người mua
+by-product pricing                    = định giá sản phẩm thứ cấp
+captive-product pricing               [/´kæptiv/] = định giá sản phẩm bắt buộc
+cash discount                         [/’diskaunt/] = giảm giá vì trả tiền mặt
+cash rebate                           [/´ri:beit/] = phiếu giảm giá
+channel level                         = cấp kênh
+channel management                    [/’mænidʒmənt/] = quản trị kênh phân phối
+channels                              [/’tʃænl/] = kênh(phân phối)
+communication channel                 [/kə,mju:ni’keiʃn/] = kênh truyền thông
+consumer                              [/kən’sju:mə/] = người tiêu dùng
+copyright                             [/´kɔpi¸rait/] = 
+cost                                  [/ kɒst/] = chi phí
+coverage                              [/’kʌvəridʒ/] = mức độ che phủ (kênh phân phối)
+cross elasticity                      [/¸ilæs´tisiti/] = 
+culture                               [/ˈkʌltʃər/] = văn hóa
+customer                              [/´kʌstəmə/] = khách hàng
+customer-segment pricing              [/’segmənt/] = định giá theo phân khúc khách hàng
+decider                               [/di´saidə/] = người quyết định (trong hành vi mua)
+demand elasticity                     [/dɪˈmɑ:nd/] = co giãn của cầu
+demographic environment               [/deməˈgrafik/] = yếu tố (môi trường) nhân khẩu học
+direct marketing                      = tiếp thị trực tiếp
+discount                              [/’diskaunt/] = giảm giá
+discriminatory pricing                [/dis´kriminətəri/] = định giá phân biệt
+distribution channel                  [/,distri’bju:ʃn/] = kênh phân phối
+door-to-door sales                    = bán hàng đến tận nhà
+Dutch auction                         [/dʌtʃ/] = đấu giá kiểu hà lan
+early adopter                         [/uh-dopt/] = nhóm (khách hàng) thích nghi nhanh
+economic environment                  [/ekə’nɒmɪk/] = yếu tố (môi trường) kinh tế
+end-user                              = người sử dụng cuối cùng, khách hàng cuối cùng
+English auction                       = đấu giá kiểu anh
+evaluation of alternatives            [/i,vælju’eiʃn//ælˈtɜrnətɪv/] = đánh giá phương án
+exchange                              [/iks´tʃeindʒ/] = trao đổi
+exclusive distribution                [/iks’klu:siv//,distri’bju:ʃn/] = phân phối độc quyền
+franchising                           [/ˈfræntʃaɪzing/] = chuyển nhượng đặc quyền kinh tiêu
+functional discount                   [/’fʌɳkʃənl/] = giảm giá chức năng
+gatekeeper                            [/ˈgeɪtˌki pər/] = người gác cửa(trong hành vi mua)
+geographical pricing                  [/ˌdʒi əˈgræf ɪ kəl/] = định giá theo vị trí địa lý
+going-rate pricing                    = định giá theo giá thị trường
+group pricing                         = định giá theo nhóm
+horizontal conflict                   [/ˌhɔr əˈzɒn tl, ˌhɒr-/ / kənˈflɪkt/] = mâu thuẫn hàng ngang
+image pricing                         = định giá theo hình ảnh
+income elasticity                     = co giãn (của cầu) theo thu nhập
+influencer                            [/ˈɪn flu ən sər/] = người ảnh hưởng
+information search                    = tìm kiếm thông tin
+initiator                             = người khởi đầu
+innovator                             [/´inə¸veitə/] = nhóm(khách hàng) đổi mới
+intensive distribution                [/ɪnˈtɛnsɪv/] = phân phối đại trà
+internal record system                = hệ thống thông tin nội bộ
+laggard                               [/ˈlæg ərd/] = nhóm ( khách hàng) lạc hậu
+learning curve                        [/kɜrv/] = hiệu ứng thực nghiệm, hiệu ứng kinh nghiệm, hiệu ứng học tập
+list price                            = giá niêm yết
+location pricing                      = định giá theo vị trí và không gian mua
+long-run average cost – lac           [/ ˈævərɪdʒ /] = chi phí trung bình trong dài hạn
+loss-leader pricing                   = định giá lỗ dể kéo khách
+mail questionnaire                    = phương pháp điều tra bằng bảng câu hỏi gửi thư
+market coverage                       [[kuhv-er-ij/] = mức độ che phủ thị trường
+marketing                             [/ˈmɑː.kɪ.tɪŋ/] = tiếp thị
+marketing channel                     = kênh tiếp thị
+marketing concept                     = quan điểm thiếp thị
+marketing decision support system     [/sə´pɔ:t/] = hệ thống hỗ trợ ra quyết định
+marketing information system          = hệ thống thông tin tiếp thị
+marketing intelligence                [/ɪnˈtɛl ɪ dʒəns/] = tình báo tiếp thị
+marketing mix                         [/ˈmɑː.kɪ.tɪŋ mɪks/] = tiếp thị hỗn hợp
+marketing research                    [/ˈmɑː.kɪ.tɪŋ rɪˈsɜːtʃ/] = nghiên cứu tiếp thị
+markup pricing                        = định giá cộng lời vào chi phí
+mass-customization marketing          = tiếp thị cá thể hóa theo số đông
+mass-marketing                        = tiếp thị đại trà
+middle majority                       [/ˈmɪd.l̩ məˈdʒɒr.ə.ti] = nhóm (khách hàng) số đông
+modified rebuy                        [/’mɔdi¸faid/] = mua lại có thay đổi
+mro-maintenance repair operating      = sản phẩm công nghiệp thuộc nhóm cung ứng
+multi-channel conflict                = mâu thuẫn đa cấp
+natural environment                   = yếu tố (môi trường) tự nhiên
+need                                  [/niːd/] = nhu cầu
+network                               [/ˈnet.wɜːk/] = mạng lưới
+observation                           [/ˌɒb.zəˈveɪ.ʃən/] = quan sát
+oem – original equipment manufacturer = nhà sản xuất thiết bị gốc
+optional- feature pricing             = định giá theo tính năng tuỳ chọn
+packaging                             = đóng gói
+perceived – value pricing             [/pə´si:v/] = định giá theo giá trị nhận thức
+personal interviewing                 = phỏng vấn trực tiếp
+physical distribution                 = phân phối vật chất
+place                                 [/pleɪs/] = phân phối
+political-legal environment           = yếu tố (môi trường) chính trị pháp lý
+positioning                           = định vị
+post-purchase behavior                = hành vi sau mua
+price                                 [/praɪs/] = giá
+price discount                        = giảm giá
+price elasticity                      = co giãn ( của cầu) theo giá
+primary data                          = thông tin sơ cấp
+problem recognition                   [/ˈprɒb.ləm ˌrek.əɡˈnɪʃ.ən/] = 
+product                               [/ˈprɒd.ʌkt/] = sản phẩm
+product concept                       = quan điểm trọng sản phẩm
+product-building pricing              = định giá trọn gói
+product-form pricing                  = định giá theo hình thức sản phẩm
+production concept                    = quan điểm trọng sản xuất
+product-line pricing                  = định giá theo họ sản phẩm
+product-mix pricing                   = định giá theo chiến lược sản phẩm
+product-variety marketing             = tiếp thị đa dạng hóa sản phẩm
+promotion                             [/prəˈməʊ.ʃən/] = chiêu thị
+promotion pricing                     = đánh giá khuyến mãi
+public relation                       [/ˈpʌb.lɪk rɪˈleɪ.ʃən/] = quan hệ cộng đồng
+pull strategy                         [/pʊl ˈstræt.ə.dʒi/] = chiến lược (tiếp thị) kéo
+purchase decision                     = quyết định mua
+purchaser                             [/ˈpɜː.tʃə.sər/] = người mua (trong hành vi mua)
+push strategy                         [/pʊʃ ˈstræt.ə.dʒi/] = chiến lược tiếp thị đẩy
+quantity discount                     [/ˈkwɒn tɪ ti/] = giảm giá cho số lượng mua lớn
+questionnaire                         [/ˌkwes.tʃəˈneər/] = bảng câu hỏi
+relationship marketing                [/rɪˈleɪ.ʃən.ʃɪp ˈmɑː.kɪ.tɪŋ/] = tiếp thị dựa trên quan hệ
+research and development (r & d)      = nguyên cứu và phát triển
+retailer                              [/ˈriː.teɪ.lər/] = nhà bán lẻ
+sales concept                         = quan điểm trọng bán hàng
+sales information system              [/ˌɪn fərˈmeɪ ʃən/] = hệ thống thông tin bán hàng
+sales promotion                       = khuyến mãi
+satisfaction                          [/ˌsæt.ɪsˈfæk.ʃən/] = sự thỏa mãn
+sealed-bid auction                    = đấu giá kín
+seasonal discount                     [/ˈdɪs kaʊnt/] = giảm giá theo mùa
+secondary data                        = thông tin thứ cấp
+segment                               [/ˈseɡ.mənt/] = phân khúc
+segmentation                          = (chiến lược) phân thị trường
+selective attention                   [/ə´tenʃn/] = sàng lọc
+selective distortion                  [/dɪˈstɔr ʃən/] = chỉnh đốn
+selective distribution                = phân phối sàn lọc
+selective retention                   [/sɪˈlek.tɪv rɪˈten.ʃən/] = khắc họa
+service channel                       = kênh dịch vụ
+short-run average cost –sac           = chi phí trung bình trong ngắn hạn
+social –cultural environment          [/ˈsoʊ ʃəl/] = yếu tố (môi trường) văn hóa xã hội
+social marketing concept              = quan điểm tiếp thị xã hội
+special-event pricing                 [/’speʃəl/] = định giá cho những sự kiện đặc biệt
+straight rebuy                        [/streɪt/] = mua lại trực tiếp
+subculture                            [/ˈsʌbˌkʌl.tʃər/] = văn hóa phụ
+survey                                [/ˈsɜː.veɪ/] = điều tra
+survival objective                    [/səˈvaɪ.vəl əbˈdʒek.tɪv/] = mục tiêu tồn tại
+target market                         [/ˈtɑː.ɡɪt ˈmɑː.kɪt/] = thị trường mục tiêu
+target marketing                      [/ˈtɑː.ɡɪt ˈmɑː.kɪ.tɪŋ/] = tiếp thị mục tiêu
+target-return pricing                 = định gía theo lợi nhuận mục tiêu
+task environment                      = môi trường tác nghiệp
+technological environment             [/ˌtɛk nəˈlɒdʒ ɪ kəl/] = yếu tố (môi trường) công nghệ
+the order-to-payment eyele            [/’peim(ə)nt/] = chu kỳ đặt hàng và trả tiền
+timing pricing                        = định giá theo thời điểm mua
+trade mark                            [/treɪd mɑːk/] = nhãn hiệu đăng ký
+transaction                           [/trænˈzæk.ʃən/] = giao dịch
+two-part pricing                      = định giá hai phần
+user                                  [/ˈjuː.zər/] = người sử dụng
+value                                 [/ˈvæl.juː/] = giá trị
+value pricing                         = định giá theo giá trị
+vertical conflict                     [/ˈvɜrtɪkəl/] = mâu thuẫn hàng dọc
+
+
+Ability            = (a) Có khả năng
+Acoustic coupler   = (n) Bộ ghép âm
+Centerpiece        = (n) Mảnh trung tâm
+Characteristic     = (n) Thuộc tính, nét tính cách
+Consist            = (v) Bao gồm
+Equipment          = (n) Trang thiết bị
+Interact           = (v) Tương tác
+Merge              = (v) Trộn
+Network            = (n) Mạng
+Reliability        = (n) Sự có thể tin cậy được
+Teleconference     = (n) Hội thảo từ xa
+Animation          = (n) Hoạt hình
+Condition          = (n) Điều kiện
+Crystal            = (n) Tinh thể
+Display            = (v,n) Hiển thị; màn hình
+Divide             = (v) Chia
+Electromechanical  = (a) Có tính chất cơ điện tử
+Estimate           = (v) Ước lượng
+Expertise          = (n) Sự thành thạo
+Hardware           = (n) Phần cứng
+Liquid             = (n) Chất lỏng
+Majority           = (n) Phần lớn, phần chủ yếu
+Online             = (a) Trực tuyến
+Physical           = (a) Thuộc về vật chất
+Secondary          = (a) Thứ cấp
+Software           = (n) Phần mềm
+Sophistication     = (n) Sự phức tạp
+Task               = (n) Nhiệm vụ
+Accommodate        = (v) Làm cho thích nghi, phù hợp; chứa đựng
+Associate          = (v) Có liên quan, quan hệ
+Century            = (n) Thế kỷ
+Communication      = (n) Sự liên lạc
+Conflict           = (v) Xung đột
+Database           = (n) Cơ sở dữ liệu
+Decrease           = (v) Giảm
+Design             = (v,n) Thiết kế; bản thiết kế
+Disparate          = (a) Khác nhau, khác loại
+Distributed system = (n) Hệ phân tán
+Environment        = (n) Môi trường
+Fibre-optic cable  = (n) Cáp quang
+Flexible           = (a) Mềm dẻo
+Hook               = (v) Ghép vào với nhau
+Imitate            = (v) Mô phỏng
+Impact             = (v,n) Tác động, va chạm; sự va chạm, tác động
+Indicate           = (v) Chỉ ra, cho biết
+Interface          = (n) Giao diện
+Access             = (v,n) Truy cập; sự truy cập
+Analyst            = (n) Nhà phân tích
+Channel            = (n) Kênh
+Cluster controller = (n) Bộ điều khiển trùm
+Convert            = (v) Chuyển đổi
+Gateway            = (n) Cổng kết nối Internet cho những mạng lớn
+Limit              = (v,n) Hạn chế
+Multiplexor        = (n) Bộ dồn kênh
+Peripheral         = (a) Ngoại vi
+Single-purpose     = (n) Đơn mục đích
+Activity           = (n) Hoạt động
+Attach             = (v) Gắn vào, đính vào
+Coordinate         = (v) Phối hợp
+Diagram            = (n) Biểu đồ
+Distribute         = (v) Phân phối
+Document           = (n) Văn bản
+Encode             = (v) Mã hóa
+Execute            = (v) Thi hành
+Graphics           = (n) Đồ họa
+Interchange        = (v) Trao đổi lẫn nhau
+Magazine           = (n) Tạp chí
+Multimedia         = (n) Đa phương tiện
+Package            = (n) Gói
+Recognize          = (v) Nhận ra, nhận diện
+Service            = (n) Dịch vụ
+Solve              = (v) Giải quyết
+Superior           = (a) Hơn, trên, cao hơn…
+Text               = (n) Văn bản chỉ bao gồm ký tự
+Aspect             = (n) Lĩnh vực, khía cạnh
+Causal             = (a) Có tính nhân quả
+Chronological      = (a) Thứ tự thời gian
+Configuration      = (n) Cấu hình
+Contemporary       = (a) Cùng lúc, đồng thời
+Decade             = (n) Thập kỷ
+Definition         = (n) Định nghĩa
+Discourage         = (v) Không khuyến khích, không động viên
+Distinction        = (n) Sự phân biệt, sự khác biệt
+Encourage          = (v) Động viên, khuyến khích
+Essential          = (a) Thiết yếu, căn bản
+Filtration         = (n) Lọc
+Global             = (a) Toàn cầu, tổng thể
+Hybrid             = (a) Lai
+Immense            = (a) Bao la, rộng lớn
+Increase           = (v) Tăng
+Install            = (v) Cài đặt, thiết lập
+
+
+Introduction              = Nhập môn, giới thiệu
+Linear                    = Tuyến tính
+Voltage source            = Nguồn áp
+Voltage divider           = Bộ/mạch phân áp
+Superposition             = (Nguyên tắc) xếp chồng
+Concept                   = Khái niệm
+Amplifier                 = Bộ/mạch khuếch đại
+Ground terminal           =  Cực (nối) đất
+Output                    = Ngõ ra
+Gain                      = Hệ số khuếch đại (HSKĐ), độ lợi
+Current                   = gain Hệ số khuếch đại (độ lợi) dòng điện
+Power supply              = Nguồn (năng lượng)
+Efficiency                = Hiệu suất
+Notation                  = Cách ký hiệu
+Magnitude                 = Độ lớn
+Model                     = Mô hình
+Transresistance           = Điện trở truyền
+Uniqueness                = Tính độc nhất
+Differential              = Vi sai (so lệch)
+Common-mode               = Chế độ cách chung
+Operational amplifier     = Bộ khuếch đại thuật toán
+Negative                  = Âm
+Slew rate                 = Tốc độ thay đổi
+Noninverting              = Không đảo (dấu)
+Summer                    = Bộ/mạch cộng
+Integrator                = Bộ/mạch tích phân
+Tolerance                 = Dung sai
+Diode                     = Đi-ốt (linh kiện chỉnh lưu 2 cực)
+Analysis                  = Phân tích
+Application               = Ứng dụng
+Numerical analysis        = Phân tích bằng phương pháp số
+Half-wave                 = Nửa sóng
+Charging                  = Nạp (điện tích)
+Ripple                    = Độ nhấp nhô
+Peak                      = Đỉnh (của dạng sóng)
+Bridge rectifier          = Bộ/mạch chỉnh lưu cầu
+Junction                  = Mối nối (bán dẫn)
+Qualitative               = Định tính
+Region                    = Vùng/khu vực
+Quantitative              = Định lượng
+Common-emitter            =  Cực phát chung
+Cutoff                    = Ngắt (đối với BJT)
+Secondary                 = Thứ cấp
+n-Channel                 = Kênh N
+Triode                    = Linh kiện 3 cực
+Boundary                  = Biên
+Comparison                = Sự so sánh
+Depletion                 = (Sự) suy giảm
+Amplifier                 = Bộ/mạch khuếch đại
+Protection                = Bảo vệ
+Diagram                   = Sơ đồ
+Biasing                   = (Việc) phân cực
+Four-resistor             = Bốn-điện trở
+Bias circuit              = Mạch phân cực
+Philosophy                = Triết lý
+Ideal                     = Lý tưởng
+Current source            = Nguồn dòng
+Current divider           = Bộ/mạch phân dòng
+Ohm’s law                 = Định luật Ôm
+Signal source             = Nguồn tín hiệu
+Load                      = Tải
+Input                     = Ngõ vào
+Open-circuit              = Hở mạch
+Voltage                   = gain Hệ số khuếch đại (độ lợi) điện áp
+Power gain                = Hệ số khuếch đại (độ lợi) công suất
+Power conservation        = Bảo toàn công suất
+Cascade                   = Nối tầng
+Specific                  = Cụ thể
+30 Phase                  = Pha
+Transconductance          =  Điện dẫn truyền
+Resistance                = Điện trở
+Response                  = Đáp ứng
+Differential-mode         = Chế độ vi sai (so lệch)
+Rejection Ratio           = Tỷ số khử
+Operation                 = Sự hoạt động
+Feedback                  = Hồi tiếp
+Inverting                 = Đảo (dấu)
+Voltage follower          = Bộ/mạch theo điện áp
+Diffential amplifier      = Bộ/mạch khuếch đại vi sai
+Differentiator            = Bộ/mạch vi phân
+Simultaneous equations    = Hệ phương trình
+Load-line                 = Đường tải (đặc tuyến tải)
+Piecewise-linear          = Tuyến tính từng đoạn
+Regulator                 = Bộ/mạch ổn định
+Loaded                    = Có mang tải
+Rectifier                 = Bộ/mạch chỉnh lưu
+Capacitance               = Điện dung
+Half-cycle                = Nửa chu kỳ
+Inverse voltage           = Điện áp ngược (đặt lên linh kiện chỉnh lưu)
+Bipolar                   = Lưỡng cực
+Transistor Tran-zi-to     = (linh kiện tích cực 3 cực)
+Description               = (Sự) mô tả
+Active-region             = Vùng khuếch đại
+Emitter                   = Cực phát
+Characteristic            = Đặc tính
+Saturation                = Bão hòa
+Effect                    = Hiệu ứng
+Governing                 = Chi phối
+Pinch-off                 = Thắt (đối với FET)
+Transfer                  = (Sự) truyền (năng lượng, tín hiệu …)
+Metal-Oxide-Semiconductor = Bán dẫn ô-xít kim loại
+Enhancement               = (Sự) tăng cường
+Load                      = Tải
+100 Structure             = Cấu trúc
+Distortion                = Méo dạng
+Bias stability            = Độ ổn định phân cực
+Fixed                     = Cố định
+Constant base             = Dòng nền không đổi
+
+
+
+Operating system (n)                 : hệ điều hành
+Multi-user								:(n) Đa người dùng
+Alphanumeric data                    : Dữ liệu chữ số, dữ liệu cấu thành các chữ cái và bất kỳ chữ số từ 0 đến 9.
+PPP                                  : Là chữ viết tắt của “Point-to-Point Protocol”. Đây là một giao thức kết nối Internet tin cậy thông qua Modem
+Authority work                       : Công tác biên mục (tạo ra các điểm truy cập) đối với tên, tựa đề hay chủ đề; riêng đối với biên mục tên và nhan đề, quá trình này bao gồm xác định tất cả các tên hay tựa đề và liên kết các tên/tựa đề không được chọn với tên/tựa đề được chọn làm điểm truy dụng. Đôi khi quá trình này cũng bao gồm liên kết tên và tựa đề với nhau.
+Alphabetical catalog                 : Mục lục xếp theo trật tự chữ cái
+Broad classification                 : Phân loại tổng quát
+Cluster controller					 :(n) Bộ điều khiển trùm
+Gateway /ˈɡeɪtweɪ/                   : Cổng kết nối Internet cho những mạng lớn
+OSI                                  : Là chữ viết tắt của “Open System Interconnection”, hay còn gọi là mô hình chuẩn OSI
+Packet                               : Gói dữ liệu
+Source Code                          : Mã nguồn (của của file hay một chương trình nào đó)
+Port /pɔːt/                          : Cổng
+Cataloging                           : Công tác biên mục. Nếu làm trong các tổ chức phi lợi nhuận thì gọi là cataloging, nếu làm vì mục đích thương mại thì gọi là indexing
+Subject entry – thẻ chủ đề           : công cụ truy cập thông qua chủ đề của ấn phẩm .
+Memory /ˈmeməri/                     : bộ nhớ
+Microprocessor /ˌmaɪkrəʊˈprəʊsesə(r)/: bộ vi xử lý
+Operationˌ/ɒpəˈreɪʃn/                : thao tác
+Storage /ˈstɔːrɪdʒ/                  : lưu trữ
+Chief source of information          : Nguồn thông tin chính. Dùng tạo ra phần mô tả của một biểu ghi thay thế như trang bìa sách, hình nhan đề phim hoạt hình hay nhãn băng đĩa.
+Graphics /ˈɡræfɪks/                  : đồ họa
+Hardware /ˈhɑːdweə(r)/               : Phần cứng/ software/ˈsɒftweə(r)/: phần mềm
+Text /tekst/                         : Văn bản chỉ bao gồm ký tự
+Remote Access                        : Truy cập từ xa qua mạng
+Union catalog                        : Mục lục liên hợp. Thư mục thể hiện những tài liệu ở nhiều thư viện hay kho tư
+Configuration /kənˌfɪɡəˈreɪʃn/       : Cấu hình
+Protocol /ˈprəʊtəkɒl/                :  Giao thức
+Technical /ˈteknɪkl/                 : Thuộc về kỹ thuật
+Pinpoint /ˈpɪnpɔɪnt/                 : Chỉ ra một cách chính xác
+Ferrite ring (n) Vòng nhiễm từ
+abbreviation/əˌbriːviˈeɪʃn/          : sự tóm tắt, rút gọn
+Analysis /əˈnæləsɪs/                 : phân tích
+Appliance /əˈplaɪəns/                : thiết bị, máy móc
+Application /ˌæplɪˈkeɪʃn/            : ứng dụng
+Arise /əˈraɪz/                       : xuất hiện, nảy sinh
+Available /əˈveɪləbl/                : dùng được, có hiệu lực
+Background /ˈbækɡraʊnd/              : bối cảnh, bổ trợ
+Certification /ˌsɜːtɪfɪˈkeɪʃn/       : giấy chứng nhận
+Chief/tʃiːf/                         : giám đốc
+Common /ˈkɒmən/                      : thông thường,
+Compatible /kəmˈpætəbl/              : tương thích
+consultant /kənˈsʌltənt/             : cố vấn, chuyên viên tham vấn  
+Convenience convenience              : thuận tiện
+Customer /ˈkʌstəmə(r)/               : khách hàng
+database/ˈdeɪtəbeɪs/                 : cơ sở dữ liệu
+Deal /diːl/                          : giao dịch
+Demand /dɪˈmɑːnd/                    : yêu cầu
+Detailed /ˈdiːteɪld/                 : chi tiết
+Develop /dɪˈveləp/                   : phát triển
+Drawback /ˈdrɔːbæk/                  : trở ngại, hạn chế
+Effective /ɪˈfektɪv/                 : có hiệu lực
+efficient/ɪˈfɪʃnt/                   : có hiệu suất cao
+Employ /ɪmˈplɔɪ/                     : thuê ai làm gì
+Enterprise /ˈentəpraɪz/              : tập đoàn, công ty
+Environment /ɪnˈvaɪrənmənt/          : môi trường
+Equipment /ɪˈkwɪpmənt/               : thiết bị
+expertise/ˌekspɜːˈtiːz/              : thành thạo, tinh thông
+eyestrain                            : mỏi mắt
+Goal /ɡəʊl/                          : mục tiêu
+Gadget /ˈɡædʒɪt/                     : đồ phụ tùng nhỏ
+Implement /ˈɪmplɪment/               : công cụ, phương tiện
+Increase /ɪnˈkriːs/                  : sự tăng thêm, tăng lên
+Install /ɪnˈstɔːl/                   : cài đặt
+Instruction /ɪnˈstrʌkʃn/             : chỉ thị, chỉ dẫn
+Insurance /ɪnˈʃʊərəns/               : bảo hiểm
+Integrate /ˈɪntɪɡreɪt/               : hợp nhất, sáp nhập
+intranet/ˈɪntrənet/                  : mạng nội bộ
+Latest /ˈleɪtɪst/                    : mới nhất
+leadership/ˈliːdəʃɪp/                : lãnh đạo
+level with someone (verb)            : thành thật
+Low /ləʊ/                            : yếu, chậm
+Maintain /meɪnˈteɪn/                 : duy trì
+Matrix /ˈmeɪtrɪks/                   : ma trận
+Monitor /ˈmɒnɪtə(r)/                 : giám sát
+Negotiate /nɪˈɡəʊʃieɪt/              : thương lượng
+Occur /əˈkɜː(r)/                     : xảy ra, xảy đến
+Order /ˈɔːdə(r)/                     : yêu cầu
+Oversee /ˌəʊvəˈsiː/                  : quan sát
+Prevail /prɪˈveɪl/                   : thịnh hành, phổ biến
+Process /ˈprəʊses/                   : quá trình, tiến triển
+Provide /prəˈvaɪd/                   : cung cấp
+Rapid /ˈræpɪd/                       : nhanh chóng
+Remote /rɪˈməʊt/                     : từ xa
+Replace /rɪˈpleɪs/                   : thay thế
+Research /rɪˈsɜːtʃ/                  : nghiên cứ
+Resource /rɪˈsɔːs/                   : nguồn
+Respond /rɪˈspɒnd/                   : phản hồi
+Simultaneous /ˌsɪmlˈteɪniəs/         : đồng thời
+Solve /sɒlv/                         : giải quyết
+Substantial /səbˈstænʃl/             : tính thực tế
+Sufficient /səˈfɪʃnt/                : đủ, có khả năng
+Suitable /ˈsuːtəbl/                  : phù hợp
+Multi-task                     –  Đa nhiệm.
+Priority /praɪˈɒrəti/          –  Sự ưu tiên.
+Productivity /ˌprɒdʌkˈtɪvəti/  –  Hiệu suất.
+Real-time                      –  Thời gian thực.
+Schedule /ˈskedʒuːl/           –  Lập lịch, lịch biểu.
+Similar /ˈsɪmələ(r)/           –  Giống.
+Storage /ˈstɔːrɪdʒ/            –  Lưu trữ.
+Technology /tekˈnɒlədʒi/       –  Công nghệ.
+Tiny /ˈtaɪni/                  –  Nhỏ bé.
+Digital /ˈdɪdʒɪtl/             –  Số, thuộc về số.
+Chain /tʃeɪn/                  –  Chuỗi.
+Clarify /ˈklærəfaɪ/            –  Làm cho trong sáng dễ hiểu.
+Individual ˌɪndɪˈvɪdʒuəl/      –  Cá nhân, cá thể.
+Inertia /ɪˈnɜːʃə/              –  Quán tính.
+Irregularity/ɪˌreɡjəˈlærəti/   –  Sự bất thường, không theo quy tắc.
+Quality /ˈkwɒləti/             –   Chất lượng.
+Quantity/ˈkwɒntəti             –   Số lượng.
+Ribbon /ˈrɪbən/                –  Dải băng.
+Abacus/ˈæbəkəs/                –  Bàn tính.
+Allocate/ˈæləkeɪt/             –  Phân phối.
+Analog /ˈænəlɒɡ/               –   Tương tự.
+Command/kəˈmɑːnd/              –   Ra lệnh, lệnh (trong máy tính).
+Dependable/dɪˈpendəbl/         –  Có thể tin cậy được.
+Devise /dɪˈvaɪz/               –  Phát minh.
+Accumulator /əˈkjuːmjəleɪtə(r)/      :    Tổng
+Addition /əˈdɪʃn/                    : Phép  cộng
+Address /əˈdres/                     : Địa chỉ
+Appropriate /əˈprəʊpriət/            :        Thích  hợp
+Arithmetic /əˈrɪθmətɪk/              :   Số học
+Capability /ˌkeɪpəˈbɪləti/           :   Khả năng
+Circuit /ˈsɜːkɪt/                    : Mạch
+Complex /ˈkɒmpleks/                  : Phức tạp
+Component/kəmˈpəʊnənt/               :  Thành  phần
+Computer /kəmˈpjuːtə(r)/             :   Máy  tính
+Computerize /kəmˈpjuːtəraɪz/         :     Tin  học hóa
+Convert  /kənˈvɜːt/                  : Chuyển đổi
+Data /ˈdeɪtə/                        : Dữ liệu
+Decision /dɪˈsɪʒn/                   : Quyết định
+Demagnetize  							= (v)     Khử từ hóa
+Device  /dɪˈvaɪs/   					= Thiết bị
+Disk  /dɪsk/                         : Đĩa
+Division /dɪˈvɪʒn/					 =  Phép  chia
+Minicomputer  							= (n) Máy tính mini
+Multiplication /ˌmʌltɪplɪˈkeɪʃn/     : Phép  nhân
+Numeric  /njuːˈmerɪkl/               :    Số học, thuộc về số học
+Operation  (n)                       :  Thao  tác,
+Output  /ˈaʊtpʊt/                    :    Ra,  đưa ra
+Perform /pəˈfɔːm/                    :   Tiến hành, thi hành
+Process /ˈprəʊses/                   :    Xử lý
+Pulse /pʌls/                         :  Xung
+Signal  (n)                          : Tín  hiệu
+Solution  /səˈluːʃn/                 :     Giải pháp, lời giải
+Store /stɔː(r)/                      : Lưu trữ
+Subtraction  /səbˈtrækʃn/            :   Phép  trừ
+Switch  /swɪtʃ/                      :      Chuyển
+Tape   /teɪp/                        :     Ghi  băng, băng
+Terminal  /ˈtɜːmɪnl/                 :    Máy  trạm
+ Transmit /trænsˈmɪt/                :   Truyền
+Binary /ˈbaɪnəri/ 					 =  Nhị phân, thuộc về nhị phân.
+
+
+anologue (analog) transmission           =  (n) truyền dẫn tương tự
+cabinet (cross connection point)         =  (n) tủ đấu dây (tủ đấu nhảy)
+cable                                    =  (n) cáp
+cable tunnel                             =  (n) cống cáp
+circuit                                  =  (n) mạch
+coaxial cable                            =  (n) cáp đồng trục
+cross-bar type                           =  (n) kiểu ngang dọc
+data                                     =  (n) dữ liệu, số liệu
+digital switching                        =  (n) chuyển mạch số
+digital transmission                     =  (n) truyền dẫn số
+distribution point (DP)                  =  (n) tủ phân phối
+district/main switching centre (DSC/MSC) =  (n) trung tâm chuyển mạch khu vực/ chính
+duct                                     =  (n) ống cáp
+electromechanical exchange               =  (n) tổng đài cơ điện
+group switching centre (GSC)             =  (n) trung tâm chuyển mạch nhóm
+interexchange junction                   =  (n) kết nối liên tổng đài
+international gateway exchange           =  (n) tổng đài cổng quốc tế
+junction circuit                         =  (n) mạch kết nối
+junction network                         =  (n) mạng chuyển tiếp
+local network                            =  (n) mạng nội hạt
+main distribution frame (MDF)            =  (n) giá phối dây chính
+main/trunk network                       =  (n) mạng chính/trung kế
+muiti-pair cable                         =  (n) cáp nhiều đôi
+muiti-pair cable                         =  (n) cáp nhiều đôi
+multi-unit cable                         =  (n) cáp nhiều sợi
+national network                         =  (n) mạng quốc gia
+non-local call                           =  (n) cuộc gọi đường dài
+open-wire line                           =  (n) dây cáp trần
+primary centre                           =  (n) trung tâm sơ cấp (cấp I)
+primary circuit                          =  (n) mạch sơ cấp
+pulse code modulation (PCM)              =  (n) điều chế xung mã
+radio link                               =  (n) đường vô tuyến
+remote concentrator                      =  (n) bộ tập trung xa
+remote subscriber switch (RSS)           =  (n) chuyển mạch thuê bao xa/ tổng đài vệ tinh
+secondary centre                         =  (n) trung tâm thứ cấp (cấp II)
+secondary circuit                        =  (n) mạch thứ cấp
+subscriber                               =  (n) thuê bao
+subscriber circuit                       =  (n) mạch thuê bao
+tandem exchange                          =  (n) tổng đài quá giang
+tertiary centre                          =  (n) trung tâm cấp III
+to install                               =  (v) lắp đặt
+traffic                                  =  (n) lưu lượng
+transit network                          =  (n) mạng chuyển tiếp
+transit switching centre (TSC)           =  (n) trung tâm chuyển mạch chuyển tiếp/ quá giang
+transmission                             =  (n) truyền dẫn
+
+
+ Regulation                                                 =  sự điều tiết
+ The openness of the economy                                =  sự mở cửa của nền kinh tế
+ Micro-economic                                             = kinh tế vi mô
+ Macro-economic                                             = kinh tế vĩ mô
+ Planned economy                                            =  kinh tế kế hoạch
+ Market economy                                             =  kinh tế thị trường
+ inflation                                                  =  sự lạm phát
+ Government is chiefly concerned with controlling inflation =  Nhà nước tất nhiên là quan tâm đến vấn đề này rồi
+ surplus wealth                                             =  chủ nghĩa tư bản sống được là nhờ cái này đây
+ liability                                                  =  khoản nợ, trách nhiệm
+ Foreign currency                                           =  ngoại tệ
+ depreciation                                               =  khấu hao
+ Surplus                                                    =  thặng dư
+ Financial policies                                         =  chính sách tài chính
+ Home/ Foreign maket                                        =  thị trường trong nước/ ngoài nước
+ Circulation and distribution of commodity                  =  lưu thông phân phối hàng hoá
+ moderate price                                             =  giá cả phải chăng
+ monetary activities                                        =  hoạt động tiền tệ
+ speculation/ speculator                                    =  đầu cơ/ người đầu cơ
+ price_ boom                                                =  việc giá cả tăng vọt
+ hoard/ hoarder                                             =  tích trữ/ người tích trữ
+ dumping                                                    =  bán phá giá
+ economic blockade                                          =  bao vây kinh tế
+ embargo                                                    =  cấm vận
+ mortage                                                    =  cầm cố , thế nợ
+ share                                                      =  cổ phần
+ shareholder                                                =  người góp cổ phần
+ account holder                                             =  chủ tài khoản
+ guarantee                                                  = bảo hành
+ insurance                                                  =  bảo hiểm
+ conversion                                                 =  chuyển đổi (tiền, chứng khoán)
+ tranfer                                                    =  chuyển khoản
+ agent                                                      =  đại lý, đại diện
+ customs barrier                                            =  hàng rào thuế quan
+ invoice                                                    =  hoá đơn
+ mode of payment                                            =  phuơng thức thanh toán
+ financial year                                             =  tài khoá
+ joint venture                                              =  công ty liên doanh
+ instalment                                                 =  phần trả góp mỗi lần cho tổng số tiền
+ earnest money                                              =  tiền đặt cọc
+ payment in arrear                                          =  trả tiền chậm
+ confiscation                                               =  tịch thu
+ preferential duties                                        =  thuế ưu đãi
+ National economy                                           =  kinh tế quốc dân
+ Economic cooperation                                       =  hợp tác kinh tế
+ International economic aid                                 =  viện trợ kinh tế quốc tế
+ Embargo                                                    =  cấm vận
+ Unregulated and competitive market                         =  thị trường cạnh tranh không
+ accounts clerk                                             =  nhân viên kế toán
+ accounts department                                        =  phòng kế toán
+ agricultural                                               =  thuộc nông nghiệp
+ airfreight                                                 =  hàng hoá chở bằng máy bay
+ assistant manager                                          =  phó phòng, trợ lý trưởng phòng
+ assume                                                     =  giả định
+ assumption                                                 =  giả định
+ belong to                                                  =  thuộc về ai…
+ bill                                                       =  hoá đơn
+ business firm                                              =  hãng kinh doanh
+ commodity                                                  =  hàng hoá
+ coordinate                                                 =  phối hợp, điều phối
+ correspondence                                             =  thư tín
+ customs clerk                                              =  nhân viên hải quan
+ customs documentation                                      =  chứng từ hải quan
+ customs official                                           =  viên chức hải quan
+ decision-making                                            = ra quyết định
+ derive from                                                = hu được từ
+ docks                                                      =  bến tàu
+ earn one’s living                                          =  kiếm sống
+ either ... or                                              =  hoặc ... hoặc
+ essential                                                  =  quan trọng, thiết yếu
+ export manager                                             =  trưởng phòng xuất khẩu
+ exports                                                    =  hàng xuất khẩu
+ farm                                                       =  trang trại
+ freight forwarder                                          =  đại lý, (hãng, người) chuyển hàng
+ given                                                      =  nhất định
+ goods                                                      =  hàng hoá
+ handle                                                     =  xử lý, buôn bán
+ household                                                  =  hộ gia đình
+ in order to                                                =  để
+ in turn                                                    =  lần lượt
+ interdependent                                             =  phụ thuộc lẫn nhau
+ junior accounts clerk                                      =  nhân viên kế toán tập sự
+ like                                                       =  như, giống như
+ loan                                                       =  vay
+ maintain                                                   =  duy trì, bảo dưỡng
+ maize                                                      =  ngô
+ make up                                                    =  tạo nên, tạo thành
+ memorandum                                                 =  bản ghi nhớ
+ minerals                                                   =  khoáng sản, khoáng chất
+ natural                                                    =  thuộc tự nhiên
+ nature                                                     =  bản chất, tự nhiên
+ non- agricultural                                          = non không thuộc nông nghiệp
+ person Friday                                              =  nhân viên văn phòng
+ photocopier                                                =  máy sao chụp
+ produce                                                    =  sản xuất
+ provide                                                    =  cung cấp
+ purchase                                                   =  mua, tậu, sắm
+ pursue                                                     =  mưu cầu
+ seafreight                                                 =  hàng chở bằng đường biển
+ senior accounts clerk                                      =  kế toán trưởng
+ service                                                    =  dịch vụ
+ shorthand                                                  =  tốc ký
+ substituable                                               =  có thể thay thế
+ sum-total                                                  = sum tổng
+ transform                                                  =  chuyển đổi, biến đổi, thay đổi
+ undertake                                                  =  trải qua
+ utility                                                    =  độ thoả dụng
+ well-being                                                 = well  phúc lợi
+ adjust                                                     =  điều chỉnh
+ afford                                                     =  có khả năng mua, mua được
+ air consignment note                                       =  vận đơn hàng không
+ airway bill                                                =  vận đơn hàng không
+ back up                                                    =  ủng hộ
+ be regarded as                                             =  được xem như là
+ Bill of Lading                                             =  vận đơn đường biển
+ bleep                                                      =  tiếng kêu bíp
+ calendar month                                             =  tháng theo lịch
+ cause                                                      =  gây ra, gây nên
+ Co/company                                                 =  công ty
+ combined transport document                                =  vận đơn liên hiệp
+ compare                                                    =  so sánh với
+ consignment note                                           =  vận đơn, phiếu gửi kèm theo hàng hoá ghi rõ chi tiết hàng hoá
+ consumer                                                   =  người tiêu dùng
+ currently                                                  =  hiện hành
+ decrease                                                   =  giảm đi
+ desire                                                     =  mong muốn
+ deteriorate                                                =  bị hỏng
+ doubt                                                      =  nghi ngờ, không tin
+ elastic                                                    =  co dãn
+ encourage                                                  =  khuyến khích
+ equal                                                      =  cân bằng
+ existence                                                  =  sự tồn tại
+ extract                                                    =  thu được, chiết xuất
+ fairly                                                     =  khá
+ foodstuff                                                  =  lương thực, thực phẩm
+ glut                                                       =  sự dư thừa, thừa thãi
+ household  goods                                           =  hàng hoá gia dụng
+ imply                                                      =  ngụ ý, hàm ý
+ in response to” tương ứng với, phù hợp với                 = in response to” tương ứng với, phù hợp với
+ increase                                                   =  tăng lên
+ inelastic                                                  =  không co dãn
+ intend                                                     =  dự định, có ý định
+ internal line                                              =  đường dây nội bộ
+ invoice                                                    =  hoá đơn (danh mục hàng hóa và giá cả)
+ locally                                                    =  trong nước
+ make sense                                                 =  có ý nghĩa, hợp lý
+ memo (memorandum)                                          =  bản ghi nhớ
+ mine                                                       =  mỏ
+ note                                                       =  nhận thấy, nghi nhận
+ over  production                                           =  sự sản xuất quá nhiều
+ parallel                                                   =  song song với
+ percentage                                                 =  tỷ lệ phần trăm
+ perishable                                                 =  dễ bị hỏng
+ Plc/public limited company                                 =  công ty hữu hạn cổ phần công khai
+ priority                                                   =  sự ưu tiên
+ pro-forma invoice                                          = pro bản hoá đơn hoá giá
+ Qty Ltd / Proprietary Limited                              =  công ty trách nhiệm hữu hạn (ở Úc)
+ reflect                                                    =   phản ánh
+ report                                                     =  báo cáo
+ result                                                     =  đưa đến, dẫn đến
+ sharply                                                    =  rất nhanh
+ state                                                      =  nói rõ, khẳng định
+ statement                                                  =  lời tuyên bố
+ steeply                                                    =  rất nhanh
+ suit                                                       =  phù hợp
+ taken literally                                            =  nghĩa đen
+ tend                                                       =  có xu hướng
+ throughout                                                 =  trong phạm vi, khắp …
+ wheat                                                      =  lúa mì
+ willingness                                                =  sự bằng lòng, vui lòng
+
+marketing mix                         [ /ˈmɑː.kɪ.tɪŋ mɪks/ ] = tiếp thị hỗn hợp
+marketing research                    [ /ˈmɑː.kɪ.tɪŋ rɪˈsɜːtʃ/ ] = nghiên cứu tiếp thị
+markup pricing                        = định giá cộng lời vào chi phí
+mass-customization marketing          = tiếp thị cá thể hóa theo số đông
+mass-marketing                        = tiếp thị đại trà
+middle majority                       [ /ˈmɪd.l̩ məˈdʒɒr.ə.ti ] = nhóm (khách hàng) số đông
+modified rebuy                        [ /’mɔdi¸faid/ ] = mua lại có thay đổi
+mro-maintenance repair operating      = sản phẩm công nghiệp thuộc nhóm cung ứng
+multi-channel conflict                = mâu thuẫn đa cấp
+natural environment                   = yếu tố (môi trường) tự nhiên
+need                                  [ /niːd/ ] = nhu cầu
+network                               [ /ˈnet.wɜːk/ ] = mạng lưới
+observation                           [ /ˌɒb.zəˈveɪ.ʃən/ ] = quan sát
+oem – original equipment manufacturer = nhà sản xuất thiết bị gốc
+optional- feature pricing             = định giá theo tính năng tuỳ chọn
+packaging                             = đóng gói
+perceived – value pricing             [ /pə´si:v/ ] = định giá theo giá trị nhận thức
+personal interviewing                 = phỏng vấn trực tiếp
+physical distribution                 = phân phối vật chất
+place                                 [ /pleɪs/ ] = phân phối
+political-legal environment           = yếu tố (môi trường) chính trị pháp lý
+positioning                           = định vị
+post-purchase behavior                = hành vi sau mua
+price                                 [ /praɪs/ ] = giá
+price discount                        = giảm giá
+price elasticity                      = co giãn ( của cầu) theo giá
+primary data                          = thông tin sơ cấp
+problem recognition                   [ /ˈprɒb.ləm ˌrek.əɡˈnɪʃ.ən/ ] = 
+product                               [ /ˈprɒd.ʌkt/ ] = sản phẩm
+product concept                       = quan điểm trọng sản phẩm
+product-building pricing              = định giá trọn gói
+product-form pricing                  = định giá theo hình thức sản phẩm
+production concept                    = quan điểm trọng sản xuất
+product-line pricing                  = định giá theo họ sản phẩm
+product-mix pricing                   = định giá theo chiến lược sản phẩm
+product-variety marketing             = tiếp thị đa dạng hóa sản phẩm
+promotion                             [ /prəˈməʊ.ʃən/ ] = chiêu thị
+promotion pricing                     = đánh giá khuyến mãi
+public relation                       [ /ˈpʌb.lɪk rɪˈleɪ.ʃən/ ] = quan hệ cộng đồng
+pull strategy                         [ /pʊl ˈstræt.ə.dʒi/ ] = chiến lược (tiếp thị) kéo
+purchase decision                     = quyết định mua
+purchaser                             [ /ˈpɜː.tʃə.sər/ ] = người mua (trong hành vi mua)
+push strategy                         [ /pʊʃ ˈstræt.ə.dʒi/ ] = chiến lược tiếp thị đẩy
+quantity discount                     [ /ˈkwɒn tɪ ti/ ] = giảm giá cho số lượng mua lớn
+questionnaire                         [ /ˌkwes.tʃəˈneər/ ] = bảng câu hỏi
+relationship marketing                [ /rɪˈleɪ.ʃən.ʃɪp ˈmɑː.kɪ.tɪŋ/ ] = tiếp thị dựa trên quan hệ
+research and development (r & d)      = nguyên cứu và phát triển
+retailer                              [ /ˈriː.teɪ.lər/ ] = nhà bán lẻ
+sales concept                         = quan điểm trọng bán hàng
+sales information system              [ /ˌɪn fərˈmeɪ ʃən/ ] = hệ thống thông tin bán hàng
+sales promotion                       = khuyến mãi
+satisfaction                          [ /ˌsæt.ɪsˈfæk.ʃən/ ] = sự thỏa mãn
+sealed-bid auction                    = đấu giá kín
+seasonal discount                     [ /ˈdɪs kaʊnt/ ] = giảm giá theo mùa
+secondary data                        = thông tin thứ cấp
+segment                               [ /ˈseɡ.mənt/ ] = phân khúc
+segmentation                          = (chiến lược) phân thị trường
+selective attention                   [ /ə´tenʃn/ ] = sàng lọc
+selective distortion                  [ /dɪˈstɔr ʃən/ ] = chỉnh đốn
+selective distribution                = phân phối sàn lọc
+selective retention                   [ /sɪˈlek.tɪv rɪˈten.ʃən/ ] = khắc họa
+service channel                       = kênh dịch vụ
+short-run average cost –sac           = chi phí trung bình trong ngắn hạn
+social –cultural environment          [ /ˈsoʊ ʃəl/ ] = yếu tố (môi trường) văn hóa xã hội
+social marketing concept              = quan điểm tiếp thị xã hội
+special-event pricing                 [ /’speʃəl/ ] = định giá cho những sự kiện đặc biệt
+straight rebuy                        [ /streɪt/ ] = mua lại trực tiếp
+subculture                            [ /ˈsʌbˌkʌl.tʃər/ ] = văn hóa phụ
+survey                                [ /ˈsɜː.veɪ/ ] = điều tra
+survival objective                    [ /səˈvaɪ.vəl əbˈdʒek.tɪv/ ] = mục tiêu tồn tại
+target market                         [ /ˈtɑː.ɡɪt ˈmɑː.kɪt/ ] = thị trường mục tiêu
+target marketing                      [ /ˈtɑː.ɡɪt ˈmɑː.kɪ.tɪŋ/ ] = tiếp thị mục tiêu
+target-return pricing                 = định gía theo lợi nhuận mục tiêu
+task environment                      = môi trường tác nghiệp
+technological environment             [ /ˌtɛk nəˈlɒdʒ ɪ kəl/ ] = yếu tố (môi trường) công nghệ
+the order-to-payment eyele            [ /’peim(ə)nt/ ] = chu kỳ đặt hàng và trả tiền
+timing pricing                        = định giá theo thời điểm mua
+trade mark                            [ /treɪd mɑːk/ ] = nhãn hiệu đăng ký
+transaction                           [ /trænˈzæk.ʃən/ ] = giao dịch
+two-part pricing                      = định giá hai phần
+user                                  [ /ˈjuː.zər/ ] = người sử dụng
+value                                 [ /ˈvæl.juː/ ] = giá trị
+value pricing                         = định giá theo giá trị
+vertical conflict                     [ /ˈvɜrtɪkəl/ ] = mâu thuẫn hàng dọc
+
+
+
+
+
+
+
+
+
+
+
+abstract                                       = trừu tượng, tóm tắt 
+data type                                      = ADT kiểu dữ liệu ~ 
+access ( ~ method)                             = truy nhập (phương pháp ~) 
+account                                        = tài khoản (cấp người dùng hệ thống) 
+accounts (payable, receivable)                 = tà khoản kế toán ( ~ phải trả, phải thu) 
+accounting (finacial, management ~)            = kế toán (~ tài chính, quản trị) 
+accurency (accurateness)                       = sự đúng đắn, chính xác (tính ~) 
+agent ( ~ communication language               = ACL tác tử (ngôn ngữ truyền thông ~) 
+acquire / acquisition (                        = sự) được, thu được, giành được 
+action (asynchronous ~)                        = hành động (~ không đồng bộ) 
+activate (activation)/activity                 = làm hoạt động / (sự) hoạt động 
+actor (initiator ~)                            = tác nhân (~ khởi tạo) 
+actuator                                       = bộ chấp hành, bộ công tác (thao tác) 
+adaptation/adaptability/adaptive/adaptor       = sự (tính) thích nghi được (bộ làm ~) 
+add -on/in                                     = phụ thêm, ghép vào 
+address ( ~ resolution protocol ARP            = địa chỉ (giao thức giải pháp ~) 
+adorment                                       = bài trí 
+advantage (disadvantage)                       = ưu điểm, lợi thế (nhược điểm, bất lợi) 
+aggregate (aggregation)                        = tổng hợp, kết hợp (sự kết hợp) 
+alarm (                                        = sự) báo động 
+algorithm ( ~hashing )                         = thuật toán (~ băm) 
+alias                                          = biệt hiệu, biệt danh 
+align (horisontal,vertical ~)                  = dóng hàng, căn lề (~ ngang, dọc ) 
+allocate (allocation) (                        = sự) cấp phát, chỉ định, phân cho 
+alternative                                    = khả năng có thể, phương án thay thế
+alternating current AC                         = dòng xoay chiều 
+American                                       = Mỹ
+National Standard Institute ANSI               = viện chuẩn quốc gia ~ 
+Telephone & Telegraph - AT&T                   = công ty điện tín và điện thoại ~ 
+standard code for information -                = mã chuẩn để trao đổi thông tin ~ 
+analogue (presentation)                        = tương tự (trình diễn ~) 
+analogue -to-digital - A/D                     = từ tương tự sang số
+digital -to-analogue - D/A                     = từ số sang tương tự
+analysis (gap ~ )                              = phân tích (~ độ chênh, sự khác biệt) 
+transsaction, transform,                       = "What -if" ~ ~ giao dịch, chuyển đổi, “nếu.. thì..” 
+requirements, risk, task, systems              = ~ ~ yêu cầu, rủi ro, nhiệm vụ, HT
+fault tree, cost -benefit ~ ~                  = cây lỗi, chi phí và lợi ích
+semantic, syntactic/s                          = ~ ~ ngữ nghĩa, cú pháp (cú pháp học) 
+analyzer (diagnostic ~)                        = bộ phân tích (~ chẩn đoán) 
+annotation                                     = ký pháp (dùng trong mô hình) 
+anomaly (insertion,modification, deletion ~)   = dị thường (~ thêm, sửa, xoá) 
+application ( ~ program interface API          = ứng dụng (giao diện chương trình ~) 
+approach (bottom -up, top-down ~               = tiếp cận (~ dưới lên, trên xuống) 
+data driven, object -oriented ~ ~              = hướng dữ liệu, = hướng đối tượng 
+process driven                                 = ~ ~ định hướng tiến trình 
+architecture ( ~ centric, database ~           = kiến trúc (~ trung tâm, CSDL) 
+client/server, domain                          = ~ ~ khách/dịch vụ, miền 
+software, system ~                             = ~ phần mềm, hệ thống 
+argument                                       = đối số 
+arithmetic ( ~ -logic unit ALU                 = số học (bộ logic ~ trong máy tính) 
+array                                          = mảng 
+artifact                                       = chế tác (sản phẩm của tiến trình FM) 
+artifical ( ~ intelligence                     = AI nhân tạo (trí tuệ ~) 
+neural network ANN                             = mạng nơron ~ 
+assembler                                      = hợp ngữ
+assemble/assembly ( ~ structure)               = tập hợp lại, ghép nối (cấu trúc ~) 
+assessment (risk, feasibility ~)               = sự đánh giá (~rủi ro, khả thi) 
+asset (reusable softwware ~)                   = tài sản (~ phần mềm sử dụng lại) 
+assign                                         = gán 
+assistant (personal digital ~                  = PDA người trợ giúp, phụ tá (máy ~ số cá nhân) 
+association (binary, n -ary )                  = liên kết ( ~ nhị/đa nguyên), phường, hội 
+for Computing Machinery ACM                    = ~ tính toán máy 
+for Information Systems AIS                    = ~ các hệ thống thông tin 
+association end                                = mút liên kết 
+associative (relationship)                     = gắn kết, liên kết (mối quan hệ ~) 
+asymmetric ( ~ digital subscriber line ADSL    = phi đối xứng (đường thuê bao tin hiệu số~) 
+asynchronous transfer/ transmission mode       = cách chuyển đổi/truyền dị bộ ATM
+attribute (naming, multivalued, public,        = thuộc tính ( ~ tên gọi, đa trị, chung) 
+private, protected                             = ~) ~ riêng, được bảo vệ
+audit                                          = kiểm toán 
+authentication schema AS                       = sơ đồ xác nhận 
+automated teller machine ATM                   = máy nhận gửi tiền (thu ngân) tự động 
+available/availability (                       = tính) sẵn sàng, có sẵn 
+average                                        = trung bình, bình quân 
+backbone ( ~ networks)                         = xương sống (mạng ~) 
+backgrownd                                     = hậu cảnh / nền
+backup (data ~) sao                            = lưu (~ dữ liệu) 
+banlance (balancing DFD)                       = cân đối, số dư ( = cân bằng luồng dữ liệu) 
+bar code                                       = mã vạch 
+baseline ( ~ project plan BPP                  = đường mốc giới (kế hoạch dự án cơ sở) 
+basic ( ~ input &output system BIOS            = cơ bản, cơ sở ( hệ thống vào ra ~) 
+behavior                                       = hành vi 
+benefit /cost (in/tangible ~)                  = lợi ich/chi phí (~vô hình /hữu hình) 
+bind (buond)                                   = trói, ghép lại, kết lại 
+black ( ~/white                                = B/W, ~box) đen (trắng/đen, hộp ~) 
+block (recover ~)                              = khối (~ phục hồi) 
+boolean (true/false)                           = biến boon (đúng/sai) 
+boundary ( ~ of the system)                    = ranh giới /biên (của một hệ thống) 
+box (text ~, black, white ~ )                  = hộp (~ văn bản, đen, trắng) 
+breakpoint                                     = điểm đứt, gãy 
+bridge                                         = cầu, cầu nối 
+buffer                                         = bộ đệm 
+built -in ( ~ function)                        = dựng sẵn, tạo sẵn (hàm ~) 
+bus (address, data, expansion, local ~)        = kênh, tuyến,bus (địa chỉ, dữ liệu,..~) 
+universal serial ~ USB                         = ~ (cổng) nối tiếpchung 
+business ( ~ area, domain)                     = nghiệp vụ (lĩnh vực, phạm vi ~) 
+to ~ B2B                                       = doanh nghiệp đến doanh nghiệp 
+process reegineering BPR                       = tái kỹ nghệ tiến trình ~ 
+cable (coaxial, fiber optic ~ )                = cáp (~ đồng trục, sợi quang) 
+cach                                           = bộ nhớ tạm thời 
+capability maturity model CMM                  = mô hình tăng trưởng khả năng 
+CMM, integration CMMI                          = mô hình tăng trưởng khả năng, tích hợp 
+capture (information)                          = nắm bắt, thu thập ( ~ thông tin) 
+card (smart ~)                                 = các, thẻ, thiếp, quân bài (~ thông minh) 
+cardinality                                    = bản số
+cascading style sheet CSS                      = bảng lập các lớp kiểu 
+cash                                           = tiền mặt 
+catagorization                                 = phân loại hoá 
+catalog markup language catML                  = ngôn ngữ đánh dấu phân loại 
+central processing unit - CPU                  = đơn vị xử lí trung tâm 
+certainty (un ~ )                              = chắc chắn, tất định (không ~ ) 
+challenge                                      = thách thức, thử thách, nhiệm vụ khó khăn 
+channel (microwave transmission ~)             = kênh (~ truyền vi sóng) 
+charateristic (of people, thing)               = đặc trưng, = đặc tính ( ~ của người, vật) 
+chart (schema) (Gantt, PERT ~)                 = sơ đồ (~ Gantt, PERT) 
+check in/out                                   = kiểm soát vào/ra (1ph.pháp q.lý cấu hình) 
+checklist                                      = danh sách kiểm 
+circuit (integrated ~ IC                       = chu vi, đường vòng, mạch (~ tích hợp)
+application spesific IC ASIC                   = mạch tích hợp ứng dụng cụ thể
+class ( ~ responsibilities collaborators cards = lớp (phiếu CRC- một công cụ phân tích CRC cards hướng đối tượng 
+active, abstract, assocation                   = ~ ~ chủ động, trừu tượng, liên kết 
+concrete                                       = ~ ~ cụ thể
+classification (dynamic, static ~)             = sự phân lớp/loại (~ động, tĩnh ) 
+classifier                                     = phân lớp 
+cleanroom ( ~ method, process)                 = phòng sạch (phương pháp, tiến trình ~) 
+client (thin, fat ~)                           = khách, máy = khách (~ yếu, mạnh) 
+close ( ~d system)                             = đóng (hệ thống ~) 
+cluster (clustering)                           = cụm (phân = cụm) 
+coding (programming)                           = mã hoá (lập trình) 
+coercion                                       = bó buộc 
+coherent operation                             = toán tử cố kết, 
+cohesion (coincidental, communicational ~)     = kết dính (~ gom góp, truyền thông) 
+high, low,functional                           = ~ (mẫu) ~ cao,(mẫu) ~ thấp, ~ chức năng 
+objective, sequential                          = ~ ~ đối tượng, tuần tự
+procedural, temporal                           = ~ ~ thủ tục, thời điểm 
+collaboration ( ~ diagram)                     = sự cộng tác (biểu đồ ~) 
+combination                                    = tổ hợp 
+command                                        = lệnh (mẫu ~) 
+comment                                        = lời bình 
+common ( ~ language runtime                    = CLR chung (chạy/vận hành ngôn ngữ ~) 
+language specification                         = CLS đặc tả ngôn ngữ ~ 
+object request broker architectureCORBA        = kiến trúc môi giới yêu cầu đối tượng ~ 
+communication ( ~ system                       = CS truyền thông (hệ thống ~) 
+interprocesses ~ IPC                           = ~ giữa các tiến trình 
+compare ( ~ with                               = somthg..) so sánh (với), ví như (cái gì) 
+compatibility                                  = tính tương hợp 
+compile ( ~r, compilation) (source code)       = dịch (chương trình ~ , sự = dịch) (mã nguồn) 
+completeness (incomplete)                      = tính đầy đủ (chưa hoàn chỉnh ) 
+complex/ ~city                                 = phức tạp, sự phức tạp, độ phức tạp 
+component ( ~ of the system)                   = thành phần, một phần (của một hệ thống) 
+reusable softwware                             = ~ ~ phần mềm dùng lại 
+based soft. development                        = CBSD phát triển phần mềm dựa trên ~ 
+based soft.engineering                         = CBSE kỹ nghệ phần mềm dựa trên ~ 
+object model                                   = COM mô hình đối tượng ~ (Microsoft) 
+composite (composition)                        = cấu thành (sự = cấu thành, phức hợp) 
+compress/ ~ion (                               = sự) nén, ép 
+compus                                         = khuôn viên trường Đại học 
+computer /computing (parallel ~)               = máy tính /tính toán (~ song song) 
+aided design/manufacturing                     = thiết kế/chế tạo với sự trợ giúp của CAD/CAM 
+aided software engineering                     = CASE kỹ nghệ phần mềm có ~ trợ giúp
+based training                                 = CBT đào tạo dựa trên ~ 
+complex intruction set                         = ~ = CISC ~ với tập lệnh phức hợp 
+reduced intruction set                         = ~ = RISC ~ với tập lệnh rút gọn 
+concept/ ~ual (~ model, component)             = khái niệm (mô hình, thành phần ~) 
+conclusion                                     = kết luận, tóm lại, phần cuối 
+concurrency                                    = sự đồng thời, tương tranh 
+concurrent substate                            = trạng thái con đồng thời 
+condition (guard, post ~, pre~)                = điều kiện (~ bảo vệ; hậu, tiền ~ ) 
+configuration (software, system ~)             = cấu hình (~ phần mềm, hệ thống) 
+conformance (with)                             = phù hợp (với) 
+conic hình                                     = nón 
+connection (link) (connectivity) (             = sự) kết nối, liên thông (tính ~) 
+conroutine                                     = trình tương tranh 
+consequence (failure ~)                        = hậu quả (~ của thất bại) 
+consistency (inconsistent)                     = tính nhất quán (không ~) 
+constraint (referential , integrity, domain ~) = ràng buộc, giới hạn (~tham chiếu, toàn vẹn)
+consult                                        = hỏi ý kiến, tra cứu, tư vấn, bàn với ai 
+consultant (consultancy)                       = người (sự) cố vấn 
+container                                      = thùng chứa 
+context ( ~ switching)                         = khung cảnh, ngữ = cảnh (chuyển ~) 
+contract                                       = hợp đồng 
+control (controller)                           = kiểm soát, điểu khiển (bộ (mẫu) ~) 
+construct/contruction (                        = sự) kết cấu/xây dựng 
+core                                           = lõi, nhân 
+coroutine                                      = đối trình 
+cost (on -time, recurring, ongoing ~)          = chi phí (~1 lần, thuê mướn, vận hành) 
+cost -benefit analysis                         = phân tích lợi ích-chi phí 
+couple (content, tamp ~)                       = ghép nối (~ nội dung, nhãn) 
+control, common, data                          = ~ ~ điều khiển, chung, dữ liệu 
+creator                                        = bộ (mẫu) tạo lập 
+criteria ( ~ for selection, validation ~)      = tiêu chuẩn/chí (~ đẻ lựa chọn, thẩm định) 
+ctritical ( ~ cuccess factors)                 = phê phán, quyết định (yếu tố ~ thành công) 
+path method                                    = CPM phương pháp đường găng 
+cross ( ~ reference, compile)                  = chéo (tham chiếu, dịch ~) 
+crystal (liquid ~ display                      = LCD tinh thể, pha lê (màn hình ~ thể lỏng) 
+cycle (system development life ~               = SDLC) chu trình, vòng (vòng đơi phát triển HT) 
+macro, micro, nano                             = ~ ~ vĩ mô, vimo, nanô 
+cyclomatic                                     = xoay vòng 
+data ( ~ typing)                               = dữ liệu (định kiểu ~)
+flow diagram                                   = DFD biểu đồ luồng ~ 
+store / ~ warehouse                            = kho ~ 
+database (distributed, knowledge, rational ~)  = cơ sơ dữ liêu (~ phân tán, tri thức, quan hệ)
+engine                                         = ) máy ~ 
+management systems                             = DBMS hệ quản trị ~ 
+relational DBMS                                = RDBMS hệ quản trị ~ quan hệ
+multimedia DBMS                                = MMDBMS hệ quản trị ~ đa phương tiện
+datum (                                        = số nhiều của data) = số đã cho, điều đã cho, luận cứ
+deadbeat control                               = điều khiển theo nhịp 
+deadline ( ~ time of job)                      = hạn định, = hạn chót (thời điểm kết thúc cviệc)
+deadlock                                       = đình lại, bế tắc, ngừng trệ
+debug/debugger (software, hardware ~)          = gỡ rối/bộ = gỡ lỗi (~ phần mềm, phần cứng)
+decision ( ~ point, table,tree,support system) = quyết định (điểm, cây, bảng, hệ trợ giúp ~)
+semi/un/structured                             = ~ ~ bán/không/có (cấu trúc) 
+declaration                                    = sự khai báo 
+decomposition (function ~, ~ of                = DFDs) phân rã (~chức năng,biểu đồ luồng dữ liệu)
+defect                                         = khiếm khuyết 
+degree ( ~ of relationship)                    = bậc (~ của mối quan hệ)
+delegation                                     = sự uỷ quyền, đại diện 
+deliverable                                    = xuất phẩm, sản phẩm giao, gửi đi 
+denormalization                                = phi chuẩn hoá 
+dependability                                  = tính tin cậy được 
+dependency (existence, joint,multivalued ~)    = sự phụ thuộc (~tồn tại, kết nối, đa trị )
+parttial, functional, transitive               = ~ ~ bộ phận, chức năng, bắc cầu 
+depth                                          = độ sâu, chiều sâu 
+derived element                                = phần tử dẫn xuất (suy ra từ cái khác)
+description (absstract, requirments ~)         = mô tả (~ trừu tượng, yêu cầu)
+design (architecture, detail,interface,logic ~ = thiết kế (~ kiến trúc, chi tiết, zaodiện, lôgic)
+physical , preliminary, procedure              = ~ ~ vật lý, sơ bộ, thủ tục
+walkthrough                                    = họp xét duyệt ~ 
+detection (fault ~)                            = phát hiện, tìm ra (~ lỗi)
+development (rapid application ~               = RAD) sự phát triển (~ ứng dụng nhanh)
+device (biometric ~)                           = thiết bị (~ sinh trắc học)
+proxy, voice recognition                       = ~ mẫu ủy nhiệm ~, ~ nhận dạng tiếng nói
+diagram (activity, class, collaboration ~)     = biểu đồ (~ hoạt động, lớp, cộng tác)
+context, interaction,                          = ~ ~ ngữ cảnh, tương tác 
+data flow ~                                    = DFD, data navigation ~ ~ luồng dữ liệu, di chuyển dữ liệu
+primitive data flow                            = ~ ~ luồng dữ liệu sơ cấp
+deployment, dialogue sequencet ~ ~             = bố trí, trình tự đối thoại
+functional decomposition ~                     = FDD ~ phân rã chức năng 
+objec, proces, sequence ~ ~                    = đối tượng, tiến trình, tuầnt
+sate, statechart ~ ~                           = trạng thái, sơ đồ = trạng thái
+system sequence, use case ~ ~                  = tuần tự hệ thống, ca sử dụng
+diagrammatic                                   = biểu đồ văn phạm 
+dial up ( ~ telephone line                     = DUTL điện thoại ( ~ quay số) 
+dialog                                         = hội thoại 
+dictionary (architectural, term ~)             = từ điển (~ kiến trúc, thuật ngữ)
+digital (network architecture                  = DNA số, thuộc về số (kiến trúc mạng ~)
+service unit                                   = DSU đơn vị dịch vụ ~ 
+dimension (multi ~)                            = chiều, thứ nguyên (đa ~) 
+direct (indirect; ~ memory access              = DMA trực tiếp (gián tiếp; truy nhập bộ nhớ ~ )
+disjoint substate                              = trạng thái con tách rời 
+disk (hard,floppy, magnetic -optic,compact ~   = đĩa (~ cứng, mềm, từ, quang, CD-ROM)
+dispatch ( ~ module, banch)                    = gửi đi, đi ra (nhánh, mô đun ~) 
+display                                        = hiển thị
+distribute ( ~ data, ~d presentation)          = phân tán (~ dữ liệu, trình diễn ~) 
+distribution (data, hybrid data ~)             = sự phân tán (~ dữ liệu, dữ liệu lai)
+distributed component object model             = DCOM mô hình đối tượng thành phần phân tán
+diversity (design ~)                           = sự đa dạng (~ thiết kế)
+document (documentation)                       = tài liệu (làm ~) 
+object model                                   = DOM mô hình đối tượng ~ (trong XML)
+type definition                                = DTD định nghiã kiểu ~ 
+domain (information,value, business ~)         = miền(~thông tin,giá trị, lĩnh vực nghiệpvụ )
+naming service – DNS                           = dịch vụ đặt tên ~ 
+name system – DNS                              = hệ thống tên ~ 
+drag and drop                                  = kéo & thả
+driver (cassette, disk, tape, worm ~)          = thiết bị (~ đọc caset, đĩa, băng, đĩa quang), bộ lái (dùng cho testing) 
+duration (estemated project ~)                 = khoảng thời gian, sự kéo dài ước lượng dự án 
+dynamic ( ~ link library DLL                   = động, động thái (thư viện kết nối ~) 
+editor (source code ~)                         = bộ soạn thảo (~mã nguồn, chương trình) 
+effort                                         = công sức, sự nỗ lực 
+elaboration (stepwise ~)                       = soạn thảo (~ từng bước) 
+element                                        = phần tử 
+elicitation ( ~requirements)                   = khêu gợi, làm nảy sinh (~ yêu cầu) 
+elision ( ~ rule)                              = lược bỏ (quy tắc ~ trong UML) 
+embed ( ~ded system)                           = nhúng, đưa vào (hệ thống ~) 
+empirical ( ~ estimation)                      = kinh nghiệm (ước lượng ~) 
+encapsulate/ ~tion (information~) (            = sự) bao gói (~ thông tin) 
+encryption                                     = mã hoá 
+engineering (forward, reverse ~)               = kỹ nghệ (~ (dịch) xuôi, ~ ngược) 
+engineering (application,domain,software ~)    = kỹ nghệ (~ ứng dụng, miền, phần mềm)
+enhancement                                    = nâng cao, tăng cường 
+entity ((non)exclusive,(non)exhaustive ~)      = thực thể (~ con (o)loại trừ, con (o)đầy đủ) 
+composite, weak ~ ~                            = phức hợp, yếu 
+relationships diagram                          = ERD biểu đồ ~ mối quan hệ
+relationships model                            = ERM mô hình ~ mối quan hệ
+enumeration                                    = bảng liệt kê 
+environment (CASE ~)                           = môi trường (~ công cụ) 
+integrated development ~                       = IDE ~ phát triển tích hợp 
+episode                                        = đoạn, hồi (kịch), tập các scens theo1 trình tự cụ thể -đơnvị sản fẩm 
+equipment                                      = trang bị, thiết bị, dụng cụ, phương tiện VT 
+error ( ~ debug)                               = lỗi (gỡ ~) 
+estimate /estimation (cost, time, effort ~)    = ước lượng (~ chi phí, thời gian, công sức) 
+evaluation                                     = đánh giá 
+event ( temporal, system ~ )                   = sự kiện (~ thời điểm, hệ thống) 
+time, external, internal ~ ~                   = thời gian, ngoài, trong 
+evolution (evolutionary)                       = sự tiến hoá 
+exception ( ~ handling)                        = ngọai lệ (điểu khiển, quản lý ~) 
+execution ( ~ support system                   = ESS sự thực hiện (hệ trợ giúp ~) 
+expect/ ~ed (~ value) mong                     = chờ, kì vọng (giá trị ~) 
+expert ( ~ system                              = ES chuyên gia (hệ, mẫu ~) 
+export/import (component, expresion ~)         = xuất/ nhập khẩu (~ thành phần, biểu thức) 
+expression (action, boolean, time,type ~)      = biểu thức (~hành động, bun, thời gian,kiểu)
+extension (extensibility)                      = sự (tính) mở rộng (duỗi ra) được 
+external ( ~ entity)                           = ngoài (thực thể ~) 
+extraction, transformation, and                = trích rút, chuyển đổi và truyền (dữ liệu) 
+transportion                                   = ETT 
+façade                                         = bề mặt, bề ngoài (mẫu ~) 
+facilitated application specification          = kĩ thuật đặc tả ứng dụng thuận tiện 
+technique                                      = FAST
+facilitator                                    = người điều khiển, bộ tiện ích 
+factor ( ~ing)                                 = nhân tố, thừa số (lấy thừa số chung) 
+failure ( ~ tolerance)                         = thất bại, lỗi (sự bỏ qua, thứ ~) 
+fan -in                                        = trải vào, co cụm, số môđun vào 
+fan -out                                       = trải ra, số môđun ra 
+fault (hardware, softwware ~)                  = lỗi (~ phần cứng, phần mềm) 
+feasibility ( ~assessment, study)              = khả thi (đánh giá, nghiên cứu ~) 
+economic, contractual, legal ~ ~               = kinh tế, hợp đồng, pháp lý
+operational, political, technical ~ ~          = hoạt động, chính sách, kỹ thuật
+feature (behavioral,structural ~)              = đặc trưng (~ hành vi, cấu trúc ), tính năng 
+feedback ( ~ control)                          = phản hồi (kiểm soát ~) 
+fiber ( ~ distributed data interace            = FDDI sợi (giao diện dữ liệu phân tán ~quang
+field (calculated, numeral, text ~)            = trường (~ tính toán, số, văn bản) 
+file ( ~ server, management)                   = tệp (máy dịch vụ, quản lý ~) 
+finalize                                       = hoàn tất 
+finite state machine                           = FSM máy trạng thái hữu hạn 
+fire                                           = phát hoả, khởi hoạt 
+flag (control)                                 = cờ ( ~ điều khiển) 
+flash                                          = tia chớp, lóe lên, vụt qua 
+flatform                                       = nền, nền tảng ( = bộ xử lý, OS, các côngcụ,..) 
+flexible (flexibility) (                       = tính) mềm dẻo, linh hoạt, dễ uốn 
+flow (data, event, information, work ~)        = luồng (~ dữ liệu, sự kiện, th.tin, công việc) 
+flowchart                                      = lưu đồ
+focus ( ~ of control)                          = tiêu điểm, sự tập trung (~ điều khiển ) 
+forecast                                       = dự báo, đự đoán 
+forgrownd                                      = tiền cảnh 
+form ( ~interaction)                           = biểu mẫu (tương tác bằng ~)
+formal (non ~, ~ method)                       = hình/chính thức (phi ~, phương pháp~hoá)
+public identifier                              = FPI định danh ~ chung 
+technical revew                                = xét duyệt/rà soát kỹ thuật chính thức 
+formate (formating)                            = đinh dạng 
+forward (s)                                    = ở phía trước, tiến bộ (tiến lên trước) 
+foundation intelligent physical agents         = FIPA cơ sở của các tác tử vật lý thông minh
+fourth generation technique (language)         = 4GT kỹ thuật (ngôn ngữ) thế hệ thứ tư
+fragment / ~ation                              = mảnh, khúc đoạn, tác phẩm chưa xong 
+fragmentation transparency                     = sự phân đoạn ( ~ trong suốt) 
+frame                                          = khung, khung ảnh (hình) độc lập 
+framework                                      = khung làm việc 
+friendliness                                   = tính thân thiện 
+function (business ~, functionality )          = hàm, chức năng (~ nghiệp vụ, tính ~) 
+point (method))                                = – FP điểm/ phương pháp điểm ~ 
+fuzzy ( ~ system)                              = mờ, không rõ ràng (hệ ~) 
+Gantt chart                                    = biểu đồ Gantt (để theo dõi tiến độ dự án) 
+general public license                         = GPL giấy phép chung công khai 
+general responsibility assignment software -   = các mẫu gán trách nhiệm phần mềm tổng 
+patterns                                       = GRASP quát (5 mẫu tiêu biểu) 
+generalization                                 = tổng quát hoá 
+generator (code ~)                             = bộ tạo sinh, sinh mã (~ chương trình) 
+geographic information system                  = GIS hệ thống thông tin bản đồ
+gerund                                         = phức thể
+global ( ~ positioning system                  = GPS toàn cầu, tổng thể (hệ thống định vị ~) 
+schema, optiman                                = sơ đồ, tối ưu ~ 
+system for mobilecommunicationGSM              = hệ thống truyền thông mobile ~
+unique identifier                              = GUID định danh duy nhất ~ 
+grammar                                        = văn phạm, ngữ pháp 
+graphical ( ~ user interface                   = GUI đồ hoạ(thị) (giao diện người dùng ~) 
+graphics tablet                                = bảng đồ thị nhỏ (để điều khiển con trỏ) 
+group ( ~ support systems                      = GSS nhóm (hệ trợ giúp ~) 
+decision support systems                       = GDSS hệ trợ giúp quyết đinh ~ 
+guideline                                      = hướng dẫn 
+handle                                         = giải quyết, điều khiển, nắm được 
+hardware                                       = phần cứng 
+hazard                                         = sự mạo hiểm 
+heuristic                                      = trực cảm 
+hide ( ~ information) che                      = dấu (~ thông tin) 
+highliting                                     = làm sáng rõ 
+hirerarchy (control ~)                         = sự phân cấp, đường bậc thang (~ điều khiển
+homologous                                     = đồng đẳng 
+homonym                                        = đồng danh (cùng tên goi) 
+host machine                                   = máy chủ
+hub trục                                       = bánh xe, bộ nối trung tâm 
+hybrid ( ~ architecture)                       = lai ( kiến trúc ~) 
+hyperText markup language                      = HTML ngôn ngữ siêu văn bản 
+hyperText transfer protocol                    = HTTP giao thức truyền thông cho siêu văn bản 
+icon                                           = biểu tượng (hình ~) 
+identify (indentifier)                         = định danh, nhận dạng (tên gọi), sự đồng nhất, giống hệt
+idiom                                          = thành ngữ, đặc ngữ
+image (system ~, ~ database                    = IDB) hình ảnh (~ hệ thống, cơ sở dữ liệu ~) 
+implementation                                 = triển khai
+import                                         = nhập khẩu, nhập vào 
+in - house development                         = tự phát triển 
+inception                                      = khởi tạo 
+incremental                                    = tăng dần 
+index                                          = chỉ số
+indicator (economic ~)                         = chỉ báo, = chỉ tiêu (~ kinh tế) 
+indirect (indirection)                         = gián tiếp (mẫu = gián tiếp) 
+information ( ~ system                         = IS, ~ retrieval = IR thông tin (hệ thống, truy tìm ~) 
+technology                                     = IT công nghệ ~ 
+system architecture                            = ISA kiến trúc hệ thống ~ 
+inherent                                       = cố hữu, vốn có 
+inheritance (multiple, single ~)               = sự kế thừa (đa, đơn ~) 
+input ( ~ and output control system            = IOCS cái(đầu) vào (hệ thống kiểm soát ~ /ra
+inspect/ation (                                = sự) thanh tra 
+installation and maintenance (maintain)        = cài đặt và bảo trì (bảo trì) 
+instance                                       = một thể hiện, một bản thể
+institute of elctrical and electronicsenginees = Viện kỹ sư điện và điện tử
+integrate ( ~d information system )            = tích hợp (hệ thống thông tin ~)
+service digital network                        = ISDN mạng dịch vụ số ~ 
+circuit                                        = IC mạch ~ 
+development enviroment                         = IDE môi trường phát triển ~ 
+integration ( ~testing) (                      = sự) tích hợp (kiểm thử ~)
+integrity (entity, referential ~)              = tính toàn vẹn (~ thực thể, tham chiếu) 
+intelligence (artificial ~)                    = trí tuệ (~ nhân tạo) 
+interaction (menu, command language ~)         = sự tương tác (~ thực đơn, ng.ngữ lệnh) 
+object based, human machine ~ ~                = dựa trên đối tượng, người nmáy
+interface (graphic ~) giao                     = diện (~ đồ họa) 
+intermediate ( ~ storage, language)            = trung gian (kho chứa, ngôn ngữ ~) 
+internal ( ~ information organization)         = bên trong (tổ chức thông tin ~) 
+international standard book number             = ISBN số hiệu sách theo chuẩn quốc tế
+internet (explorer IE internet                 = (bộ trình duyệt web) 
+protocol IP                                    = giao thức ~ 
+interoperability                               = tính liên tác 
+interpretation                                 = giải thích, làm hiểu rõ, thông dịch
+interpreter                                    = người dịch, bộ thông dịch 
+interrupt ( ~                                  = latency; exception, external. ~) ngắt (trễ ~; ~ loại trừ, ngoài, vao/ra) 
+intruction                                     = lệnh (trong chương trình) 
+inventory                                      = vật tư lưu kho 
+invoice                                        = hóa đơn bán hàng 
+item (composite data, scalar ~)                = khoản mục (~ dữ liệu hợp thành, vô hướng)
+iteration (iterative)                          = bước lặp (tính lặp) 
+java ( ~ to micro edition                      = J2ME java ( phiên bản ~ micro) 
+platform standard edition                      = J2SE phiên bản ~ nền chuẩn 
+agent development framework                    = JADE khung làm việc ph. triển agent bằng ~ 
+applet correctness kit                         = JACK bộ công cụ hoàn thiện bằng ~
+JACK development environment                   = môi trường phát triển JACK 
+development kit                                = JDK công cụ phát triển với ~
+joint application design                       = JAD thiết kế ứng dụng liên kết 
+joystick                                       = cần điều khiển 
+justification (economic ~)                     = luận chứng (~ kinh tế) 
+kernel                                         = nhân, hạt, phần cốt lõi 
+key (candidate, forgein, primary ~)            = khoá (~ dự tuyển, ngoại, chính), chủ chốt 
+composite, secondary ~ ,~ word ~               = phức hợp, thứ cấp, từ ~ 
+knowledge ( ~ database, base)                  = tri thức (CSDL, nền ~)
+language (eXtensible Markup ~                  = XML ngôn ngữ (~ định dạng mởi rộng)
+XML applied to UML                             = XMI ~ XML áp dụng cho UML 
+extensible stylesheet ~                        = XSL ~ định kiểu mở rộng 
+extensible stylesheet ~ transform              = XSLT chuyển đổi ~ định kiểu mở rộng 
+hardwware desrcipting ~                        = HDL ~ mô tả phần cứng 
+HyperText Markup ~                             = HTML ~ siêu văn bản 
+inteface definition ~                          = IDL ~ định nghĩa giao diện 
+command, machine, programming ~ ~              = lệnh, máy, lập trình 
+Microsoft Intermediate ~                       = MSIL ~ trung gian của Microsoft 
+natural ~ (~ process) ~                        = tự nhiên( xử lý ~) 
+non/procedural, action, presentation ~ ~       = (phi) thủ tục, hành động, biểu diễn 
+requirement statement ~ ~                      = phát biểu yêu cầu 
+Standard Generalized Markup ~                  = SGML ~ định dạng tổng quát chuẩn
+web service description ~                      = WSDL ~ mô tả dịch vụ web 
+latency (interrupt ~)                          = trễ, độ = trễ (~ ngắt) 
+layer (architecturre, utilities, system ~)     = tầng (~ kiến trúc, tiện ích, hệ thống) 
+presentation, process, data ~ ~                = trình diễn, xử lý, dữ liệu 
+layout                                         = định dạng (trang), cách bố trí 
+learning management system                     = LMS hệ thống quản lý học 
+learning content managementsystem              = LCMS hệ thống quản lý nội dung học 
+level ( ~ of abstraction, low, top ~)          = mức (~ trừu tượng, thấp, đỉnh) 
+life ( ~ cycle, time)                          = cuộc sống, đời (vòng đời, thời gian sống) 
+light pen                                      = bút từ
+limite/ ~tation (                              = sự) hạn chế, giới hạn 
+line ( ~s of code                              = LOC/KLOC đường thẳng, dòng (số ~ mã lệnh) 
+linear/ ~ ity) (                               = tính) tuyến = tính 
+link (data ~)                                  = kết nối, liên = kết (~ dữ liệu) 
+link end                                       = mút kết nối 
+list (linked ~)                                = danh sách (~ móc nối) 
+locality                                       = tính cục bộ, địa phương 
+location ( ~ schema)                           = vị trí , định = vị (sơ đồ ~) 
+lock (memory locking)                          = khoá ( ~ bộ nhớ) 
+login                                          = truy nhập vào hệ thống 
+loose ( ~ relationships)                       = lỏng, lung lay, yếu, ẩu, lẻ(tiền)(mối qhệ ~) 
+low ( ~ coupling)                              = thấp, lỏng (mẫu ghép nối ~) 
+machine ( host, target, virtual ~, ~ cycle)    = máy (~ chủ, đích, ảo; chu trình ~)
+java virtual ~                                 = JVM máy ảo java 
+macro ( ~ conditions )                         = vĩ mô (điều kiện ~) 
+mailbox                                        = hộp thư
+maintain (maintainability) (                   = tính) duy trì, nuôi dưỡng, bảo quản được 
+maintenance (corrective, adaptive ~)           = bảo trì (~ sửa lỗi, thích nghi) 
+development, perfective, preventive ~ ~        = phát triển, hoàn thiện, phòng ngừa
+manage (manager/management)                    = quản lý (người ~) 
+management (configuration, project, risk ~)    = quản lý (~ cấu hình, dự án, rủi ro) 
+infotmation systems                            = MIS hệ thống thông tin ~ 
+science                                        = MS khoa học ~ 
+support systems                                = MSS hệ thống trợ giúp ~ 
+manipulate                                     = nắn, bóp, thao tác, vận động, thao túng 
+manipulator (logic ~)                          = bộ thao tác (~ logic) 
+map (mapping) (                                = vẽ) bản đồ (ánh xạ) 
+material (raw ~)                               = vật liệu (~ thô) 
+matrix (data entity to function ~)             = ma trận (~ thực thể -chức năng) 
+mean (n)                                       = phương tiện, trung độ
+mean (a)( ~ time between failure               = MTBF trung bình, thấp kém (thời gian ~2 lần lỗi)
+measure                                        = sự đo, độ đo, thước đo 
+mechanism (activate, extensibity)              = cơ chế ( ~ kích hoạt, mở rộng ) 
+memory (primary, secondary ~)                  = bộ nhớ, kí ức(~ chính/trong, phụ/ngoài) 
+read only ~                                    = ROM ~ chỉ đọc 
+erasable progamable ROM                        = EPROM ~ chỉ đọc có thể lập trình và xóa 
+electrically EPROM                             = EEPROM ~ chỉ đọc có thể lập trình và xóa điện tử
+random access (static/dynamic)~                = RAM ~ truy cập ngẫu nhiên (tĩnh/ động)) 
+management unit                                = MMU đơn vị quản lý ~ 
+menu (drop down, popup, system ~)              = thực đơn (~ thả xuống, con, hệ thống ) 
+merge (rough ~)                                = kết hợp, hợp nhất, gộp (~ thô) 
+message ( ~ switching)                         = thông báo, bản tin (chuyển mạch ~) 
+meta ( ~ class, model, data)                   = siêu (~ lớp, mô hình, dữ liệu) 
+object facility                                = MOF tiện ích ~ đối tượng
+method (object -oriented, structured)          = phương pháp ( ~hướng đối tượng, cấu trúc) 
+spiral ~, ~ of interacting) ~                  = xoắn ốc, tương tác 
+(operation)                                    = phương thức, (tác vụ) 
+methodology                                    = phương pháp luận 
+metric (technical ~ for software)              = độ đo (~ kỹ thuật phần mềm) 
+micro ( ~ processing unit                      = MPU vi mô (đơn vị vi xử lý) 
+middleware                                     = phần nhão, phần hỗn hợp cúng -mềm 
+milestone ( ~ of development phases)           = cột mốc (~ của các bước phát triển) 
+mission ( ~ statement )                        = xứ mệnh (phát biểu ~) 
+mode ( ~ communication)                        = kiểu, phương thức (~ truyền thông) 
+model ( ~ view separation)                     = mô hình (sự tách biệt ~ khung nhìn) 
+architecture, context, domain ~ ~              = kiến trúc, ngữ cảnh, miền
+Constructive Cost ~                            = COCOMO ~ chi phí có cấu trúc
+conceptual, business, iconic, logic ~ ~        = khái niệm, lôgic, biểu tượng,nghiệp vụ
+estimation, relational, user ~ ~               = ước lượng, quan hệ, người dùng
+hierarchical, network, broadcast ~ ~           = phân cấp, mạng, quảng bá
+physical, entity relationship ~                = ERM ~ vật lý, thực thể mối quan hệ
+prototyping, spiral, waterfall, normative ~ ~  = làm mẫu, xoắn ốc, thác nước, chuẩn 
+static/dynamic single/mullti variable ~ ~      = đơn/đa biến tĩnh/động
+driven architecture                            = MDA kiến trúc điều khiển bởi ~ 
+driven development                             = MDD phát triển điều khiển bởi ~ mô hình hoá (~ nghiệp vụ, tiến trình) 
+modify (modification) (module ~)               = sự sửa đổi, cải biên (~ mođun) 
+modularity (modulability)                      = môđun hóa (tính ~ được) 
+modulation demodulation                        = MODEM modem 
+module (afferent, dispatch, efferent, leaf ~)  = mô đun (~ vào, gửi, ra, lá) 
+monitor                                        = bộ điều phối, màn hình 
+ing system                                     = hệ thống giám sát 
+moving picture experts group                   = MPEG chuẩn nén, giải và đồng bộ tín hiệu video
+mouse                                          = chuột 
+multiagent systems engineering                 = MaSE kỹ nghệ hệ thống đa agent 
+multimedia                                     = đa phương tiện 
+indexing & retrieval system                    = MIRS hệ thống chỉ mục và truy tìm ~ 
+multiple ( ~ classification, multitasking)     = đa (~ phân lớp, nhiệm), nhiều 
+inheritance, ~                                 = kế thừa 
+multiplexer                                    = bộ tập trung 
+multiplicity                                   = đa tử 
+name                                           = tên, tên gọi 
+narrative (processing ~)                       = lời thuật (~ xử lý) 
+nature/natural ( ~ language interaction)       = bản chất, tự nhiên (tương tác = ngôn ngữ~)
+net present value                              = NPV giá trị thuần hiện tại 
+network (backbone, neuron, task ~)             = mạng (~ xương sốn, nơron, nhiệm vụ) 
+artifical neural ~                             = ANN ~ mạng nơron nhân tạo 
+intergrated servicedigital ~                   = ISDN ~ dịch vụ số tích hợp 
+local area,wide area ~                         = LAN, WAN ~ nội bộ, diện rộng 
+metropolitan area ~                            = MAN ~ thành phố
+public switched telephone ~                    = PSTN ~ điện thoại chuyển mạch công cộng
+virtual private ~                              = VPN ~ cá nhân ảo
+interface cards                                = NIC card giao diện ~ 
+node                                           = nút, đỉnh 
+normal form (basic, Boyce -Codd ~)             = dạng chuẩn (~ cơ bản, BCNF ) 
+first, second, third, ourth, fifth ~ ~ (       = 1,2,3,4,5) 
+normalization ( ~ rules)                       = chuẩn hoá (các qui tắc ~) 
+notation                                       = ký pháp 
+note (payment ~) ghi                           = chú, phiếu (~ thanh toán, chi) 
+null value ( ~c ontrol)                        = giá trị rỗng (kiểm tra ~) 
+object (active, project, receiver ~)           = đối tượng (~ chủ động, dự án, nhận) 
+constraint language                            = OCL ngôn ngữ ràng buộc ~
+lifeline                                       = đường sống của ~ 
+management group                               = OMG nhóm quản lý các ~ 
+linking embedded                               = OLE ~ liên kết - nhúng 
+modeling technique                             = OMT kỹ thuật mô hình hoá ~ 
+oriented analysis                              = OOA phân tích hướng ~ 
+oriented design                                = OOD thiết kế hướng ~ 
+oriented database                              = OODB cơ sở dữ liệu hướng ~ 
+oriented prgrramming                           = OOP lập trình hướng ~ 
+process methodology                            = OPM phương pháp luận xử lý ~ 
+multi -agent system                            = OMAS hệ thống đa tác tử ~
+objective                                      = đối tượng, mục đích 
+observation                                    = quan sát 
+occurrence                                     = sự xẩy ra, xuất hiện 
+off -line                                      = gián tuyến 
+on -line                                       = trực tuyến 
+analytical processing                          = OLAP xử lý phân tích ~ 
+transition processing                          = OLTP xử lý giao dịch ~ 
+ontology                                       = bản thể học 
+open ( ~ systems interconnection               = OSI mở (kết nối bên trong các hệ thống ~) 
+OSI reference model                            = mô hình tham chiếu OSI 
+database connectivity                          = ODBC kết nối CSDL ~ 
+operating systems                              = OS hệ điều hành 
+network, real time ~                           = NOS, RTOS ~ mang, thời gian thực 
+operation (operability)                        = tác vụ, sự hoạt động (tính vận hành được) 
+operation and maintenance                      = vận hành và bảo trì 
+optimization (sub ~)                           = tối ưu hóa (~ bộ phận) 
+order                                          = lệnh (vận đơn), đơn hàng 
+organization (file, sequential, hashed ~)      = tổ chức (~ file, file tuần tự, file băm) 
+index ~ ~ file                                 = chỉ số
+orthogonal/ ~ity                               = trực giao (tính ~) 
+output                                         = cái ra, đầu ra 
+outsourcing                                    = thuê bao 
+over ( ~ loading, riding)                      = trên, vượt qua, khắp (quá tải, nạp chồng) 
+overlap                                        = gối lên, chồng lên, phần giao nhau 
+package (application software ~ )              = gói (~ phần mềm ứng dụng) 
+witching                                       = chuyển mạch ~
+packaged software                              = phần mềm đóng gói 
+page (home ~) trang (~                         = chủ) 
+paradigm                                       = khuôn cảnh 
+parallel ( ~ computing) song song (            = tính toán ~) 
+parameter (formal, actual ~ )                  = tham số (~ hình thức, thực) 
+parameterized element                          = phần tử được tham số hoá
+parser                                         = bộ phân tích cú pháp 
+partition ( ~schema, horisontal,vertical,~ )   = phân đoạn(hoạch)(sơ đồ~, ~ngang, dọc) 
+password                                       = mật hiệu, mật khẩu 
+path (message ~)                               = đường ( ~ dẫn, thông báo) 
+pattern (Polymorphism, Pure Fabrication ~      = mẫu thiết kế (~ đa hình, giả thuần tuý) 
+Inderection,                                   = Don’t Talk to Strangers ~) ~ gián tiếp, không nói vơí kẻ xa lạ
+oriented analysis&design                       = POAD phân tích thiết kế hướng ~
+perception (system ~)                          = sự cảm nhận (~ hệ thống ) 
+peripheral ( ~ device)                         = ngoại vi (thiết bị ~) 
+persistent ( ~ object)                         = lâu bền/ tồn tại = lâu (đối tượng ~) 
+personal digital assistant                     = PDA bộ (máy) trợ giúp số cá nhân
+personal home page                             = PHP trang chủ cá nhân 
+petri net model                                = mô hình lưới Petri 
+phase pha, giai                                = đoạn 
+picture                                        = bức hoạ/tranh,vẻđẹp,cảnhngộ (vẽ,hìnhdung)
+plan (baseline project ~)                      = kế hoạch (~ dự án cơ sở) 
+plant                                          = thết bị, hệ thống (bị điểu khiển, giám sát) 
+plasma displey panel                           = PDP kênh hiện plasma 
+platform software                              = phần mềm nền 
+point (feature, functional ~                   = FP) điểm ( ~ đặc trưng, chức năng) 
+pointer                                        = con trỏ
+polygon                                        = đa giác 
+polymorphism                                   = đa hình ( mẫu ~) 
+pool (memory ~)                                = vũng, ao, vốn góp, vùng (~ nhớ) 
+portability                                    = tính khả chuyển 
+preemptive ( ~ kernel)                         = ưu tiên trước (nhân ~) 
+prelimilary (study)                            = sơ bộ (nghiên cứu ~) 
+present/ation                                  = hiện diện, hiện thời, trình, giới thiệu,đưa ra
+presentation (multimedia, remote ~)            = sự trình diễn (~ đa phương tiện, từ xa) 
+prevention (fault ~)                           = ngăn ngừa, đề phòng (~ lỗi) 
+principle                                      = nguyên tắc 
+print/Error (line, laser ~ ) in,               = máy in (~ dòng, laze) 
+ed circuit board                               = PCB bảng mạch ~ 
+priority (testing ~)                           = sự ưu tiên (~ kiểm thử) 
+private ( ~variable)                           = riêng tư (biến cục bộ) 
+problem                                        = vấn đề, bài toán 
+statement analyser                             = PSA bộ phân tích phát biểu ~
+statement language                             = PSL ngôn ngữ phát biểu ~ 
+Product Data Markup Language                   = PDML ngôn ngữ đánh dấu dữ liệu sản phẩm 
+procedure (non, encryption ~)                  = thủ tục (phi ~, ~ mã hoá ) 
+process (function ~)                           = tiến trình (~ chức năng), quá trình 
+processing (bath, on -line, distributed ~ )    = xử lý (~ theo lô, trực tuyến, phân tán)
+signal, real -time ~ ~                         = tín hiệu, thời gian thực 
+product                                        = sản phẩm 
+profile                                        = hồ sơ ( tóm tắt) 
+program evalution & review technique           = kỹ thuật đánh giá và xét duyệt chương trình PERT 
+project ( ~ dictionary, initiation             = &planning) dự án (từ điển, khởi tạo và lập kế hoạch ~) 
+projection                                     = hình chiếu, sự chiếu 
+property                                       = tính chất, thuộc tính 
+protect ( ~ property)                          = bảo hộ, = bảo vệ (thuộc tính được ~) 
+protocol (file transfer ~                      = FTP giao thức (~ truyền file) 
+gateway to gateway ~                           = GGP ~ cổng đến cổng 
+hypertext transfer ~                           = HTTP ~ truyền siêu văn bản 
+transmision control ~                          = TCP ~ điều khiển truyền dẫn
+simple objject access ~                        = SOAP ~ truy nhập đối tượng đơn giản 
+simple mail transfer ~                         = SMTP ~ truyền thư đơn giản 
+prototype (prototyping)                        = bản mẫu (làm ~) 
+proxy (device, remote)                         = ủy nhiệm (mẫu, thiết bị ~, mẫu ~ từ xa) 
+pseudocode/pseudostate                         = giả mã,giả trạng thái 
+qualifier                                      = sự phân định 
+quasiformal                                    = giả hình thức 
+questionnaire                                  = bảng hỏi (để điều tra) 
+range control                                  = kiểm tra giới hạn 
+rapid ( ~ analysis and design                  = RAD nhanh (phân tích và thiết kế ~)
+application development                        = RAD phát triển ứng dụng ~ 
+rate (discount ~)                              = tỷ lệ, = tỷ số (~ chiết khấu) 
+rational unified process                       = RUP 1tiến trình phát triển phần mềm hướng ĐT 
+real ( ~ world)                                = thực, = thực tiễn (thế giới ~) 
+real time                                      = thời gian thực 
+object oriented methodology                    = ROOM phương pháp luận hướng đối tượng ~ 
+operating system                               = RTOS hệ điều hành ~ 
+realibility                                    = độ tin cậy 
+realization                                    = sự thực hiện, thực thi 
+receive (receiver)                             = nhận (bộ, người ~) 
+reclamation                                    = sự khiếu lại, phục hồi, tái chế
+recognition (voice ~), recognize               = ghi nhận, = nhận dạng (~ tiếng nói) 
+record (physical ~)                            = bản ghi (~ vật lý) 
+management system                              = RMS hệ thống quản lý ~ 
+partitioning                                   = phân đoạn ~ 
+recover                                        = bù lại, phục hồi, giành lại, lấy lại, tỉnh lại 
+recursion ( ~ operation, method)               = đệ qui (phép toán, phương pháp ~) 
+red ( ~ green blue                             = RGB) đỏ (xanh lá cây, xanh sẫm – da trời)
+reduce ( ~d instuction set computer            = RISC rút gọn (máy tính với tập lệnh ~) 
+redundancy (non redundancy)                    = dư thừa (không = dư thừa) 
+reengineering                                  = tái kỹ nghệ
+referential integrity rules                    = quy tắc toàn vẹn tham chiếu 
+refine/ment (                                  = sự) làm mịn 
+relation schema                                = lược đồ quan hệ
+relation (well structured ~)                   = hệ ( ~ có cấu trúc tốt) 
+relational data model                          = quan mô hình dữ liệu quan hệ
+relationship (exclusive, binary ~)             = mối quan hệ (~ loại trừ, bậc 2) 
+recursive, ternary ~ ~                         = đệ quy, bậc3 
+release                                        = giải phóng, thả ra, rỗi, xong 
+time (of job)                                  = thời điểm có thể bắt đầu (công việc) 
+reliability                                    = sự (tính) tin cậy, độ tin cậy được 
+remote ( ~ data management)                    = từ xa (quản lý dữ liệu ~) 
+presentation, procedure call                   = RPC trình diễn, gọi thủ tục ~ 
+proxy)                                         = mẫu ủy nhiệm ~ 
+repeating group                                = nhóm lặp 
+replicated data distribution                   = phân tán dữ liệu sao lặp 
+replication (data ~) sao                       = lặp (~ dữ liệu) 
+repository                                     = kho dữ liệu của CASE 
+reqirements (system, non/functional ~)         = yêu cầu (~ hệ thống, phi/chức năng ) 
+gathering ~ thu                                = thập ~ 
+validation                                     = thẩm định ~ 
+request ( ~ for proposal                       = RFP yêu cầu (~ đề xuất) 
+resolution                                     = độ phân giải, nghị quyết 
+resource (human ~)                             = tài nguyên (~ con người) 
+respond (system ~ time) (                      = sự) đáp ứng (thời gian ~ hệ thống) 
+responsibility                                 = trách nhiệm 
+return ( ~ around documentation)               = trả lại, hoàn lại (tài liệu quay vòng) 
+on investment                                  = ROI hệ số hoàn vốn (tỷ suất lợi nhuận) 
+reuse (reusable, reusability)                  = dùng lại (có thể, tính ~ được) 
+review ((in)formal technical ~)                = rà soát (~ kĩ thuật (o)chính thức) 
+risk ( ~ driven, management)                   = rủi ro (điều khiển, quản lý ~) 
+role                                           = vai trò 
+role/interaction/communicative action          = vai trò -tương tác và hoạt động
+RICA                                           = truyền thông
+rough ( ~ merge)                               = thô (gộp ~) 
+router/routing                                 = bộ định tuyến/ định tuyến
+routine (search ~)                             = thủ tục, qui trình (~tìm kiếm) 
+interup service ~                              = ISR trình dịch vụ ngắt 
+rule (business, deletion,authorization ~)      = quy tắc (~ nghiệp vụ, xóa, xác nhân), luật 
+safety (data, software ~)                      = an toàn ( ~ dữ liệu, phần mềm)
+scale                                          = mặt chia độ, tỷ lệ, quy mô, vảy, cặn, 
+scalable vector graphics                       = SVG đồ thị vectơ thay đổi được quy mô 
+scenario                                       = kịch bản 
+scene                                          = tập các lần quay (short)có cùng ngữ nghĩa 
+schedule (scheduling)                          = lịch trình, = lịch biểu, lập = lịch 
+schema (structural ~)                          = sơ đồ (~ cấu trúc) 
+scope                                          = phạm vi 
+script (javascript,                            = ..) ngôn ngữ lập trình kịch bản 
+search (binary ~ )                             = tìm kiếm (~ nhị phân), khám, lục soát 
+security                                       = bảo mật 
+semantic                                       = ngữ nghĩa 
+semaphore                                      = cờ báo hiệu, đánh cờ hiệu 
+sender                                         = đối tượng gửi 
+sensitive ( ~ ity analysis)                    = nhạy cảm (phân tích ~) 
+sensor (                                       = bộ) cảm biến 
+sequence ( ~ diagram)                          = tuần tự (biểu đồ ~) 
+server (service/serviceability)                = máy dịch vụ (dịch vụ) (tính phụ vụ được) 
+application, printer, web, database ~ ~        = ứng dụng, in, web, CSDL 
+shareable content object                       = SCO đối tượng nội dung chia sẻ được 
+shareable content object reference model       = mô hình tham chiếu đối tượng nội dung 
+SCORM                                          = chia sẻ được
+short ( ~age)                                  = ngắn, cụt, lùn, thiếu, thiển cận (sự thiếu) 
+message service                                = SMS dịch vụ tin ngắn 
+shot                                           = các khung ảnh được ghi trong1lần bấm máy 
+signal                                         = tín hiệu 
+signature                                      = chữ ký, tên hàm 
+simple object access protocol                  = SOAP giao thức truy nhập đối tượng đơn giản 
+simulation                                     = mô phỏng 
+singleton                                      = mẫu duy nhất 
+size                                           = kích cỡ
+skill (analytical, technical, management ~)    = kỹ năng (~ phân tích, = kỹ thuật, quản lý)
+slack ( ~ time)                                = uể oải, chùng, xả hơi, rỗi (thời gian ~) 
+smart ( ~ card)                                = thông minh (thẻ ~) 
+snapshot (phím Print Screen                    = PrtScr) bản chụp, ảnh chụp (in màn hình hiện tại) 
+software (embedded, network, system ~)         = phần mềm (~ nhúng, mạng, hệ thống) 
+configuration management                       = SCM quản lý cấu hình ~ 
+engineering                                    = SE kỹ nghệ ~ 
+quality assurance                              = SQA đảm bảo chất lượng ~ 
+requirements enginerring method                = phương pháp kỹ nghệ yêu cầu ~ 
+requirements specification                     = đặc tả yêu cầu ~
+process improvement capability -               = xác định khả năng hoàn thiện- 
+dEtermination                                  = SPICE tiến trình ~ 
+solution                                       = giải pháp 
+source code                                    = mã nguồn 
+space (name, problem, solution ~)              = không gian (~ tên, vấn đề, giải pháp) 
+specification ( software reqirements ~)        = sự đặc tả (~ yêu cầu phần mềm) 
+control, formal, system ~ ~                    = điều khiển, hình thức, hệ thống 
+specify                                        = đặc tả
+spoilage                                       = hỏng hóc 
+spy /spyware                                   = điệp viên / phần mềm gián điệp 
+stage                                          = giai đoạn 
+stakeholder                                    = nguời (có lợi ích) liên đới 
+standard/s                                     = chuẩn ( ~ mực, các~) 
+state (action, composite, system ~)            = trạng thái (~ hành động, cấu thành, HT) 
+ready, dormant, standby ~ ~                    = sẵn sàng, nằm yên/ 0hoạt động, chờ 
+machine, transition diagrams/table             = máy, biểu đồ/bảng chuyển ~ 
+status information                             = thông tin trạng thái 
+step                                           = một bước 
+stepwise elaboration ( ~ refinement)           = soạn thảo (làm mịn) từng bước 
+stereotype                                     = khuôn mẫu, rập khuôn 
+stimulate (stimulus)                           = kích thích, khơi dậy, làm cho h.động (sự ~) 
+storage (primary, secondary ~                  = ; out/in ~ ) bộ nhớ (~ chính, phụ) = ;(phiếunhập/xuất kho) 
+store (data ~ data warehouses)                 = kho (~ dữ liệu), lưu trữ 
+strategy (design, software testing ~ )         = chiến lược (~thiết kế, kiểm thử FM, mẫu~ ) 
+string                                         = xâu ký tự 
+structure (data, program ~)                    = cấu trúc (~ dữ liệu, chương trình) 
+structured analysis designe technique          = SADT có cấu trúc (kỹ thuật phân tích ~) 
+english, query language                        = SQL tiếng anh, ngôn ngữ hỏi ~ 
+stub                                           = cuống, phần còn lại (trong kt kiểm thử) 
+study documents and procedures                 = nghiên cứu tài liệu và thủ tục 
+style (interaction, ~sheet)                    = kiểu, cách ( ~ tương tác, bảng = kiểu) 
+subclass                                       = lớp con 
+subordinate ( ~ module)                        = hạ(thuộc) cấp (môđun ~) 
+subprogram (subroutine)                        = chương trình con 
+substate                                       = trạng thái con 
+subtype (entity)                               = thực thể con 
+suite                                          = bộ (đồ), dãy (phòng), đoàn tùy tùng 
+surrounding                                    = bao quanh, ngoại vi, phụ cận 
+superordinate ( ~ module)                      = thượng cấp (môđun ~) 
+supertype                                      = thực thể chính 
+supplementary                                  = phụ trợ, bù thềm 
+supplier                                       = đối tượng (nhà) cung cấp
+support (decision ~ system                     = DSS trợ giúp (hệ ~ quyết định) 
+symbol (logical ~)                             = biểu tượng (~ logic) 
+synchronous (asynchronous)                     = đồng bộ (không ~) 
+synergy (                                      = tính) hiệp lực, đồng vận 
+synonym                                        = đồng nghĩa (cùng nghĩa) 
+syntax                                         = cú pháp 
+system (adaptive,constraints, distributed ~)   = hệ thống(~ thích nghi, ràng buộc, phân tán) 
+computer -based ~                              = CBS ~ dựa trên máy tính 
+embeded, information, legacy ~ ~               = nhúng, thông tin, lạc hậu -cũ 
+formal, informal, monitoring ~ ~               = hình thức,o = hình thức, giám sát 
+dynamic, static, real time ~ ~                 = động, tĩnh, thời gian thực 
+network operating/manag ~                      = NOS/NMS ~ điều hành mạng/quản lý mạng 
+transaction centered ~ ~ giao                  = dịch tập trung 
+transform centered ~ ~                         = chuyển đổi tập trung 
+context diagram                                = SCD biểu đồ ngữ cảnh ~ 
+perception, study                              = sự cảm nhận, nghiên cứu ~ 
+development methodology                        = SDM phương pháp luận phát triển ~ 
+description language                           = SDL ngôn ngữ mô tả ~ 
+development life cycle                         = SDLC vòng đời phát triển ~ 
+service request                                = SSR bảng yêu cầu dịch vụ ~ 
+swap (swop)                                    = đổi, trao = đổi 
+swimlane                                       = đường bơi, dải 
+switch/ing (circuit, package ~)                = đổi hướng, chuyển mạch (~ tuyến, gói) 
+table (relation)                               = bảng (quan hệ) 
+tag (value ~)                                  = thẻ (giá trị ~) 
+tangible /intangible ( ~ benefit, cost)        = hữu hình /vô hình (lợi ích, chi phí ~) 
+target ( ~ environment, machine)               = đích (môi trường, máy ~) 
+task ( ~ group, control block                  = TCB nhiệm vụ, công việc, tác vụ (đội đặc nhiệm, khối kiểm soát ~) 
+taxomony                                       = sự phân loại, phép phân loại 
+team (development ~)                           = đội (~ phát triển) 
+technique (software testing ~ )                = kĩ thuật ( ~ kiểm thử phần mềm) 
+fourth generation ~                            = 4GT ~ thế hệ thức4 
+technology ( ~ infrastructure, embedded ~)     = công nghệ (hạ tầng ~, ~ nhúng) 
+template                                       = tiêu bản, bản làm mẫu 
+term (long, short, technical ~)                = tầm, thời hạn (dài, ngắn), thuật ngữ ~ kỹ thuật 
+terminal                                       = thiết bị đầu cuối 
+test ( ~ plan and procedure)                   = kiểm thử (bản kế hoạch và thủ tục ~) 
+testing (acceptance,alpha, beta,black box)     = kiểm thử( ~ chấp nhận, anpha, beta,hộpđen)
+integration, performance, recovery ~ ~         = tích hợp, hiệu năng, phục hồi 
+regression, sensitive, stress, ~ ~             = hồi quy, nhạy cảm, áp lực,
+system, unit,validation, white box ~ ~         = hệ thống, đơn vị, thẩm định, hộp trắng
+testability                                    = tính kiểm thử được 
+thread                                         = chuỗi 
+threat                                         = sự đe doạ
+time stamp                                     = đóng dấu (dấu ấn, nhãn) thời gian 
+timeline chart (                               = Gantt chart) biểu đồ lịch thời gian 
+time -out                                      = thời gian chết 
+timing                                         = định thời gian 
+constraint ~, ~ mark                           = ràng buộc, mốc ~ 
+tolerance (fault ~)                            = thứ, bỏ qua (~ lỗi) 
+tool (toolset, tolkit)( proof checking ~)      = công cụ (bộ~)( ~ kiểm tra chứng minh) 
+top – level structure schema                   = sơ đồ cấu trúc mức đỉnh 
+topic                                          = chủ đề
+topology (bus, ring, star, mixed ~)            = hình trạng mạng (~ tuyến, vòng, sao, h.hợp)
+total quality management                       = TQM quản lý chất lượng tổng thể
+touch screen                                   = màn hình cảm ứng 
+tracball                                       = bóng xoay 
+trace (traceablility)                          = vết, lần = vết (tính lần = vết được) 
+trade -off                                     = trả giá, được mất 
+transaction ( ~ map, analysis)                 = giao dịch (bản đồ, phân tích ~) 
+processing system                              = TPS hệ xử lý ~ 
+transient ( ~ object)                          = tạm thời (đối tượng ~) 
+transition                                     = sự chuyển tiếp, chuyển dịch 
+transmission (a/synchrronous ~)                = truyền ( ~ di/đồng bộ) 
+transparency (location ~)                      = sự trong suốt (~ địa phương) 
+treatment                                      = xử sự, cư sử, xử lý, điều trị
+trigger ( ~ing operation )                     = cái nẫy, bẩy, kích hoạt (hoạt động ~) 
+type (data, enumeration, primitive, string ~   = kiểu (~ dữ liệu, liệt kê, nguyên thuỷ, xâu, 
+strong, weak ~ ~                               = mạnh, yếu 
+checking                                       = kiểm tra ~ 
+typeless                                       = phi kiểu 
+typical course of events                       = luồng sự kiện tiêu biểu 
+unified modeling langage                       = UML ngôn ngữ mô hình hóa thống nhất 
+unified process language                       = UPL ngôn ngữ xử lý thống nhất 
+unit (protocol data , organizational ~         = PDU) đơn vị (~ dữ liệu của giao thức, tổ chức) 
+linguistic modular ~ ~                         = mô đun ngôn ngữ
+central processing ~                           = CPU ~ xử lý trung tâm 
+micro processing ~                             = MPU ~ vi xử lý 
+United Natonal University                      = UNU Trường đại học Liên hợp quốc (Macao) 
+universal                                      = chung, phổ biến, toàn bộ 
+description discovery and intergration         = phát hiện và tích hợp mô tả dữ liệu ~ UDDI
+resource identifier                            = URI tên/định danh nguồn dữ liệu ~
+resource locator                               = URL nơi/ chỗ của nguồn dữ liệu ~
+serial bus                                     = USB tuyến (cổng) nối tiếp ~ 
+update (insert, modify, delete)                = cập nhật (thêm, sửa, xóa) 
+usability (usage)                              = tính khả dụng (sự sử dụng) 
+use case ( ~ driven)                           = ca sử dụng (được điều khiển bằng ~) 
+valid (invalid)                                = hợp lệ (sai, không = hợp lệ) 
+validation (requirements ~)                    = thẩm định (~ yêu cầu) 
+value (default, present, adjustment ~          = giá trị (~ ngầm định, hiện tại, điều chỉnh) 
+tagged, expected, complexity ~ ~               = thẻ, kỳ vọng, độ phức tạp
+variable (estimation ~)(variability)           = biến (~ ước lượng)(độ = biến thiên) 
+variant                                        = biến thể (của một phiên bản) 
+vector (sequential ~)                          = vec tơ (~ tuần tự) 
+verification                                   = xác minh, kiểm chứng (so với cái gì) 
+version                                        = phiên bản 
+vertical /horizontal ( ~ partitioning)         = dọc /ngang (phân đoạn ~) 
+view (concurrency, design, dynamic, ~ )        = khung nhìn (~ tương tranh, thiết kế, động ) 
+deployment, implementation, process ~ ~        = bố trí, triển khai, tiến trình 
+resource, static, use case ~ ~                 = tài nguyên, tĩnh, ca sử dụng 
+viewpoint                                      = quan điểm, điểm nhìn 
+virtual ( ~ image, memory, function)           = ảo (hình ảnh, bộ nhớ, hàm ~) 
+local area network                             = VLAN mạng nội bộ ~ 
+private network                                = VPN mạng riêng ~ 
+visual (visibility) (                          = sự, tính) trực quan, nhìn thấy được 
+vocabulary                                     = từ vựng 
+voice                                          = thiết bị âm thanh 
+warehouses                                     = kho dữ liệu 
+warning                                        = cảnh báo 
+web based training                             = WBL đào tạo dựa trên web 
+web service description language               = WSDL ngôn ngữ mô tả dịch vụ web 
+web widget                                     = đối tượng có thể nhúng vào trang web 
+weight (link ~)                                = trọng số (~ liên kết), sức nặng 
+width                                          = độ rộng 
+wireless ( ~ application protocol              = WAP không dây (giao thức ứng dụng ~)
+markup language                                = WML ngôn ngữ đánh dấu ~ 
+work breakdown structure                       = WBS Bảng phân rã (chia nhỏ) công việc 
+workbench                                      = bàn thợ (công cụ CASE) 
+workflow                                       = luồng công việc 
+workstation                                    = máy trạm 
+workthroughs                                   = xem xét, duyệt lại toàn bộ
+world wide web                                 = WWW hệ các trang siêu văn bản trên internet 
+world wide web consortium                      = 3W

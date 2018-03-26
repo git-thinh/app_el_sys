@@ -1,0 +1,90 @@
+Đại từ quan hệ trong tiếng Anh
+       
+A. Đại từ quan hệ trong tiếng Anh
+Đại từ quan hệ (relative pronouns) có 3 chức năng ngữ pháp chính trong một câu:
+
+Thay cho một danh từ ngay trước nó,
+
+làm một nhiệm vụ trong mệnh đề (clause) theo sau,
+
+liên kết mệnh đề với nhau.
+
+Đại từ quan hệ có hình thức không thay đổi dù thay cho một danh từ số ít hay số nhiều. Động từ theo sau thay đổi tùy theo tiền tiến từ của đại từ quan hệ.
+
+Mệnh đề có chứa đại từ quan hệ được gọi là mệnh đề quan hệ (relative clause) hay mệnh đề tính ngữ (adjective clause). Danh từ được đại từ quan hệ thay thế gọi là tiền tiến từ (antecedent) của nó.
+
+
+ 
+Có 5 đại từ quan hệ chính với chức năng ngữ pháp như trong bảng kê sau:
+
+Đại từ quan hệ	Thay thế cho loại danh từ	Nhiệm vụ trong câu
+Who	Chỉ người	Chủ từ
+Whom	Chỉ người	Túc từ
+Which	Chỉ vật	Chủ từ hay túc từ
+That	Chỉ người hay chỉ vật	Chủ từ hay túc từ
+Whose	Chỉ người	Chỉ quyền sở hữu
+Ví dụ:
+
+ 
+- Do you know the boy who has broken that chair?
+- The man whom you want to meet is not here.
+- The dog which was lost has been found.
+B. Đại từ quan hệ THAT trong tiếng Anh
+Đại từ quan hệ THAT bắt buộc sử dụng trong các trường hợp sau:
+
+Đại từ quan hệ THAT được sử dụng sau những tính từ ở dạng so sánh cực cấp (superlative).
+
+ 
+- Yesterday was one of the coldest days that I have ever known.
+Đại từ quan hệ THAT được sử dụng sau những cách nói mở đầu bằng "It is/was..."
+
+ 
+- It is the teacher that is important, not the kind of school he teaches in.
+Đại từ quan hệ THAT được sử dụng sau những tiền tiến từ (antecedent) vừa là người, vừa là vật.
+
+ 
+- He talked brilliantly of the men and the books that interested him.
+C. Đại từ quan hệ WHOSE trong tiếng Anh
+Đại từ quan hệ WHOSE được sử dụng để thay cho một danh từ chỉ người đứng trước, chỉ quyền sở hữu đối với danh từ theo sau nó. Giữa WHOSE và danh từ theo sau không có mạo từ (article). Đôi khi WHOSE cũng được dùng thay cho danh từ chỉ vật ở trước. Trong các trường hợp khác người ta dùng OF WHICH.
+
+Ví dụ:
+
+ 
+- The man whose car was stolen yesterday is my uncle.
+- He came in a car the windows of which was broken.
+D. Mệnh đề xác định & Mệnh đề không xác định
+
+ 
+Đại từ quan hệ (relative pronouns) có thể được dùng trong những mệnh đề xác định (defining clause) hay những mệnh đề không xác định (non-defining clause). Ở một số tài liệu khác người ta còn gọi là mệnh đề hạn chế (restrictive clause) hay mệnh đề không hạn chế (non-restrictive clause).
+
+Mệnh đề xác định là những mệnh đề giúp làm rõ nghĩa tiền tiến từ. Không có mệnh đề này ta không hiểu rõ nghĩa mệnh đề còn lại.
+
+Ví dụ:
+
+
+ 
+ 
+- The man whom you met yesterday is a dentist.
+Không có mệnh đề whom you met yesterday ta không rõ the man đó là ai.
+
+Mệnh đề không xác định là mệnh đề không làm rõ nghĩa tiền tiến từ. Không có nó thì mệnh đề còn lại vẫn rõ nghĩa.
+
+ 
+- My father, whom you met yesterday, is a dentist.
+Không có mệnh đề whom you met yesterday người ta vẫn hiểu rõ mệnh đề còn lại.
+
+Nhờ có tính chất xác định và không xác định này mà ta có thể hiểu rõ nghĩa các câu sau:
+
+ 
+(a) All the books, which had pictures in them, were sent to Daisy.
+(b) All the books which had pictures in them were sent to Daisy.
+Ở câu (a) người ta gửi tất cả sách cho Daisy, và trong sách ấy có hình.
+
+Ở câu (b) người ta chỉ gửi cho Daisy những quyển sách có hình, những quyển khác không có hình và không được gửi cho Daisy.
+
+E. Trường hợp bỏ đại từ quan hệ
+Đại từ quan hệ có thể được hiểu ngầm nếu đó là túc từ trong loại mệnh đề xác định (defining clause).
+
+ 
+- The book (that) I want is on the table.
+- There's something (that) you don't know.

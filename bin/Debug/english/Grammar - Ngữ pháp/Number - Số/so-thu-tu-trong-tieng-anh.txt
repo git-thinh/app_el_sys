@@ -1,0 +1,38 @@
+Số thứ tự trong tiếng Anh
+       
+A. Số thứ tự trong tiếng Anh
+Số thứ tự (ordinal numbers) là số để chỉ thứ tự của một người, một vật hay một sự việc trong một chuỗi những người, vật hay sự việc.
+
+Số thứ tự hình thành căn bản dựa trên số đếm với một số nguyên tắc:
+
+first (thứ nhất), second (thứ hai), third (thứ ba) tương ứng với các số đếm 1, 2, 3.
+
+Các số đếm tận cùng bằng ty đổi thành tieth:
+
+ 
+twenty    -->  twentieth
+five đổi thành fifth; twelve đổi thành twelfth.
+
+Số thứ tự từ 21 trở đi thì chỉ có số đơn vị thay đổi.
+
+ 
+forty-six    -->  forty-sixth;
+eighty-one   -->  eighty-first
+Với các số còn lại, ta thêm th vào số đếm để chuyển sang thành số thứ tự tương ứng.
+
+ 
+ten    -->  tenth
+nine    -->  ninth
+Bảng dưới đây liệt kê cách viết 31 số thứ tự đầu tiên, các số thứ tự sau được viết theo qui tắc tương tự. Bạn cũng có thể sử dụng 31 số thứ tự này trong cách viết ngày tháng trong tiếng Anh.
+
+1st	First	2nd	Second	3rd	Third
+4th	Fourth	5th	Fifth	6th	Sixth
+7th	Seventh	8th	Eighth	9th	Ninth
+10th	Tenth	11th	Eleventh	12th	Twelfth
+13th	Thirteenth	14th	Fourteenth	15th	Fifteenth
+16th	Sixteenth	17th	Seventeenth	18th	Eighteenth
+19th	Nineteenth	20th	Twentieth	21st	Twenty-first
+22nd	Twenty-second	23rd	Twenty-third	24th	Twenty-fourth
+25th	Twenty-fifth	26th	Twenty-sixth	27th	Twenty-seventh
+28th	Twenty-eighth	29th	Twenty-ninth	30th	Thirtieth
+31st	Thirty-first

@@ -1,0 +1,202 @@
+Mệnh đề quan hệ trong tiếng Anh
+       
+A. Mệnh đề quan hệ trong tiếng Anh
+Relative Clause là mệnh đề quan hệ.
+
+Mệnh đề (Clause) là một phần của câu, nó có thể bao gồm nhiều từ hay có cấu trúc của cả một câu.
+
+Chúng ta đã biết tính từ là từ thường được dùng để bổ sung thêm tính chất cho một danh từ nào đó trong câu. Nhưng thường khi để giải thích rõ hơn về danh từ này ta không thể chỉ dùng một từ mà phải là cả một mệnh đề. Mệnh đề liên hệ được dùng trong những trường hợp như vậy. Vậy có thể nói mệnh đề liên hệ dùng để bảo chúng ta rõ hơn về một đối tượng mà người nói muốn nói tới.
+
+Ví dụ:
+
+ 
+- The man who is standing over there is my friend.
+Trong câu này, phần gạch chân được gọi là một Mệnh đề quan hệ (Relative Clause), nó đứng sau the man và dùng để xác định danh từ the man đó.
+
+Nếu bỏ mệnh đề này ra chúng ta vẫn có một câu hoàn chỉnh: The man is my friend. Nhưng câu này không cho chúng ta biết cụ thể the man nào.
+
+Trong câu có mệnh đề liên hệ: The man who is standing over there is my friend (Người đàn ông mà đang đứng ở đằng kia là bạn tôi.) Mệnh đề liên hệ xác định cụ thể the man nào, đó là the man who is standing over there.
+
+Nhìn vào mệnh đề liên hệ ta thấy có mặt từ who, nhưng who ở đây không phải là một từ hỏi mà nó đóng vai trò một đại từ quan hệ. Tất cả các từ hỏi Wh đều có thể được dùng làm đại từ quan hệ với các nghĩa như sau:
+
+ 
+Who     : người, người mà
+What    : điều, điều mà
+Which   : cái mà
+Whose   : của 
+When    : khi
+Whom    : người mà
+...
+B. Mệnh đề quan hệ Who
+Chúng ta dùng who trong mệnh đề quan hệ khi nói về người.
+
+Ví dụ:
+
+ 
+- What's the name of the man who lent you the money?
+Tên người đàn ông cho anh mượn tiền là gì?
+
+- The girl who is singing is my lover.
+Cô gái đang hát là người yêu của tôi.
+
+- An architect is someone who designs buildings.
+Một kiến trúc sư là người mà thiết kế nhà cửa.
+Chúng ta cũng có thể thay who bằng that trong mệnh đề quan hệ.
+
+Ví dụ:
+
+ 
+- The man that is standing over there is my friend.
+C. Mệnh đề quan hệ That, Which
+Chúng ta dùng that khi muốn nói đến điều gì hoặc vật gì.
+
+Ví dụ:
+
+ 
+- I don't like stories that have an unhappy ending.
+Tôi không thích những câu chuyện có kết cục buồn thảm.
+
+- Everything that happened was my fault.
+Mọi điều xảy ra là do lỗi của tôi.
+
+- The window that was broken has now been repaired.
+Cái cửa sổ bị gãy bây giờ đã được sửa lại.
+Cũng có thể dùng which khi nói đến đồ vật.
+
+ 
+- The book which is on the table is mine.
+Quyển sách đang ở trên bàn là của tôi.
+Nhưng người ta thường dùng that hơn là which.
+
+Quan sát các câu trên ta thấy who/that đóng vai trò chủ từ trong mệnh đề quan hệ, trong trường hợp này ta không được phép lược bỏ who/that. Khi who/that đóng vai trò túc từ (object) trong mệnh đề quan hệ có thể lược bỏ who/that đi. Trong các ví dụ sau who/that đóng vai trò là túc từ (Object) trong mệnh đề quan hệ.
+
+ 
+- The man who I want to see wasn't here.
+--> The man I want to see wasn't here.
+Người đàn ông mà tôi muốn gặp không có ở đây.
+
+- Have you found the keys that you have lost?
+--> Have you found the keys you have lost?
+Anh đã tìm thấy chìa khóa anh bị mất không?
+
+- Is there anything I can do?
+Có gì tôi làm được không?
+D. Giới từ trong mệnh đề quan hệ
+Trong các mệnh đề quan hệ thường có các giới từ (in, at, to, with, ...). Bạn xem kỹ các ví dụ sau để biết cách đặt giới từ sao cho đúng:
+
+ 
+- The girl is my friend. You're talking to her.
+--> The girl who you are talking to is my friend.
+Cô gái mà anh đang trò chuyện với là bạn tôi.
+
+- The bed wasn't very comfortable. I slept in it last night.
+--> The bed that I slept in last night wasn't very comfortable.
+Cái giường mà tôi ngủ tối qua không được tiện nghi lắm.
+
+- The man I sat next to talked all the time.
+Người đàn ông mà tôi ngồi cạnh lúc nào cũng trò chuyện.
+
+- Are these books (that) you're looking for?
+Đây là những quyển sách mà anh đang tìm phải không?
+Như vậy giới từ luôn đi theo sau động từ mà nó bổ nghĩa.
+
+E. Mệnh đề quan hệ What
+Chúng ta dùng mệnh đề quan hệ What khi muốn nói với nghĩa điều mà.
+
+Ví dụ:
+
+ 
+- Did you hear what I said?
+Anh có nghe điều tôi nói không? = Anh nghe tôi nói gì không?
+
+- I don't understand what you say.
+Tôi không hiểu điều anh nói.
+
+- I won't tell anyone what happened.
+Tôi sẽ không bảo ai điều gì đã xảy ra đâu.
+F. Mệnh đề quan hệ Whose
+Khi muốn nói đến của ai ta dùng mệnh đề quan hệ whose.
+
+Ví dụ:
+
+ 
+- I have a friend. His father is a doctor.
+--> I have a friend whose father is a doctor.
+Tôi có một người bạn mà cha anh ta là bác sĩ.
+
+- What's the name of the girl whose car you borrowed?
+Tên cô gái mà anh mượn xe là gì?
+
+- The other day I met someone whose brother is my friend.
+Một ngày nọ tôi gặp một người mà anh hắn là bạn tôi.
+G. Mệnh đề quan hệ Whom
+Chúng ta có thể dùng whom thay cho who khi nó đóng vai trò túc từ (object) trong mệnh đề quan hệ.
+
+Ví dụ:
+
+ 
+- The man whom I want to see wasn't here.
+Ghi chú: Chú ý trong các mệnh đề liên hệ có giới từ, khi dùng who ta thường đặt giới từ lên trước who.
+
+ 
+- The girl to whom you're talking is my friend.
+Trong tiếng Anh ngày nay người ta ít khi dùng whom mà thường dùng who/that hoặc lược bỏ nó trong trường hợp là túc từ. Lưu ý khi dùng who/that, ta lại đặt giới từ đi theo sau động từ của nó.
+
+H. Mệnh đề quan hệ Where
+Chúng ta dùng where trong relative clause khi muốn nói đến nơi chốn.
+
+Ví dụ:
+
+ 
+- The hotel where we stayed wasn't very clean.
+Cái khách sạn mà chúng tôi ở lại không được sạch lắm.
+
+- I recently went back to the town where I was born.
+Gần đây tôi có trở lại thị trấn nơi tôi được sinh ra.
+
+- I like to live in a country where there is plenty of sunshine.
+Tôi thích sống trong một nước mà có nhiều ánh nắng.
+I. The day, the year, the time, ...
+Chúng ta sử dụng that trong mệnh đề quan hệ khi nói đến the day, the year, the time,...
+
+Ví dụ:
+
+ 
+- Do you still remember the day (that) we first met?
+Anh có còn nhớ cái ngày mà chúng ta gặp nhau lần đầu không?
+
+- The last time (that) I saw her, she looked very well.
+Lần vừa rồi tôi gặp cô ấy, cô ấy trông có vẻ khỏe lắm.
+
+- I haven't seen him since the year (that) he got married.
+Tôi không gặp anh ta kể từ cái năm mà anh ta lấy vợ.
+J. Mệnh đề bổ sung thêm thông tin
+Xét lại tất cả các ví dụ trên ta thấy các mệnh đề quan hệ luôn cho ta biết cụ thể người nào hay vật nào ta đang nói tới. Trong các câu này, nếu bỏ mệnh đề quan hệ đi ta không thể xác định được đang nói đến đối tượng nào. Nhưng không phải bao giờ mệnh đề quan hệ cũng như vậy.
+
+Ví dụ:
+
+ 
+- Tom's father, who is 78, is a doctor.
+Cha Tom, đã 78 tuổi, là một bác sĩ.
+Trong câu này, nếu bỏ mệnh đề quan hệ ta vẫn có thể xác định được cụ thể đối tượng đang được nói tới là đối tượng nào. Mệnh đề quan hệ ở đây chỉ làm công việc bổ sung thêm một thông tin về đối tượng đó mà thôi. Các mệnh đề quan hệ như thế này được gọi là các Extra Information Clause tức là các mệnh đề bổ sung thêm thông tin.
+
+Đối với các mệnh đề liên hệ kiểu này ta phải dùng Who cho người và Which cho vật. KHÔNG được dùng that thay cho Who và Which. Khi viết phải đặt dấu phẩy (,) ở hai đầu mệnh đề.
+
+ 
+- Yesterday I met John, who told me he was getting married.
+Hôm qua tôi gặp John, hắn bảo tôi hắn đã lấy vợ.
+
+- My brother, who is an engineer, never smokes.
+Anh tôi, là một kỹ sư, chẳng bao giờ hút thuốc.
+Dĩ nhiên với các mệnh đề này thì khi cần thiết ta cũng có thể dùng Whose, Whom, Where,...
+
+ 
+- John, whose mother is a teacher, speaks English very well.
+John, mẹ là giáo viên, nói tiếng Anh rất giỏi.
+
+- I love Vietnam, where I was born and live.
+Tôi yêu Việt Nam, nơi tôi sinh ra và sống.
+
+- Mary's sister, whom you met yesterday, is here.
+Chị của Mary, người mà anh gặp hôm qua, đang ở đây đấy.
+Chúng ta cũng dùng giới từ trong các mệnh đề này giống như đã dùng với các mệnh đề quan hệ bình thường.

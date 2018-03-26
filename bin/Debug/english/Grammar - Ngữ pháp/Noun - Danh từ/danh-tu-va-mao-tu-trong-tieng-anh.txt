@@ -1,0 +1,193 @@
+Danh từ và Mạo từ trong tiếng Anh
+       
+A. Định nghĩa và phân loại danh từ trong tiếng Anh
+Danh từ là gì ?
+
+Trong tiếng Anh danh từ gọi là Noun.
+
+Danh từ là từ để gọi tên một người, một vật, một sự việc, một tình trạng hay một cảm xúc.
+Phân loại Danh từ
+
+Danh từ có thể được chia thành hai loại chính:
+
+Danh từ cụ thể (concrete nouns): loại danh từ này có thể chia thành hai loại sau:
+
+Danh từ chung (common nouns): là danh từ dùng làm tên chung cho một loại.
+
+ 
+table    cái bàn
+man      người đàn ông
+wall     bức tường
+...
+Danh từ riêng (proper nouns): là tên riêng
+
+ 
+Marry
+VietJack
+England
+...
+Danh từ trừu tượng (abstract nouns)
+
+ 
+happiness    sự hạnh phúc
+beauty       vẻ đẹp
+health       sức khỏe
+...
+Danh từ đếm được và danh từ không đếm được
+
+Danh từ đếm được (Countable nouns): Một danh từ được xếp vào loại đếm được khi chúng ta có thể đếm trực tiếp người hay vật ấy. Phần lớn danh từ cụ thể đều thuộc vào loại đếm được.
+
+Ví dụ:
+
+ 
+boy        cậu bé
+apple      quả táo
+book       quyển sách 
+tree       cây
+...
+Danh từ không đếm được (Uncountable nouns): Một danh từ được xếp vào loại không đếm được khi chúng ta không đếm trực tiếp người hay vật ấy. Muốn đếm, ta phải thông qua một đơn vị đo lường thích hợp. Phần lớn danh từ trừu tượng đều thuộc vào loại không đếm được.
+
+Ví dụ:
+
+ 
+meat       thịt
+ink        mực 
+chalk      phấn 
+water      nước
+...
+B. Cách viết dạng số nhiều của Danh từ trong tiếng Anh
+Một được xem như là số ít (singular). Từ hai trở lên được xem là số nhiều (plural). Danh từ thay đổi theo số ít và số nhiều.
+
+Nguyên tắc đổi từ số ít sang số nhiều
+
+Thông thường, bạn thêm s vào sau danh từ số ít để chuyển sang dạng danh từ số nhiều.
+
+ 
+chair  -->   chairs
+dog    -->   dogs
+girl   -->   girls
+...
+Với các danh từ tận cùng bằng O, X, S, Z, CH, SH thì bạn thêm es vào sau danh từ số ít để chuyển sang dạng danh từ số nhiều.
+
+ 
+potato  -->   potatoes
+box     -->   boxes
+bus     -->   buses
+buzz    -->   buzzes
+watch   -->   watches
+dish    -->   dishes 
+Ngoại trừ một số trường hợp sau:
+
+1. Với các danh từ tận cùng bằng O nhưng có nguồn gốc không phải là tiếng Anh thì chỉ thêm s ở số nhiều.
+
+ 
+pianos, photos, dynamo, magnetos, kilos, mementos, solos
+2. Với các danh từ tận cùng bằng nguyên âm   O thì chỉ thêm s ở số nhiều.
+
+ 
+cuckoos, cameos, bamboos, curios, studios, radios
+Với các danh từ tận cùng bằng phụ âm   Y thì chuyển Y thành I và sau đó thêm ES ở dạng số nhiều.
+
+ 
+lady    -->   ladies 
+story   -->   stories
+Với các danh từ tận cùng bằng F hay FE thì chuyển thành VES ở số nhiều.
+
+ 
+leaf    -->   leaves
+knife   -->   knives
+Các trường hợp ngoại lệ:
+
+1. Với danh từ sau, bạn chỉ cần thêm s ở dạng số nhiều:
+
+ 
+roofs	: mái nhà		
+gulfs	: vịnh
+cliffs	: bờ đá dốc		
+reefs	: đá ngầm
+proofs	: bằng chứng		
+chiefs	: thủ lãnh
+turfs	: lớp đất mặt		
+safes	: tủ sắt
+dwarfs	: người lùn
+beliefs	: niềm tin
+2. Các danh từ sau có hai hình thức số nhiều:
+
+ 
+wharfs  hoặc  wharves: cầu tàu gỗ
+staffs  hoặc  staves	: cán bộ
+hoofs   hoặc  hooves	: móng guốc
+Cách phát âm với danh từ số nhiều tận cùng là S
+
+Được phát âm là /z/: khi đi sau các nguyên âm và các phụ âm tỏ (voiced consonants), cụ thể là các phụ âm sau: /b/, /d/, /g/, /v/, /ð/, /m/, /n/, /l/, /r/
+
+ 
+boys, lies, ways, pubs, words, pigs, loves, 
+bathes, rooms, turns, things, walls, cars
+Được phát âm là /s/: khi đi sau các phụ âm điếc (voiceless consonants), cụ thể là các phụ âm sau: /f/, /k/, /p/, /t/.
+
+ 
+laughs, walks, cups, cats, tenths
+Được phát âm là /iz/: khi đi sau một phụ âm rít (hissing consonants), cụ thể là các phụ âm sau: /z/, /s/, /dZ/, /tS/.
+
+ 
+refuses, passes, judges, churches, garages, wishes
+Trường hợp đặc biệt
+
+Các qui tắc chuyển từ danh từ số ít sang danh từ số nhiều trên thường áp dụng với đa số danh từ, tuy nhiên có một số danh từ không theo qui tắc trên:
+
+Danh từ có dạng số ít và số nhiều giống nhau
+
+ 
+deer	: con nai
+sheep	: con cừu
+swine	: con heo
+Một số danh từ có dạng số nhiều đặc biệt
+
+ 
+man – men        : đàn ông
+woman – women    : phụ nữ
+child – children : trẻ con
+tooth – teeth    : cái răng
+foot – feet      : bàn chân
+mouse – mice     : chuột nhắt
+goose – geese    : con ngỗng
+louse – lice     :con rận
+C. Mạo từ trong tiếng Anh
+
+ 
+Trong tiếng Việt ta vẫn thường nói như: cái nón, chiếc nón, trong tiếng Anh những từ có ý nghĩa tương tự như cái và chiếc đó gọi là Mạo từ (Article).
+
+Tiếng Anh có các mạo từ: the, a, an.
+
+Các danh từ thường có các mạo từ đi trước.
+
+Ví dụ:
+
+ 
+the hat    cái nón
+the house  cái nhà
+a boy      một cậu bé
+Mạo từ xác định và mạo từ bất định
+
+Mạo từ the gọi là mạo từ xác định (Definite Article). Mạo từ the đọc thành [ði] khi đứng trước một danh từ bắt đầu bằng một nguyên âm hay phụ âm câm (phụ âm h thường là một phụ âm câm như hour (giờ) không đọc là [hauơ] mà là [auơ]).
+
+ 
+the hat [ðơ hæt]
+nhưng 	
+the end [ði end]
+
+the house [ðơ haus]
+nhưng	
+the hour [ði auơ]
+Mạo từ a gọi là mạo từ không xác định hay bất định (Indefinite Article). Mạo từ a được đổi thành an khi đi trước một danh từ bắt đầu bằng một nguyên âm hay phụ âm câm.
+
+ 
+a hat (một cái nón)
+nhưng	
+an event (một sự kiện)
+
+a boy (một cậu bé)
+ nhưng	
+an hour (một giờ đồng hồ)
+Về cách sử dụng của ba mạo từ the, a, an chúng ta sẽ tìm hiểu kỹ hơn trong các chương sau.

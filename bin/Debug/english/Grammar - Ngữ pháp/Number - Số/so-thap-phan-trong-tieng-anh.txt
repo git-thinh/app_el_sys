@@ -1,0 +1,33 @@
+Số thập phân trong tiếng Anh
+       
+Đôi khi các bạn khá lúng túng trong việc đọc và viết các số thập phân trong tiếng Anh. Chương này mình sẽ hướng dẫn cho các bạn cách đọc viết các số thập phân trong tiếng Anh.
+
+A. Cách đọc Số thập phân trong tiếng Anh
+Trong tiếng Anh, để phân biệt hàng nghìn đơn vị một, người ta sử dụng dấu phảy (comma). Còn để phân biệt giữa phần nguyên và phần thập phân, người ta sử dụng dấu chấm (point).
+
+Ví dụ:
+
+ 
+123,456,789.0123
+
+ 
+Vậy cách đọc các số thập phân này như thế nào.
+
+Dấu chấm hay dấu thập phân đọc là Point.
+
+Sau dấu thập phân, chúng ta đọc từng số một
+
+Không cần đọc các dấu phảy
+
+Ví dụ:
+
+ 
+4.2 = four point two
+2,456.789 = two thousand, four hundred and fifty-six point seven eight nine
+...
+Với các số thập phân lớn, bạn vừa cần áp dụng cách đọc số thập phân ở trên, và vừa cần cách đọc các số đếm lớn hàng trăm (hundred), hàng nghìn (thousand), hàng triệu (million) và hàng tỉ (billion). Bạn tham khảo Số đếm trong tiếng Anh.
+
+Lưu ý: Cách đọc trên KHÔNG áp dụng khi đọc các số biểu diễn số lượng tiền: Dollar và Cent (hoặc Pound và Pence). Ví dụ: để đọc $32.97, bạn nên đọc là:
+
+ 
+$32.97 =  thirty-two dollars, ninety-seven (cents)

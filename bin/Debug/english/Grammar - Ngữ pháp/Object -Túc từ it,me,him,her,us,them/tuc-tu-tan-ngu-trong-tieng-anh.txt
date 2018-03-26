@@ -1,0 +1,48 @@
+Túc từ (Tân ngữ) trong tiếng Anh
+       
+A. Túc từ (Object) trong tiếng Anh
+Khi ta nói: I like you. thì:
+
+I là chủ từ, là người phát sinh ra hành động
+
+Like là động từ diễn tả hành động của chủ từ
+
+You là kẻ chịu tác động của hành động do chủ từ gây ra.
+
+Chữ you ở đây là một túc từ. Tiếng Anh gọi túc từ là Object.
+
+Vậy túc từ là từ chỉ đối tượng chịu tác động của một hành động nào đó.
+Đối với hầu hết các danh từ khi đứng ở vị trí túc từ không có gì thay đổi nhưng khi là các đại từ nhân xưng thì cần có biến thể.
+
+Ví dụ khi nói Tôi thích anh ta thì chúng ta không thể nói I like he. He ở đây là một túc từ vì vậy ta phải viết nó ở dạng túc từ.
+
+Các túc từ đó bao gồm:
+
+Đại từ (Subject)	Túc từ (Object)
+I	me
+You	you
+He	him
+She	her
+It	it
+We	us
+They	them
+Ví dụ:
+
+ 
+- I like him. 
+Tôi thích anh ta.
+
+- Mr. Smith teaches us. 
+Ông Smith dạy chúng tôi.
+B. Túc từ gián tiếp & túc từ trực tiếp trong tiếng Anh
+Khi sử dụng túc từ ta cũng cần phân biệt giữa túc từ trực tiếp (direct object) và túc từ gián tiếp (indirect object).
+Xét câu này: Tôi viết một bức thư cho mẹ tôi.
+
+Ở đây có đến hai đối tượng chịu tác động của hành động viết là bức thư và mẹ tôi. Trong trường hợp này bức thư là túc từ trực tiếp, mẹ tôi là túc từ gián tiếp. Thông thường các túc từ gián tiếp có to đi trước. Câu trên sẽ được viết trong tiếng Anh như sau:
+
+ 
+- I write a letter to my mother.
+Nói chung, khi túc từ gián tiếp không đi ngay sau động từ thì phải có to dẫn trước. Ngược lại không cần phải thêm to. Câu trên có thể viết theo cách khác như sau:
+
+ 
+- I write my mother a letter.

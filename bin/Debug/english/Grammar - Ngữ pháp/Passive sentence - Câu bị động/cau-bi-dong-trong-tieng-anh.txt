@@ -1,0 +1,112 @@
+Câu bị động trong tiếng Anh
+       
+A. Câu bị động (Passive Voice) trong tiếng Anh
+Passive Voice là thể bị động hay bị động cách.
+
+Tất cả các câu mà chúng ta đã viết trong các bài trước là ở thể chủ động (Active Voice). Trong thể chủ động chủ từ là kẻ phát sinh ra hành động, ở thể bị động chủ từ là kẻ chịu tác động của hành động đó, hành động này có thể do một đối tượng nào đó gây ra. Trong tiếng Việt ta dùng thể bị động bằng các từ được hoặc bị.
+
+Bạn xét các ví dụ sau:
+
+ 
+Thể chủ động:	
+- The teacher punishes the pupils. 
+Thầy giáo phạt các học sinh.
+
+Thể bị động 
+--> The pupils are punished.
+Các học sinh bị phạt.
+Thể bị động được thành lập theo cấu trúc:
+
+To be   Quá khứ phân từ
+
+ 
+Trong đó, động từ to be phải được chia phù hợp với chủ từ và thì của câu.
+
+Nếu chúng ta muốn nói rõ hơn đối tượng nào gây ra hành động, ta sử dụng giới từ by. Ví dụ:
+
+ 
+- The pupils are punished by teacher.
+Các học sinh bị phạt bởi thầy giáo.
+Sau các động từ như will, can, must,... và have to, be going to,... ta dùng to be ở dạng nguyên thể của nó.
+
+Ví dụ:
+
+ 
+- The new hotel will be opened next year.
+Khách sạn mới sẽ được mở vào năm tới.
+
+- The music at the party was very loud and could be heard from far away.
+Nhạc ở buổi tiệc mở rất lớn và có thể nghe từ xa.
+
+- This room is going to be painted next week.
+Căn phòng này sắp được sơn vào tuần tới.
+Bạn hãy nhớ rằng với thể bị động, thì của câu thường được xác định bởi động từ to be:
+
+B. Thể bị động trong các thì
+
+ 
+Bạn theo dõi cách hình thành thể bị động trong các thì qua các ví dụ sau:
+
+Thì hiện tại đơn
+
+ 
+- Somebody cleans this room.
+--> This room is cleaned.
+Thì hiện tại tiếp diễn
+
+ 
+- Somebody is cleaning this room.
+--> This room is being cleaned.
+Thì quá khứ đơn
+
+ 
+- Somebody cleaned this room.
+--> This room was cleaned.
+Thì hiện tại hoàn thành
+
+ 
+- Somebody has cleaned this room.
+--> This room has been cleaned.
+Thì tương lai đơn
+
+ 
+- Somebody will clean this room.
+--> This room will be cleaned.
+C. Sử dụng Get trong thể bị động
+Đôi khi người ta dùng động từ get thay cho be trong thể bị động.
+
+ 
+- This room gets cleaned often.
+Căn phòng này thường được lau.
+Dùng get trong thể bị động để nói điều gì xảy ra với ai hay với cái gì, thường thì hành động không được dự định trước mà xảy ra tình cờ, như:
+
+
+ 
+ 
+- The dog got run over by a car.
+Con chó bị một chiếc xe hơi cán phải.
+Nhưng không phải lúc nào cũng có thể thay be bằng get. Ví dụ:
+
+ 
+- George is liked by everyone. 
+George được thích bởi mọi người.
+(= Mọi người đều thích Goerge.)
+	
+Trong câu này ta không được thay be bằng get.
+D. Mẫu câu It is said that..., He is said to...
+Trong tiếng Anh người ta thường dùng thể bị động trong các trường hợp mà người Việt không hề dùng. Chúng ta xét ở đây hai mẫu đặc biệt của cách dùng này:
+
+It is said that có thể dịch là người ta nói rằng
+
+He is said to có thể dịch là người ta nói rằng anh ta
+
+Ví dụ:
+
+ 
+- It is said that you've just built a large house.
+--> You're said to have built a large house.
+Người ta nói anh mới vừa xây một căn nhà rộng lắm.
+
+- It is said that he's very old.
+--> He's said to be very old.
+Người ta nói ông ta già lắm rồi.

@@ -1,0 +1,147 @@
+Động từ trong tiếng Anh
+       
+A. Động từ được chia và không được chia
+1. Những hình thức nào của động từ có thể giúp hình thành một vị ngữ (predicate) thì gọi là hình thức được chia (finites).
+
+ 
+- He walked slowly in the yard.
+Các hình thức được chia của động từ đều nằm trong các thì (tense).
+
+Khi hình thành thì quá khứ đơn (simple past) và quá khứ phân từ (past participle) tất cả các động từ đều được xếp vào hai nhóm: nhóm động từ có qui tắc (regular verbs) và nhóm động từ bất qui tắc (irregular verbs).
+
+
+ 
+2. Động từ không được chia gồm có các dạng nguyên mẫu (infinitive), V ing (present participle và gerund) và quá khứ phân từ (past participle).
+
+B. V-ed và V-ing trong tiếng Anh
+a. Cách thêm -ed sau động từ
+
+Những cách thức thêm -ED sau đây được dùng để thành lập thì Quá khứ đơn (Simple Past) và Quá khứ phân từ (Past Participle).
+
+Thông thường: Thêm ED vào động từ nguyên mẫu.
+
+ 
+to walk --> They walked home.
+Động từ tận cùng bằng E --> chỉ thêm D.
+
+ 
+to live --> They lived in Paris for three years.
+Động từ tận cùng bằng phụ âm   Y --> Đổi Y thành IED.
+
+ 
+to study --> He studied in the lab at weekends.
+Động từ một âm tiết tận cùng bằng 1 nguyên âm   1 phụ âm và động từ được nhấn mạnh (stressed) ở âm tiết cuối --> Gấp đôi phụ âm cuối trước khi thêm ED.
+
+ 
+to stop    --> She stopped to buy some food.
+to control --> controlled
+Một số động từ 2 âm tiết, tận cùng bằng L, được nhấn mạnh (stressed) ở âm tiết thứ nhất cũng gấp đôi phụ âm cuối trước khi thêm ED.
+
+ 
+to travel  --> They travelled a lot.
+
+Tương tự:
+to kidnap  --> kidnapped
+to worship -->worshipped
+Cách phát âm V-ed
+
+-ED tận cùng được phát âm theo 3 cách khác nhau:
+
+/id/: sau các âm /t/ và /d/
+
+ 
+to want    --> wanted
+to decide  --> decided
+/t/: sau các phụ âm điếc (voiceless consonant sounds)
+
+ 
+to ask    --> asked
+to finish --> finished 
+/d/: sau các nguyên âm (vowel sounds) và phụ âm tỏ (voiced consonant sounds)
+
+ 
+to answer  --> answered
+to open    --> opened 
+b. Cách thêm -ing sau động từ
+
+V-ing được hình thành để tạo nên hiện tại phân từ (present participle), trong các thì tiếp diễn (Continuous Tenses) và để tạo thành động danh từ (Gerund). Có 6 trường hợp thêm ING:
+
+Thông thường: thêm -ING và cuối động từ nguyên mẫu.
+
+ 
+to walk  --> walking
+to do    --> doing
+Động từ tận cùng bằng E --> bỏ E trước khi thêm -ING
+
+ 
+to live  --> living
+to love  --> loving
+Động từ tận cùng bằng -IE --> đổi thành -Y trước khi thêm -ING.
+
+ 
+to die   --> dying
+to lie   --> lying
+Động từ một âm tiết tận cùng bằng 1 nguyên âm   1 phụ âm và động từ được nhấn mạnh (stressed) ở âm tiết cuối --> Gấp đôi phụ âm cuối trước khi thêm -ING.
+
+ 
+to run  --> running
+to cut  --> cutting
+Một số động từ 2 âm tiết, tận cùng bằng L, được nhấn mạnh (stressed) ở âm tiết thứ nhất cũng gấp đôi phụ âm cuối trước khi thêm -ING.
+
+ 
+to travel --> travelling
+Một số động từ có các thêm -ING đặc biệt để tránh nhầm lẫn:
+
+ 
+to singe (cháy xém)  --> singeing 
+khác với 
+to sing (hát)        --> singing
+
+to dye (nhuộm)       --> dyeing
+khác với 
+to die (chết)        --> dying
+C. Trợ động từ và động từ thường
+1. Trợ động từ (auxiliary verbs) là những động từ giúp tạo thành các dạng khác nhau của động từ. Khi giữ vai trò trợ động từ, những động từ này không mang ý nghĩa rõ rệt. Tự bản thân các trợ động từ cũng có thể là những động từ chính (main verb) trong câu. Khi là động từ chính, nó có ý nghĩa riêng.
+
+
+ 
+2. Có hai nhóm trợ động từ:
+
+Trợ động từ cơ bản (primary auxiliary verbs): Gồm có be, have, do.
+
+Trợ động từ khuyết thiếu (modal auxiliary verbs): Gồm có will, would, can, could, may, might, shall, should, must, ought to, used to, dare, need.
+
+D. Ngoại động từ và nội động từ
+Ngoại động từ (Transitive verbs) là những động từ diễn tả một hành động tác động lên một túc từ nào đó. Nói tóm tắt, ngoại động từ luôn đòi hỏi phải có một túc từ.
+
+ 
+- I hit the ball. 
+- He killed the lion.
+Nội động từ (Intransitive verbs) là những động từ không chuyển hành động đến một túc từ nào. Nó không có túc từ. Túc từ duy nhất mà nội động từ có thể có là loại túc từ cùng gốc (cognate objects).
+
+ 
+- The sun rises.
+- He sings a song. She lived a happy life.
+Một số động từ có thể được sử dụng vừa như một nội động từ vừa như một ngoại động từ. Khi ấy, có thể có một thay đổi chút ít trong ý nghĩa. Ví dụ:
+
+ 
+Nội động từ:
+- The bell rings.
+- The fire lit quickly.
+
+Ngoại động từ:
+- The waiter rings the bell.
+- He lit the fire.
+E. Động từ khuyết thiếu
+Động từ khuyết thiếu (defective verbs còn được gọi là model verbs) là những động từ có chung một tính chất thiếu một số hình thức (forms) và có chung một số cách sử dụng khác biệt với các động từ còn lại.
+
+F. Động từ liên kết
+Động từ liên kết (linking verbs) là những động từ nối chủ từ (subject) với các thành phần khác của mệnh đề (clause). Những thành phần này mô tả một tính chất nào đó của chủ từ.
+
+
+ 
+ 
+- The soldiers stayed perfectly still.
+Những động từ liên kết (linking verbs) chính là: be, appear, become, end (up), feel, get, go, grow, keep, look, prove, remain, seem, smell, sound, stay, taste, turn (out)...
+
+Trên đây là các khái niệm tổng quát liên quan tới Động từ trong tiếng Anh, để tìm hiểu tiếp về động từ, mời bạn click chuột vào chương tiếp theo.
