@@ -1,0 +1,90 @@
+{
+  "Script Slow x 3.2.1": [
+    {
+      "Type": "word",
+      "Rate": -3,
+      "Repeat": 3
+    },
+    {
+      "Type": "clause",
+      "Rate": -1,
+      "Repeat": 2
+    },
+    {
+      "Type": "senceten",
+      "Rate": -1,
+      "Repeat": 1
+    },
+    {
+      "Type": "paragraph",
+      "Rate": -1,
+      "Repeat": 1
+    }
+  ],
+  "Script default x 3.2.1": [
+    {
+      "Type": "word",
+      "Rate": -1,
+      "Repeat": 3
+    },
+    {
+      "Type": "clause",
+      "Rate": -1,
+      "Repeat": 2
+    },
+    {
+      "Type": "senceten",
+      "Rate": -1,
+      "Repeat": 1
+    },
+    {
+      "Type": "paragraph",
+      "Rate": -1,
+      "Repeat": 1
+    }
+  ],
+  "Script speed1": [
+    {
+      "Type": "word",
+      "Rate": 0,
+      "Repeat": 1
+    },
+    {
+      "Type": "clause",
+      "Rate": 0,
+      "Repeat": 1
+    },
+    {
+      "Type": "senceten",
+      "Rate": 0,
+      "Repeat": 1
+    },
+    {
+      "Type": "paragraph",
+      "Rate": 0,
+      "Repeat": 1
+    }
+  ],
+  "Script speed2": [
+    {
+      "Type": "word",
+      "Rate": 1,
+      "Repeat": 1
+    },
+    {
+      "Type": "clause",
+      "Rate": 1,
+      "Repeat": 1
+    },
+    {
+      "Type": "senceten",
+      "Rate": 1,
+      "Repeat": 1
+    },
+    {
+      "Type": "paragraph",
+      "Rate": 1,
+      "Repeat": 1
+    }
+  ]
+}

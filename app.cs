@@ -27,6 +27,7 @@ namespace app_el_sys
 
         static EL_SPEAK_MSG _data = null;
         static SynthesizerState _state = SynthesizerState.Ready;
+        static bool _statePause = false;
 
         static void translateExecute(string text)
         {
@@ -43,7 +44,7 @@ namespace app_el_sys
                     result = temp;
                 }
             }
-            _socketCurrent.Send("=" + result); 
+            _socketCurrent.Send("=" + result);
         }
 
         static void speakExecute()
@@ -51,6 +52,7 @@ namespace app_el_sys
             while (true)
             {
                 _autoEvent.WaitOne();
+                if (_statePause) continue;
                 if (_data == null) continue;
                 if (_data.RepeatComplete) continue;
 
@@ -96,68 +98,124 @@ namespace app_el_sys
 
         private static void _speaker_SpeakCompleted(object sender, SpeakCompletedEventArgs e)
         {
+            // The SpeakAsync operation was cancelled
         }
 
         static void processMessage(string s)
         {
             string temp = string.Empty, file = string.Empty;
-            if (_state == SynthesizerState.Ready)
+            if (s.IndexOf('|') > 0)
             {
-                switch (s[0])
-                {
-                    case '!': // SHOW HTTP PORT 
-                        _socketCurrent.Send("!" + _portHTTP.ToString());
-                        break;
-                    case '@': // TRANSLATE
-                        s = s.ToLower();
-                        switch (s)
-                        {
-                            case "@write":
-                                temp = string.Join(Environment.NewLine,
-                                    dicTranslate.Select(x => string.Format("{0}:{1}", x.Key, x.Value)).ToArray());
-                                file = string.Format("en-vi.{0}.txt", DateTime.Now.ToString("yyMMdd"));
-                                File.WriteAllText(file, temp);
-                                _socketCurrent.Send(string.Format("@write{0}", file));
-                                break;
-                            case "@getall":
-                                temp = string.Join(Environment.NewLine,
-                                    dicTranslate.Select(x => string.Format("{0}:{1}", x.Key, x.Value)).ToArray()); 
-                                _socketCurrent.Send(string.Format("@getall{0}{1}", Environment.NewLine, temp));
-                                break;
-                            default:
-                                translateExecute(s.Substring(1));
-                                break;
-                        }
-                        break;
-                    case '%': // set speech Rate from -10 to 10 
-                        int rate = 10;
-                        int.TryParse(s.Substring(1), out rate);
-                        if (rate > -10 && rate < 11)
-                        {
-                            _speaker.Rate = rate;
-                            _socketCurrent.Send(s);
-                        }
-                        break;
-                    default:
-                        switch (s)
-                        {
-                            case EL._SOCKET_CMD_REPLAY:
-                                _autoEvent.Set();
-                                break;
-                            case EL._SOCKET_CMD_STOP:
-                                _speaker.SpeakAsyncCancel(null);
-                                break;
-                            default:
-                                _data = new EL_SPEAK_MSG(s);
-                                _autoEvent.Set();
-                                _socketCurrent.Send(string.Format("{0}:{1}", EL._STATUS_SPEAK_OK, _data.ID));
-                                break;
-                        }
-                        break;
+                string[] a = s.Split('|');
+                string script_key = a[0].Trim(),
+                    text = a[1].Trim();
+                if (EL.dicScript.ContainsKey(script_key)) {
+                    SCRIPT[] scrs = EL.dicScript[script_key];
+
                 }
             }
             else
-                _socketCurrent.Send(EL._STATUS_SPEAK_FAIL);
+            {
+                switch (s)
+                {
+                    #region [ SCRIPT_LOAD ]
+                    case EL._SCRIPT_CMD_LOAD:
+                        if (File.Exists("script.json"))
+                        {
+                            try
+                            {
+                                file = File.ReadAllText("script.json");
+                                EL.dicScript = JsonConvert.DeserializeObject<Dictionary<string, SCRIPT[]>>(file);
+                                _socketCurrent.Send(s + Environment.NewLine + JsonConvert.SerializeObject(EL.dicScript, Formatting.Indented));
+                            }
+                            catch { }
+                        }
+                        break;
+                    #endregion
+
+                    #region [ PAUSE - REPLAY - STOP ]
+                    case EL._SOCKET_CMD_REPLAY:
+                        _statePause = false;
+                        _autoEvent.Set();
+                        break;
+                    case EL._SOCKET_CMD_PAUSE:
+                        if (_statePause)
+                        {
+                            _statePause = false;
+                            _speaker.Resume();
+                        }
+                        else
+                        {
+                            _statePause = true;
+                            _speaker.Pause();
+                        }
+                        break;
+                    case EL._SOCKET_CMD_STOP:
+                        _speaker.SpeakAsyncCancelAll();
+                        _statePause = true;
+                        break;
+                    #endregion
+
+                    #region [ SPEAK ]
+                    default:
+                        if (_state == SynthesizerState.Ready)
+                        {
+                            switch (s[0])
+                            {
+                                case '!': // SHOW HTTP PORT 
+                                    _socketCurrent.Send("!" + _portHTTP.ToString());
+                                    break;
+                                case '@': // TRANSLATE
+                                    s = s.ToLower();
+                                    switch (s)
+                                    {
+                                        case "@write":
+                                            temp = string.Join(Environment.NewLine,
+                                                dicTranslate.Select(x => string.Format("{0}:{1}", x.Key, x.Value)).ToArray());
+                                            file = string.Format("en-vi.{0}.txt", DateTime.Now.ToString("yyMMdd"));
+                                            File.WriteAllText(file, temp);
+                                            _socketCurrent.Send(string.Format("@write{0}", file));
+                                            break;
+                                        case "@getall":
+                                            temp = string.Join(Environment.NewLine,
+                                                dicTranslate.Select(x => string.Format("{0}:{1}", x.Key, x.Value)).ToArray());
+                                            _socketCurrent.Send(string.Format("@getall{0}{1}", Environment.NewLine, temp));
+                                            break;
+                                        default:
+                                            translateExecute(s.Substring(1));
+                                            break;
+                                    }
+                                    break;
+                                case '%': // set speech Rate from -10 to 10 
+                                    int rate = 10;
+                                    int.TryParse(s.Substring(1), out rate);
+                                    if (rate > -10 && rate < 11)
+                                    {
+                                        _speaker.Rate = rate;
+                                        _socketCurrent.Send(s);
+                                    }
+                                    break;
+                                default:
+                                    switch (s)
+                                    {
+                                        case EL._SOCKET_CMD_REPLAY:
+                                            _autoEvent.Set();
+                                            break;
+                                        default:
+                                            _data = new EL_SPEAK_MSG(s);
+                                            _autoEvent.Set();
+                                            _socketCurrent.Send(string.Format("{0}:{1}", EL._STATUS_SPEAK_OK, _data.ID));
+                                            break;
+                                    }
+                                    break;
+                            }
+                        }
+                        else
+                            _socketCurrent.Send(EL._STATUS_SPEAK_FAIL);
+                        break;
+                        #endregion
+                }
+            }
         }
 
         static app()
@@ -193,13 +251,14 @@ namespace app_el_sys
             TcpListener l = new TcpListener(IPAddress.Loopback, 0);
             l.Start();
             _portHTTP = ((IPEndPoint)l.LocalEndpoint).Port;
-            l.Stop(); 
+            l.Stop();
             Console.Title = _portHTTP.ToString();
 
             //http://127.0.0.1:8888/http_-_genk.vn/ai-nay-da-danh-bai-20-luat-su-hang-dau-nuoc-my-trong-linh-vuc-ma-ho-gioi-nhat-20180227012111793.chn?_format=text
             //HttpServer _serverHTTP = null;
             _serverHTTP = new HttpProxyServer();
             _serverHTTP.Start(string.Format("http://127.0.0.1:{0}/", _portHTTP));
+            Console.Title = _portHTTP.ToString();
             //_serverHTTP.Stop();
 
             new Thread(new ThreadStart(speakExecute)).Start();

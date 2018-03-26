@@ -7,20 +7,54 @@ namespace app_el_sys
 
     public class EL
     {
+        public static Dictionary<string, SCRIPT[]> dicScript = new Dictionary<string, SCRIPT[]>() {
+            {  "Script Slow x 3.2.1", new SCRIPT[]{
+                    new SCRIPT(){ Rate = -3, Repeat = 3, Type = "word" },
+                    new SCRIPT(){ Rate = -1, Repeat = 2, Type = "clause" },
+                    new SCRIPT(){ Rate = -1, Repeat = 1, Type = "senceten" },
+                    new SCRIPT(){ Rate = -1, Repeat = 1, Type = "paragraph" }
+                }
+            }
+            ,{  "Script default x 3.2.1", new SCRIPT[]{
+                    new SCRIPT(){ Rate = -1, Repeat = 3, Type = "word" },
+                    new SCRIPT(){ Rate = -1, Repeat = 2, Type = "clause" },
+                    new SCRIPT(){ Rate = -1, Repeat = 1, Type = "senceten" },
+                    new SCRIPT(){ Rate = -1, Repeat = 1, Type = "paragraph" }
+                }
+            }
+            ,{  "Script speed1", new SCRIPT[]{
+                    new SCRIPT(){ Rate = 0, Repeat = 1, Type = "word" },
+                    new SCRIPT(){ Rate = 0, Repeat = 1, Type = "clause" },
+                    new SCRIPT(){ Rate = 0, Repeat = 1, Type = "senceten" },
+                    new SCRIPT(){ Rate = 0, Repeat = 1, Type = "paragraph" }
+                }
+            }
+            ,{  "Script speed2", new SCRIPT[]{
+                    new SCRIPT(){ Rate = 1, Repeat = 1, Type = "word" },
+                    new SCRIPT(){ Rate = 1, Repeat = 1, Type = "clause" },
+                    new SCRIPT(){ Rate = 1, Repeat = 1, Type = "senceten" },
+                    new SCRIPT(){ Rate = 1, Repeat = 1, Type = "paragraph" }
+                }
+            }
+        };
+
+        public const string _SCRIPT_CMD_LOAD = "SCRIPT_LOAD";
+
         public const int _SPEAK_REPEAT_DEFAULT_WORD = 3;
         public const int _SPEAK_REPEAT_DEFAULT_CLAUSE = 4;
         public const int _SPEAK_REPEAT_DEFAULT_SENTENCE = 5;
         public const int _SPEAK_REPEAT_DEFAULT_PARAGRAPH = 5;
 
-        public const int _SPEAK_RATE_DEFAULT_WORD = -5; // -10 -> 10
-        public const int _SPEAK_RATE_DEFAULT_CLAUSE = -5; // -10 -> 10
-        public const int _SPEAK_RATE_DEFAULT_SENTENCE = -5; // -10 -> 10
-        public const int _SPEAK_RATE_DEFAULT_PARAGRAPH = -5; // -10 -> 10
+        public const int _SPEAK_RATE_DEFAULT_WORD = -1; // -10 -> 10
+        public const int _SPEAK_RATE_DEFAULT_CLAUSE = -1; // -10 -> 10
+        public const int _SPEAK_RATE_DEFAULT_SENTENCE = -1; // -10 -> 10
+        public const int _SPEAK_RATE_DEFAULT_PARAGRAPH = -1; // -10 -> 10
 
         public const int _TIMEOUT_SPEAK_WORD = 0;
         public const int _TIMEOUT_SPEAK_CLAUSE = 1000;
         public const int _TIMEOUT_SPEAK_SENTENCE = 3000;
 
+        public const string _SOCKET_CMD_PAUSE = "PAUSE";
         public const string _SOCKET_CMD_REPLAY = "REPLAY";
         public const string _SOCKET_CMD_STOP = "STOP";
         public const string _SOCKET_CMD_TRANSLATE = "TRANSLATE";
@@ -316,8 +350,11 @@ namespace app_el_sys
                                                     " work ; worked ;  worked ; " +                                    //-"rèn (sắt) ,  nhào nặng đất"
                                                     " wring ; wrung ; wrung ; " +                                      //-vặn  ;  siết chặt
                                                     " write ; wrote ; written ; ";                                    //-viết
+
+        public static Dictionary<string, SCRIPT[]> DicScript { get => DicScript1; set => DicScript1 = value; }
+        public static Dictionary<string, SCRIPT[]> DicScript1 { get => dicScript; set => dicScript = value; }
         #endregion
-        
+
     }
 
     /// <summary>
@@ -345,6 +382,13 @@ namespace app_el_sys
         /// đọc cả 1 đoạn gồm nhiều câu
         /// </summary>
         SPEAK_PARAGRAPH,
+    }
+
+    public class SCRIPT
+    {
+        public string Type { set; get; }
+        public int Rate { set; get; }
+        public int Repeat { set; get; }
     }
 
 }
