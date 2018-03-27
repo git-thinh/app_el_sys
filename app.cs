@@ -109,7 +109,8 @@ namespace app_el_sys
                 string[] a = s.Split('|');
                 string script_key = a[0].Trim(),
                     text = a[1].Trim();
-                if (EL.dicScript.ContainsKey(script_key)) {
+                if (EL.dicScript.ContainsKey(script_key))
+                {
                     SCRIPT[] scrs = EL.dicScript[script_key];
 
                 }
@@ -118,6 +119,13 @@ namespace app_el_sys
             {
                 switch (s)
                 {
+                    #region [ GRAMMAR_LOAD ]
+                    case EL._GRAMMAR_CMD_LOAD:
+                        EL.listGrammar = GRAMMAR.parserFromFile("grammar.txt");
+                        _socketCurrent.Send(s + ":" + Environment.NewLine + JsonConvert.SerializeObject(EL.listGrammar, Formatting.Indented));
+                        break;
+                    #endregion
+
                     #region [ SCRIPT_LOAD ]
                     case EL._SCRIPT_CMD_LOAD:
                         if (File.Exists("script.json"))
@@ -126,7 +134,7 @@ namespace app_el_sys
                             {
                                 file = File.ReadAllText("script.json");
                                 EL.dicScript = JsonConvert.DeserializeObject<Dictionary<string, SCRIPT[]>>(file);
-                                _socketCurrent.Send(s + Environment.NewLine + JsonConvert.SerializeObject(EL.dicScript, Formatting.Indented));
+                                _socketCurrent.Send(s + ":" + Environment.NewLine + JsonConvert.SerializeObject(EL.dicScript, Formatting.Indented));
                             }
                             catch { }
                         }

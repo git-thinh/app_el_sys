@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 
 namespace app_el_sys
@@ -38,63 +39,82 @@ namespace app_el_sys
             }
         };
 
-        public const string _SCRIPT_CMD_LOAD = "SCRIPT_LOAD";
+        public static List<GRAMMAR> listGrammar = new List<app_el_sys.GRAMMAR>()
+        {
+            new GRAMMAR(){
+                Type = "too...for",
+                Example = "This structure is too easy for you to remember|He ran too fast for me to follow",
+                Explain = "quá....để cho ai làm gì...",
+                KeyWord = new string[]{ "too","for" },
+                Struct = "S + V + too + adj/adv + (for someone) + to do something"
+            },
+            new GRAMMAR(){
+                Type = "so...that",
+                Example = "This box is so heavy that I cannot take it|He speaks so soft that we can’t hear anything",
+                Explain = "quá... đến nỗi mà...",
+                KeyWord = new string[]{ "","" },
+                Struct = "S + V + so + adj/ adv + that + S + V"
+            }
+        };
 
-        public const int _SPEAK_REPEAT_DEFAULT_WORD = 3;
-        public const int _SPEAK_REPEAT_DEFAULT_CLAUSE = 4;
-        public const int _SPEAK_REPEAT_DEFAULT_SENTENCE = 5;
-        public const int _SPEAK_REPEAT_DEFAULT_PARAGRAPH = 5;
+        public const string _SCRIPT_CMD_LOAD                         = "SCRIPT_LOAD";
+        public const string _GRAMMAR_CMD_LOAD                        = "GRAMMAR_LOAD";
 
-        public const int _SPEAK_RATE_DEFAULT_WORD = -1; // -10 -> 10
-        public const int _SPEAK_RATE_DEFAULT_CLAUSE = -1; // -10 -> 10
-        public const int _SPEAK_RATE_DEFAULT_SENTENCE = -1; // -10 -> 10
-        public const int _SPEAK_RATE_DEFAULT_PARAGRAPH = -1; // -10 -> 10
+        public const int _SPEAK_REPEAT_DEFAULT_WORD                  = 3;
+        public const int _SPEAK_REPEAT_DEFAULT_CLAUSE                = 4;
+        public const int _SPEAK_REPEAT_DEFAULT_SENTENCE              = 5;
+        public const int _SPEAK_REPEAT_DEFAULT_PARAGRAPH             = 5;
 
-        public const int _TIMEOUT_SPEAK_WORD = 0;
-        public const int _TIMEOUT_SPEAK_CLAUSE = 1000;
-        public const int _TIMEOUT_SPEAK_SENTENCE = 3000;
+        public const int _SPEAK_RATE_DEFAULT_WORD                    = -1; // -10 -> 10
+        public const int _SPEAK_RATE_DEFAULT_CLAUSE                  = -1; // -10 -> 10
+        public const int _SPEAK_RATE_DEFAULT_SENTENCE                = -1; // -10 -> 10
+        public const int _SPEAK_RATE_DEFAULT_PARAGRAPH               = -1; // -10 -> 10
 
-        public const string _SOCKET_CMD_PAUSE = "PAUSE";
-        public const string _SOCKET_CMD_REPLAY = "REPLAY";
-        public const string _SOCKET_CMD_STOP = "STOP";
-        public const string _SOCKET_CMD_TRANSLATE = "TRANSLATE";
+        public const int _TIMEOUT_SPEAK_WORD                         = 0;
+        public const int _TIMEOUT_SPEAK_CLAUSE                       = 1000;
+        public const int _TIMEOUT_SPEAK_SENTENCE                     = 3000;
 
-        public const string _STATUS_SPEAK_OK = "OK";
-        public const string _STATUS_SPEAK_FAIL = "SPEAK_FAIL";
+        public const string _SOCKET_CMD_PAUSE                        = "PAUSE";
+        public const string _SOCKET_CMD_REPLAY                       = "REPLAY";
+        public const string _SOCKET_CMD_STOP                         = "STOP";
+        public const string _SOCKET_CMD_TRANSLATE                    = "TRANSLATE";
 
-        public static readonly string[] _WORD_SKIP_WHEN_READING = { "is", "are", "was", "were", "the", "to", "and", "of" };
+        public const string _STATUS_SPEAK_OK                         = "OK";
+        public const string _STATUS_SPEAK_FAIL                       = "SPEAK_FAIL";
+
+        public static readonly string[] _WORD_SKIP_WHEN_READING      = { "is", "are", "was", "were", "the", "to", "and", "of" };
 
         public static readonly string[] _SPLIT_PARAGRAPH_TO_SENTENCE = { "." };
-        public static readonly string[] _SPLIT_PARAGRAPH_TO_CLAUSE = { ":", ",", "(", ")", "when", "that", "from", "of" };
+        public static readonly string[] _SPLIT_PARAGRAPH_TO_CLAUSE   = { ":", ",", "(", ")", "when", "that", "from", "of" };
 
-        public const string _TAG_CODE_CHAR_BEGIN = "//#";
-        public const string _TAG_CODE_CHAR_END = "//.";
+        public const string _TAG_CODE_CHAR_BEGIN                     = "//#";
+        public const string _TAG_CODE_CHAR_END                       = "//.";
 
-        public const string DO_SPEECH_ALL = "__s_0";
-        public const string DO_SPEECH_WORD = "__s_1";
-        public const string DO_SPEECH_PARAGRAPH = "__s_2";
-        public const string DO_SPEECH_SENTENCE = "__s_3";
-        public const string DO_SPEECH_SENTENCE_KEY_WORD = "__s_4";
+        public const string DO_SPEECH_ALL                            = "__s_0";
+        public const string DO_SPEECH_WORD                           = "__s_1";
+        public const string DO_SPEECH_PARAGRAPH                      = "__s_2";
+        public const string DO_SPEECH_SENTENCE                       = "__s_3";
+        public const string DO_SPEECH_SENTENCE_KEY_WORD              = "__s_4";
 
-        public const string TAG_CODE = "pre";
-        public const string TAG_ARTICLE = "article";
-        public const string TAG_TITLE = "h2";
-        public const string TAG_HEADING = "h3";
-        public const string TAG_LINK = "a";
-        public const string TAG_NOTE = "span";
-        public const string TAG_PARAGRAPH = "p";
-        public const string TAG_SENTENCE = "b";
-        public const string TAG_CLAUSE = "em";
-        public const string TAG_WORD = "i";
+        public const string TAG_CODE                                 = "pre";
+        public const string TAG_ARTICLE                              = "article";
+        public const string TAG_TITLE                                = "h2";
+        public const string TAG_HEADING                              = "h3";
+        public const string TAG_LINK                                 = "a";
+        public const string TAG_NOTE                                 = "span";
+        public const string TAG_PARAGRAPH                            = "p";
+        public const string TAG_SENTENCE                             = "b";
+        public const string TAG_CLAUSE                               = "em";
+        public const string TAG_WORD                                 = "i";
 
-        public const string ATTR_SPEECH_WORD_VOCABULARY = "nv";       // word is vocabulary new: tu moi
-        public const string ATTR_SPEECH_WORD_QUESTION_WH = "wh";       // what, where, which, how: many, much ...
-        public const string ATTR_SPEECH_WORD_VERB_TOBE = "vb";       // word is verb tobe: is, am, are, be, will, was, were
-        public const string ATTR_SPEECH_WORD_VERB_MODAL = "vm";       // word is modal verb: Động từ khuyết thiếu
-        public const string ATTR_SPEECH_WORD_VERB_INFINITIVE = "vi";       // word is verb infinitive        
-        public const string ATTR_SPEECH_WORD_IDOM = "id";       // word is idom or struct grammar   
-        public const string ATTR_SPEECH_WORD_GRAMMAR = "gm";       // word is idom or struct grammar
-        public const string ATTR_SPEECH_WORD_SPECIALIZE = "sp";       // word is specialize
+        public const string ATTR_SPEECH_WORD_VOCABULARY              = "nv";       // word is vocabulary new: tu moi
+        public const string ATTR_SPEECH_WORD_QUESTION_WH             = "wh";       // what, where, which, how: many, much ...
+        public const string ATTR_SPEECH_WORD_VERB_TOBE               = "vb";       // word is verb tobe: is, am, are, be, will, was, were
+        public const string ATTR_SPEECH_WORD_VERB_MODAL              = "vm";       // word is modal verb: Động từ khuyết thiếu
+        public const string ATTR_SPEECH_WORD_VERB_INFINITIVE         = "vi";       // word is verb infinitive        
+        public const string ATTR_SPEECH_WORD_IDOM                    = "id";       // word is idom or struct grammar   
+        public const string ATTR_SPEECH_WORD_GRAMMAR                 = "gm";       // word is idom or struct grammar
+        public const string ATTR_SPEECH_WORD_SPECIALIZE              = "sp";       // word is specialize
 
         /*
         WHO   (ai)
@@ -107,11 +127,11 @@ namespace app_el_sys
         WHY   (tại sao) : chỉ lí do hoặc nguyên nhân. - 
         HOW   (thể nào, cách nào) : chỉ trạng thái, phương tiện hay phương pháp.
           */
-        public const string WORDS_QUESTION_WH = "who,whom,whose,what,which,when,where,why,how";
-        public const string WORDS_VERB_TOBE = "am,is,are,'m,'s,'re,amn't,isn't,aren't,was,were,wasn't,weren't";
-        public const string WORDS_VERB_MODAL = "can,can’t,cannot,could,must,mustn’t,have to,may,might,will,would,shall,should,ought to,dare,need,needn’t,used to";
-        public const string WORDS_VERB_INFINITIVE = "";
-        public const string WORDS_SPECIALIZE = "";
+        public const string WORDS_QUESTION_WH                        = "who,whom,whose,what,which,when,where,why,how";
+        public const string WORDS_VERB_TOBE                          = "am,is,are,'m,'s,'re,amn't,isn't,aren't,was,were,wasn't,weren't";
+        public const string WORDS_VERB_MODAL                         = "can,can’t,cannot,could,must,mustn’t,have to,may,might,will,would,shall,should,ought to,dare,need,needn’t,used to";
+        public const string WORDS_VERB_INFINITIVE                    = "";
+        public const string WORDS_SPECIALIZE                         = "";
 
         public readonly Dictionary<string, string> DEFINE = new Dictionary<string, string>() {
             { "bare-infinitive","động từ nguyên thể không “to” "}
@@ -389,6 +409,84 @@ namespace app_el_sys
         public string Type { set; get; }
         public int Rate { set; get; }
         public int Repeat { set; get; }
+    }
+
+    public class GRAMMAR
+    {
+        public string Type { set; get; }
+        public string[] KeyWord { set; get; }
+        public string Struct { set; get; }
+        public string Explain { set; get; }
+        public string Example { set; get; }
+
+        public override string ToString()
+        {
+            return string.Format("{0}: {1} = {2}", this.Type, this.Struct, this.Explain);
+        }
+
+        public static List<GRAMMAR> parserFromFile(string file)
+        {
+            var lsGram = new List<GRAMMAR>() { };
+            var liType = new List<string>() { };
+            var liStruct = new List<string>() { };
+            var liKeyword = new List<string>() { };
+            var liExplain = new List<string>() { };
+            var liExam = new List<string>() { };
+
+            if (File.Exists(file))
+            {
+                string[] a = File.ReadAllText(file).Split('*').Select(x => x.Trim()).ToArray();
+                foreach (string s in a)
+                {
+                    if (s == string.Empty) continue;
+                    liType.Clear();
+                    liStruct.Clear();
+                    liExam.Clear();
+                    liExplain.Clear();
+                    liKeyword.Clear();
+
+                    string[] gs = ("* " + s).Split(new char[] { '\r', '\n' }).Select(x => x.Trim()).Where(x => x != string.Empty).ToArray();
+                    foreach (string si in gs)
+                    {
+                        string it = si.Trim();
+                        string[] at;
+                        switch (it[0])
+                        {
+                            case '*': // Type
+                                it = it.Substring(1).Trim();
+                                liType.AddRange(it.Split('|').Select(x => x.Trim().ToLower()));
+                                at = it.Split(new char[] { ' ', '/', '.', '|' }).Select(x => x.Trim().ToLower()).Where(x => x != string.Empty).ToArray();
+                                liKeyword.AddRange(at);
+                                break;
+                            case '-': // Struct
+                                it = it.Substring(1).Trim();
+                                liStruct.AddRange(it.Split('|').Select(x => x.Trim()).Where(x => x.Length > 5));
+                                break;
+                            case '=': // Explain
+                                it = it.Substring(1).Trim();
+                                liExplain.AddRange(it.Split('|').Select(x => x.Trim()).Where(x => x.Length > 5));
+                                break;
+                            default:  // example
+                                liExam.AddRange(it.Split('.').Select(x => x.Trim()).Where(x => x.Length > 5));
+                                break;
+                        }
+                    }
+
+                    lsGram.Add(new GRAMMAR()
+                    {
+                        Example = string.Join("|", liExam.ToArray()),
+                        Explain = string.Join("|", liExplain.ToArray()),
+                        KeyWord = liKeyword.Distinct().ToArray(),
+                        Struct = string.Join("|", liStruct.ToArray()),
+                        Type = string.Join("|", liType.ToArray()),
+                    });
+                }
+
+
+            }
+
+            return lsGram;
+        }
     }
 
 }
