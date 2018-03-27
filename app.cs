@@ -280,7 +280,7 @@ namespace app_el_sys
             server.Start(socket =>
             {
                 socket.OnMessage = message => processMessage(message);
-                socket.OnOpen = () => _socketCurrent = socket;
+                socket.OnOpen = () => { _socketCurrent = socket; socket.Send(string.Format("HTTP_PORT:{0}", _portHTTP)); };
                 socket.OnClose = () => _socketCurrent = null;
             });
             Console.ReadLine();
