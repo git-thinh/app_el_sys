@@ -12,10 +12,10 @@ namespace app_el_sys
         public const int _SPEAK_REPEAT_DEFAULT_SENTENCE = 5;
         public const int _SPEAK_REPEAT_DEFAULT_PARAGRAPH = 5;
 
-        public const int _SPEAK_RATE_DEFAULT_WORD = -5; // -10 -> 10
-        public const int _SPEAK_RATE_DEFAULT_CLAUSE = -5; // -10 -> 10
-        public const int _SPEAK_RATE_DEFAULT_SENTENCE = -5; // -10 -> 10
-        public const int _SPEAK_RATE_DEFAULT_PARAGRAPH = -5; // -10 -> 10
+        public const int _SPEAK_RATE_DEFAULT_WORD = -1; // -10 -> 10
+        public const int _SPEAK_RATE_DEFAULT_CLAUSE = -1; // -10 -> 10
+        public const int _SPEAK_RATE_DEFAULT_SENTENCE = -1; // -10 -> 10
+        public const int _SPEAK_RATE_DEFAULT_PARAGRAPH = -1; // -10 -> 10
 
         public const int _TIMEOUT_SPEAK_WORD = 0;
         public const int _TIMEOUT_SPEAK_CLAUSE = 1000;
@@ -26,7 +26,7 @@ namespace app_el_sys
         public const string _SOCKET_CMD_TRANSLATE = "TRANSLATE";
 
         public const string _STATUS_SPEAK_OK = "OK";
-        public const string _STATUS_SPEAK_FAIL = "FAIL";
+        public const string _STATUS_SPEAK_FAIL = "SPEAK_FAIL";
 
         public static readonly string[] _WORD_SKIP_WHEN_READING = { "is", "are", "was", "were", "the", "to", "and", "of" };
 
