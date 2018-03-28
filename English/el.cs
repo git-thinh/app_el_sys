@@ -39,7 +39,7 @@ namespace app_el_sys
             }
         };
 
-        public static List<GRAMMAR> listGrammar = new List<app_el_sys.GRAMMAR>()
+        public static List<GRAMMAR> listGrammar = new List<GRAMMAR>()
         {
             new GRAMMAR(){
                 Type = "too...for",
@@ -137,7 +137,7 @@ namespace app_el_sys
             { "bare-infinitive","động từ nguyên thể không “to” "}
         };
 
-        public readonly Dictionary<string, string> GRAMMAR = new Dictionary<string, string>() {
+        public readonly Dictionary<string, string> dicGRAMMAR = new Dictionary<string, string>() {
             { "ought not to have","ought not to have + Vpp: diễn tả một sự không tán đồng về một hành động đã làm trong quá khứ, không phải làm điều gì đó"}
             ,{ "able to","was/were able to: Nếu câu nói hàm ý một sự thành công trong việc thực hiện hành động (succeeded in doing)" }
 
@@ -371,8 +371,8 @@ namespace app_el_sys
                                                     " wring ; wrung ; wrung ; " +                                      //-vặn  ;  siết chặt
                                                     " write ; wrote ; written ; ";                                    //-viết
 
-        public static Dictionary<string, SCRIPT[]> DicScript { get => DicScript1; set => DicScript1 = value; }
-        public static Dictionary<string, SCRIPT[]> DicScript1 { get => dicScript; set => dicScript = value; }
+        //public static Dictionary<string, SCRIPT[]> DicScript { get => DicScript1; set => DicScript1 = value; }
+        //public static Dictionary<string, SCRIPT[]> DicScript1 { get => dicScript; set => dicScript = value; }
         #endregion
 
     }
