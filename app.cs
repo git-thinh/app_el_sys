@@ -18,8 +18,19 @@ namespace app_el_sys
     [PermissionSet(SecurityAction.LinkDemand, Name = "Everything"), PermissionSet(SecurityAction.InheritanceDemand, Name = "FullTrust")]
     public class app
     {
+        public class _action_key
+        {
+           public const string FILE_LOAD = "FILE_LOAD";
+           public const string TREE_NODE = "TREE_NODE";
+           public const string USER_LOGIN = "USER_LOGIN";
+           public const string GRAM_ALL_KEY = "GRAM_ALL_KEY";
+           public const string GRAM_ALL_WORD = "GRAM_ALL_WORD";
+           public const string GRAM_DETAIL_BY_KEY = "GRAM_DETAIL_BY_KEY";
+        };
+
         const char _split_action = '‖';
         static string _path_root = AppDomain.CurrentDomain.BaseDirectory;
+
         static Dictionary<string, string> dicTranslate = new Dictionary<string, string>() { };
         static AutoResetEvent _autoEvent = new AutoResetEvent(false);
         static IWebSocketConnection _socketCurrent = null;
@@ -109,24 +120,56 @@ namespace app_el_sys
             if (s.IndexOf(_split_action) > 0)
             {
                 string[] a = s.Split(_split_action);
-                string action = a[0].Trim();
+                string action = a[0].Trim(), result = string.Empty;
                 string[] para = a.Where((x, k) => k != 0).ToArray();
                 switch (action)
                 {
-                    case "TREE_NODE":
+                    case _action_key.TREE_NODE:
+                        if (a.Length > 2) {
+                            string _path = a[2].Trim(), _folder = a[1].Trim();
+                            if (_path == string.Empty) _path = _path_root;
+                            string _pf = Path.Combine(_path, _folder);
+                            if (Directory.Exists(_pf))
+                            {
+                                var dirs = Directory.GetDirectories(_pf).Select(x => new {
+                                    name = Path.GetFileName(x),
+                                    count = Directory.GetFiles(x, "*.txt").Length + Directory.GetDirectories(x).Length
+                                }).ToArray();
+                                var files = Directory.GetFiles(_pf, "*.txt").Select(x => new { name = Path.GetFileName(x), type = string.Empty, title = File.ReadAllLines(x)[0] }).ToArray();
+                                result = s + _split_action + JsonConvert.SerializeObject(new {
+                                    path = _pf.Replace('\\', '/'),
+                                    dirs = dirs,
+                                    files = files });
+                                _socketCurrent.Send(result);
+                            }
+                        }
                         break;
-                    case "USER_LOGIN":
+                    case _action_key.USER_LOGIN:
                         break;
-                    case "FILE_LOAD": 
-                        string fi = Path.Combine(_path_root, para[0]), htm = string.Empty;
+                    case _action_key.FILE_LOAD:
+                        string fi = Path.Combine(_path_root, para[0]), htm = string.Empty, text = string.Empty, word = string.Empty;
+                        string[] line = new string[] { };
                         if (File.Exists(fi))
-                            htm = app.renderFile(fi);
-                        _socketCurrent.Send(string.Format("{0}{1}{2}{1}{3}", action, _split_action, para[0], htm));
+                        {
+                            text = File.ReadAllText(fi);
+                            line = text.Split(new string[] { Environment.NewLine }, StringSplitOptions.None);
+                            string tmp = Regex.Replace(text, "[^0-9a-zA-Z]+", " ").ToLower();
+                            var ws = tmp.Split(' ').Where(x => x.Length > 0)
+                                .GroupBy(x => x)
+                                .OrderByDescending(x => x.Count())
+                                .Select(x => new { w = x.Key, k = x.Count() })
+                                .ToArray();
+                            word = JsonConvert.SerializeObject(ws);
+                            htm = app.renderFile(line);
+                        }
+                        _socketCurrent.Send(string.Format("{0}.{1}.{2}{3}{4}", action, para[0], "text", _split_action, text));
+                        _socketCurrent.Send(string.Format("{0}.{1}.{2}{3}{4}", action, para[0], "html", _split_action, htm));
+                        _socketCurrent.Send(string.Format("{0}.{1}.{2}{3}{4}", action, para[0], "word", _split_action, word));
                         break;
                     default:
                         if (EL.dicScript.ContainsKey(action))
                         {
-                            SCRIPT[] scrs = EL.dicScript[action]; 
+                            SCRIPT[] scrs = EL.dicScript[action];
                         }
                         break;
                 }
@@ -270,9 +313,11 @@ namespace app_el_sys
             };
         }
 
-        public static string renderFile(string file)
+        public static string renderFile(string[] lines)
         {
-            string[] a = File.ReadAllLines(file).Where(x => x.Trim() != "").ToArray();
+            if (lines.Length == 0) return string.Empty;
+
+            string[] a = lines.Where(x => x.Trim() != "").ToArray();
             Paragraph p;
             List<Paragraph> ls = new List<Paragraph>() { new Paragraph(0, a[0]) };
             string si = string.Empty, _code = string.Empty, _ul = string.Empty;
@@ -400,7 +445,7 @@ namespace app_el_sys
 
     class Program
     {
-            //static string _path_root = AppDomain.CurrentDomain.BaseDirectory;
+        //static string _path_root = AppDomain.CurrentDomain.BaseDirectory;
         static void Main(string[] args)
         {
             app.RUN();

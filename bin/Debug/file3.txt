@@ -1,0 +1,406 @@
+C++11/C++14 Thread Tutorials
+
+
+C++11 1. Creating Threads 
+
+C++11 2. Debugging with Visual Studio 2013 
+
+C++11 3. Threading with Lambda Function 
+
+C++11 4. Rvalue and Lvalue 
+
+C++11 5. Move semantics and Rvalue Reference 
+
+C++11 5B. Move semantics - more samples for move constructor 
+
+C++11 6. Thread with Move Semantics and Rvalue Reference 
+
+C++11 7. Threads - Sharing Memory and Mutex 
+
+C++11 8. Threads - Race Conditions 
+
+C++11 9. Threads - Deadlock 
+
+C++11 10. Threads - Condition Variables 
+
+C++11 11. Threads - unique futures (std::future<>) and shared futures (std::shared_future<>). 
+
+C++11 12. Threads - std::promise 
+
+
+
+
+
+C++11/C++14 New Features
+
+
+initializer_list 
+
+Uniform initialization 
+
+Type Inference (auto) and Range-based for loop 
+
+The nullptr and strongly typed enumerations 
+
+Static assertions and Constructor delegation 
+
+override and final 
+
+default and delete specifier 
+
+constexpr and string literals 
+
+Lambda functions and expressions 
+
+std::array container 
+
+Rvalue and Lvalue (from C++11 Thread tutorial) 
+
+Move semantics and Rvalue Reference (from C++11 Thread tutorial) 
+
+
+Note: If you're an experienced C++ programmer and are anything like me, you initially approached C++11 thinking, "Yes, yes, I get it. It's C++, only more so." But as you learned more, you were surprised by the scope of the changes. auto declarations, range-based for loops, lambda expressions, and rvalue references change the face of C++, to say nothing of the new concurrency features. And then there are the idiomatic changes. 0 and typedefs are out, nullptr and alias declarations are in. Enums should now be scoped. Smart pointers are now preferable to built-in ones. Moving objects is normally better than copying them.
+- Effective Modern C++ by Scott Meyers
+
+C++11 Thread 1. Creating Threads
+Let's look at the sample code (t1.cpp).
+
+//#
+#include <iostream>
+#include <thread>
+
+void thread_function()
+{
+    std::cout << "thread function\n";
+}
+
+int main()
+{
+    std::thread t(&thread_function);   // t starts running
+    std::cout << "main thread\n";
+    t.join();   // main thread waits for the thread t to finish
+    return 0;
+}
+//.
+
+This code will print out (on linux system):
+
+$ g++ t1.cpp -o t1 -std=c++11 -pthread
+$ ./t2
+thread function
+main thread
+First thing we want to do is creating a thread object (worker thread) and give it a work to do in a form of a function.
+
+The main thread wants to wait for a thread to finish successfully. So, we used join(). If the initial main thread didn't wait for the new thread to finish, it would continue to the end of main() and end the program, possibly before the new thread have had a chance to run.
+
+While the main thread is waiting, the main thread is idling. Actually, the OS may take the CPU away from the main thread.
+
+Note that we have a new Standard C++ Library header #include <thread> in which the functions and classes for threads are declared.
+
+Below is the diagram how the flow looks like.
+
+fork_join.png
+However, in the real world, things are not that ideal and more likely to be asymmetric. Probably, it may look more like the next picture.
+
+real_fork_join.png
+While the worker thread is starting via constructor std::thread t, there might be overhead of creating a thread (this overhead can be reduced by using thread pool). The dotted line indicates a possible blocked state.
+
+
+
+Detaching Threads
+We can make a new thread to run free to become a daemon process.
+
+
+//#
+// t2.cpp
+int main()
+{
+    std::thread t(&thread;_function);
+    std::cout << "main thread\n";
+    // t.join();
+    t.detach();
+    return 0;
+}
+//.
+
+The detached child thread is now free, and runs on its own. It becomes a daemon process.
+
+$ g++ t2.cpp -o t2 -std=c++11 -pthread
+$ ./t2
+main thread
+Note that the detached thread didn't have a change to print its output to stdout because the main thread already finished and exited. This is one of the characteristics of multithreaded programming: we cannot be sure which thread runs first (not deterministic unless we use synchronization mechanism). In our case, because the time it takes to create a new thread, the main thread is most likely to finish ahead of our child thread.
+
+One more thing we should note here is that even in this simple code we're sharing a common resource: std::cout. So, to make the code work properly, the main thread should allow our child thread to access the resource.
+
+Once a thread detached, we cannot force it to join with the main thread again. So, the following line of the code is an error and the program will crash.
+
+
+//#
+int main()
+{
+    std::thread t(&thread;_function);
+    std::cout << "main thread\n";
+    // t.join();
+    t.detach();
+    t.join();   // Error
+    return 0;
+}
+//.
+
+Once detached, the thread should live that way forever.
+
+We can keep the code from crashing by checking using joinable(). Because it's not joinable, the join() function won't be called, and the program runs without crash.
+
+
+//#
+int main()
+{
+    std::thread t(&thread;_function);
+    std::cout << "main thread\n";
+    // t.join();
+    if(t.joinable()) 
+        t.join(); 
+    return 0;
+}
+//.
+
+Callable Objects
+In the previous examples, we used regular function for the thread task. However, we can use any callable object such as lambda functions as described in the next section or functor (function objects - see Functors (Function Objects) I - Introduction) as shown below:
+
+
+//#
+#include <iostream>
+#include <thread>
+
+class MyFunctor
+{
+public:
+    void operator()() {
+        std::cout << "functor\n";
+    }
+};
+
+int main()
+{
+    MyFunctor fnctor;
+    std::thread t(fnctor);
+    std::cout << "main thread\n";
+    t.join();
+    return 0;
+}
+//.
+
+Here, we created an function object and assign it to a thread task.
+
+We may be temped to pass the instance on the fly:
+
+
+//#
+// MyFunctor fnctor;
+std::thread t(MyFunctor());
+//.
+
+But it won't compile. So, if we still want to make it work, we should do this instead:
+
+
+//#
+// MyFunctor fnctor;
+std::thread t((MyFunctor()));
+//.
+
+Note that we had to add () to enclose the MyFunctor().
+
+Why? I do not want to go deep, but it's related to the function declaration convention in C++.
+
+
+
+Passing Parameters to a thread
+Here is an example of passing parameter to a thread. In this case, we're just passing a string:
+
+
+//#
+#include <iostream>
+#include <thread>
+#include <string>
+
+void thread_function(std::string s)
+{
+    std::cout << "thread function ";
+    std::cout << "message is = " << s << std::endl;
+}
+
+int main()
+{
+    std::string s = "Kathy Perry";
+    std::thread t(&thread;_function, s);
+    std::cout << "main thread message = " << s << std::endl;
+    t.join();
+    return 0;
+}
+//.
+
+From the following output, we know the string has been passed to the thread function successfully.
+
+thread function message is = Kathy Perry
+main thread message = Kathy Perry
+If we want to pass the string as a ref, we may want to try this:
+
+
+//#
+void thread_function(std::string &s)
+{
+    std::cout << "thread function ";
+    std::cout << "message is = " << s << std::endl;
+    s = "Justin Beaver";
+}
+//.
+
+To make it sure that the string is really passed by reference, we modified the message at the end of the thread function. However, the output hasn't been changed.
+
+thread function message is = Kathy Perry
+main thread message = Kathy Perry
+In fact, the message was passed by value not by reference. To pass the message by reference, we should modify the code a little bit like this using ref:
+
+std::thread t(&thread;_function, std::ref(s));
+Then, we get modified output:
+
+thread function message is = Kathy Perry
+main thread message = Justin Beaver
+There is another way of passing the parameter without copying and not sharing memory between the threads. We can use move():
+
+std::thread t(&thread;_function, std::move(s));
+Since the string moved from main() to thread function, the output from main does not have it any more:
+
+thread function message is = Kathy Perry
+main thread message =
+
+
+
+
+Thread copy / move
+Copying a thread won't compile:
+
+
+//#
+#include <iostream>
+#include <thread>
+
+void thread_function()
+{
+    std::cout << "thread function\n";
+}
+
+int main()
+{
+    std::thread t(&thread;_function);
+    std::cout << "main thread\n";
+    std::thread t2 = t;
+
+    t2.join();
+
+    return 0;
+}
+//.
+
+But we can transfer the ownership of the thread by moving it:
+
+
+//#
+// t5.cpp
+#include <iostream>
+#include <thread>
+
+void thread_function()
+{
+    std::cout << "thread function\n";
+}
+
+int main()
+{
+    std::thread t(&thread;_function);
+    std::cout << "main thread\n";
+    std::thread t2 = move(t);
+
+    t2.join();
+
+    return 0;
+}
+//.
+
+Output:
+
+$ g++ t5.cpp -o t5 -std=c++11 -pthread
+$ ./t5
+main thread
+thread function
+
+
+
+
+Thread id
+We can get id information using this_thread::get_id():
+
+
+//#
+int main()
+{
+    std::string s = "Kathy Perry";
+    std::thread t(&thread;_function, std::move(s));
+    std::cout << "main thread message = " << s << std::endl;
+
+    std::cout << "main thread id = " << std::this_thread::get_id() << std::endl;
+    std::cout << "child thread id = " << t.get_id() << std::endl;
+
+    t.join();
+    return 0;
+}
+//.
+
+Output:
+
+thread function message is = Kathy Perry
+main thread message =
+main thread id = 1208
+child thread id = 5224
+
+
+How many threads?
+The thread library provides the suggestion for the number of threads:
+
+//#
+int main()
+{
+    std::cout << "Number of threads = " 
+              <<  std::thread::hardware_concurrency() << std::endl;
+    return 0;
+}
+//.
+
+Output:
+
+Number of threads = 2
+
+
+
+lambda functions
+Since we're dealing with C11, let's take a little break for "lambda".
+
+We can replace the thread_function() with lambda function (anonymous function) like this:
+
+//#
+int main()
+{
+    std::thread t([]()
+    {
+        std::cout << "thread function\n";
+    }
+    );
+    std::cout << "main thread\n";
+    t.join();     // main thread waits for t to finish
+    return 0;
+}
+//.
+
+Note that we are writing inline code and passing into another function which is a thread constructor.
+
+The lambda expression is a series of statements enclosed in braces, prefixed with [], called lambda introducer or capture specification which tells the compiler we're creating a lambda function, in our case, taking no argument. So, in essence, we're using [](){} as a task, and assigning it to our thread.
