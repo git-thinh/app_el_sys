@@ -20,15 +20,16 @@ namespace app_el_sys
     {
         public class _action_key
         {
-           public const string FILE_LOAD = "FILE_LOAD";
-           public const string TREE_NODE = "TREE_NODE";
-           public const string USER_LOGIN = "USER_LOGIN";
-           public const string GRAM_ALL_KEY = "GRAM_ALL_KEY";
-           public const string GRAM_ALL_WORD = "GRAM_ALL_WORD";
-           public const string GRAM_DETAIL_BY_KEY = "GRAM_DETAIL_BY_KEY";
+            public const string FILE_LOAD = "FILE_LOAD";
+            public const string TREE_NODE = "TREE_NODE";
+            public const string USER_LOGIN = "USER_LOGIN";
+            public const string GRAM_ALL_KEY = "GRAM_ALL_KEY";
+            public const string GRAM_ALL_WORD = "GRAM_ALL_WORD";
+            public const string GRAM_DETAIL_BY_KEY = "GRAM_DETAIL_BY_KEY";
         };
 
-        const char _split_action = '‖';
+        const char _split_key = '¦';
+        const char _split_data = '‖';
         static string _path_root = AppDomain.CurrentDomain.BaseDirectory;
 
         static Dictionary<string, string> dicTranslate = new Dictionary<string, string>() { };
@@ -117,29 +118,38 @@ namespace app_el_sys
         static void processMessage(string s)
         {
             string temp = string.Empty, file = string.Empty;
-            if (s.IndexOf(_split_action) > 0)
+            if (s.IndexOf(_split_key) > 0)
             {
-                string[] a = s.Split(_split_action);
+                string[] a = s.Split(_split_key);
                 string action = a[0].Trim(), result = string.Empty;
                 string[] para = a.Where((x, k) => k != 0).ToArray();
                 switch (action)
                 {
                     case _action_key.TREE_NODE:
-                        if (a.Length > 2) {
+                        if (a.Length > 2)
+                        {
                             string _path = a[2].Trim(), _folder = a[1].Trim();
                             if (_path == string.Empty) _path = _path_root;
                             string _pf = Path.Combine(_path, _folder);
                             if (Directory.Exists(_pf))
                             {
-                                var dirs = Directory.GetDirectories(_pf).Select(x => new {
+                                var dirs = Directory.GetDirectories(_pf).Select(x => new
+                                {
                                     name = Path.GetFileName(x),
                                     count = Directory.GetFiles(x, "*.txt").Length + Directory.GetDirectories(x).Length
                                 }).ToArray();
-                                var files = Directory.GetFiles(_pf, "*.txt").Select(x => new { name = Path.GetFileName(x), type = string.Empty, title = File.ReadAllLines(x)[0] }).ToArray();
-                                result = s + _split_action + JsonConvert.SerializeObject(new {
+                                var files = Directory.GetFiles(_pf, "*.txt").Select(x => new
+                                {
+                                    name = Path.GetFileName(x),
+                                    type = string.Empty,
+                                    title = Regex.Replace(Regex.Replace(File.ReadAllLines(x)[0], "<.*?>", " "), "[ ]{2,}", " ")
+                                }).ToArray();
+                                result = s + _split_data + JsonConvert.SerializeObject(new
+                                {
                                     path = _pf.Replace('\\', '/'),
                                     dirs = dirs,
-                                    files = files });
+                                    files = files
+                                });
                                 _socketCurrent.Send(result);
                             }
                         }
@@ -162,9 +172,9 @@ namespace app_el_sys
                             word = JsonConvert.SerializeObject(ws);
                             htm = app.renderFile(line);
                         }
-                        _socketCurrent.Send(string.Format("{0}.{1}.{2}{3}{4}", action, para[0], "text", _split_action, text));
-                        _socketCurrent.Send(string.Format("{0}.{1}.{2}{3}{4}", action, para[0], "html", _split_action, htm));
-                        _socketCurrent.Send(string.Format("{0}.{1}.{2}{3}{4}", action, para[0], "word", _split_action, word));
+                        _socketCurrent.Send(string.Format("{0}.{1}.{2}{3}{4}", action, para[0], "text", _split_data, text));
+                        _socketCurrent.Send(string.Format("{0}.{1}.{2}{3}{4}", action, para[0], "html", _split_data, htm));
+                        _socketCurrent.Send(string.Format("{0}.{1}.{2}{3}{4}", action, para[0], "word", _split_data, word));
                         break;
                     default:
                         if (EL.dicScript.ContainsKey(action))
