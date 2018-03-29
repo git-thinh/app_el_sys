@@ -1,13 +1,7 @@
 
-obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
-obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
-obj/Debug/app_el_sys.csproj.CoreCompileInputs.cache
-bin/Debug/app_el_sys.vshost.exe.manifest
+bin/Debug/app_el_sys.exe
 bin/Debug/app_el_sys.vshost.exe
 bin/Debug/app_el_sys.pdb
-bin/Debug/app_el_sys.exe
-obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
-*.cache
-*.cache
-obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+bin/Debug/app_el_sys.vshost.exe.manifest
 obj/Debug/app_el_sys.csproj.FileListAbsolute.txt
+obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
