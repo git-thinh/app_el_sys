@@ -18,6 +18,8 @@ namespace app_el_sys
     [PermissionSet(SecurityAction.LinkDemand, Name = "Everything"), PermissionSet(SecurityAction.InheritanceDemand, Name = "FullTrust")]
     public class app
     {
+        const char _split_action = '‖';
+        static string _path_root = AppDomain.CurrentDomain.BaseDirectory;
         static Dictionary<string, string> dicTranslate = new Dictionary<string, string>() { };
         static AutoResetEvent _autoEvent = new AutoResetEvent(false);
         static IWebSocketConnection _socketCurrent = null;
@@ -104,15 +106,29 @@ namespace app_el_sys
         static void processMessage(string s)
         {
             string temp = string.Empty, file = string.Empty;
-            if (s.IndexOf('|') > 0)
+            if (s.IndexOf(_split_action) > 0)
             {
-                string[] a = s.Split('|');
-                string script_key = a[0].Trim(),
-                    text = a[1].Trim();
-                if (EL.dicScript.ContainsKey(script_key))
+                string[] a = s.Split(_split_action);
+                string action = a[0].Trim();
+                string[] para = a.Where((x, k) => k != 0).ToArray();
+                switch (action)
                 {
-                    SCRIPT[] scrs = EL.dicScript[script_key];
-
+                    case "TREE_NODE":
+                        break;
+                    case "USER_LOGIN":
+                        break;
+                    case "FILE_LOAD": 
+                        string fi = Path.Combine(_path_root, para[0]), htm = string.Empty;
+                        if (File.Exists(fi))
+                            htm = app.renderFile(fi);
+                        _socketCurrent.Send(string.Format("{0}{1}{2}{1}{3}", action, _split_action, para[0], htm));
+                        break;
+                    default:
+                        if (EL.dicScript.ContainsKey(action))
+                        {
+                            SCRIPT[] scrs = EL.dicScript[action]; 
+                        }
+                        break;
                 }
             }
             else
@@ -254,6 +270,93 @@ namespace app_el_sys
             };
         }
 
+        public static string renderFile(string file)
+        {
+            string[] a = File.ReadAllLines(file).Where(x => x.Trim() != "").ToArray();
+            Paragraph p;
+            List<Paragraph> ls = new List<Paragraph>() { new Paragraph(0, a[0]) };
+            string si = string.Empty, _code = string.Empty, _ul = string.Empty;
+            bool _isCode = false, _isLI = false;
+            int _id = 0;
+            for (int i = 1; i < a.Length; i++)
+            {
+                si = a[i];
+                if (si == EL._TAG_CODE_CHAR_BEGIN || _isCode)
+                {
+                    #region [ PRE - CODE ]
+                    if (si != EL._TAG_CODE_CHAR_BEGIN) _id = i;
+
+                    _isCode = true;
+                    if (si != EL._TAG_CODE_CHAR_BEGIN && si != EL._TAG_CODE_CHAR_END)
+                        _code += Environment.NewLine + si;
+
+                    if (i == a.Length - 1 || si == EL._TAG_CODE_CHAR_END)
+                    {
+                        _isCode = false;
+                        p = new Paragraph() { id = _id, text = _code, type = SENTENCE.CODE, html = string.Format("<{0}>{1}</{0}>", EL.TAG_CODE, _code) };
+                        ls.Add(p);
+                    }
+                    #endregion
+                }
+                else
+                {
+                    switch (si[0])
+                    {
+                        case '*':
+                            #region [ HEADING ]
+                            si = si.Substring(1).Trim();
+                            p = new Paragraph() { id = i, type = SENTENCE.HEADING, text = si, html = string.Format("<{0}>{1}</{0}>", EL.TAG_HEADING, si.generalHtmlWords()) };
+                            ls.Add(p);
+                            break;
+                        #endregion
+                        case '#':
+                            #region [ UL_LI ]
+                            si = si.Substring(1).Trim();
+                            if (_isLI == false)
+                            {
+                                _id = i;
+                                _isLI = true;
+                                _ul = "<ul><li>" + si.generalHtmlWords() + "</li>";
+                            }
+                            else
+                                _ul += "<li>" + si.generalHtmlWords() + "</li>";
+
+                            if (i == a.Length - 1)
+                            {
+                                _ul += "</ul>";
+                                _isLI = false;
+                                p = new Paragraph() { id = _id, text = _ul, type = SENTENCE.UL_LI, html = _ul };
+                                ls.Add(p);
+                            }
+                            break;
+                        #endregion
+                        default:
+                            #region [ UL_LI ]
+                            if (_isLI)
+                            {
+                                _ul += "</ul>";
+                                _isLI = false;
+                                p = new Paragraph() { id = _id, text = _ul, type = SENTENCE.UL_LI, html = _ul };
+                                ls.Add(p);
+                            }
+                            #endregion
+
+                            p = new Paragraph(i, si);
+                            ls.Add(p);
+                            break;
+                    }
+                }
+            }
+            string htm = string.Join(Environment.NewLine, ls.Select(x => x.html).ToArray());
+            htm = string.Format("<{0}>{1}</{0}>", EL.TAG_ARTICLE, htm);
+
+            //string ss = Translator.TranslateText("hello", "en|vi");
+            //Console.WriteLine("{0} = {1}", "hello", ss);
+            //Console.ReadLine();
+            //File.WriteAllText("demo-output.txt", htm);
+            return htm;
+        }
+
         public static void RUN()
         {
             TcpListener l = new TcpListener(IPAddress.Loopback, 0);
@@ -297,6 +400,7 @@ namespace app_el_sys
 
     class Program
     {
+            //static string _path_root = AppDomain.CurrentDomain.BaseDirectory;
         static void Main(string[] args)
         {
             app.RUN();
