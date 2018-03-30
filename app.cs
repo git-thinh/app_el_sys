@@ -128,9 +128,9 @@ namespace app_el_sys
                     case _action_key.TREE_NODE:
                         if (a.Length > 2)
                         {
-                            string _path = a[2].Trim(), _folder = a[1].Trim();
+                            string _path = a[1].Trim(), _folder = a[2].Trim();
                             if (_path == string.Empty) _path = _path_root;
-                            string _pf = Path.Combine(_path, _folder);
+                            string _pf = Path.Combine(_path.Replace('/', '\\'), _folder);
                             if (Directory.Exists(_pf))
                             {
                                 var dirs = Directory.GetDirectories(_pf).Select(x => new
