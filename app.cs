@@ -126,6 +126,7 @@ namespace app_el_sys
                 switch (action)
                 {
                     case _action_key.TREE_NODE:
+                        #region
                         if (a.Length > 2)
                         {
                             string _path = a[1].Trim(), _folder = a[2].Trim();
@@ -142,7 +143,7 @@ namespace app_el_sys
                                 {
                                     name = Path.GetFileName(x),
                                     type = string.Empty,
-                                    title = Regex.Replace(Regex.Replace(File.ReadAllLines(x)[0], "<.*?>", " "), "[ ]{2,}", " ")
+                                    title = Regex.Replace(Regex.Replace(File.ReadAllLines(x)[0], "<.*?>", " "), "[ ]{2,}", " ").Trim()
                                 }).ToArray();
                                 result = s + _split_data + JsonConvert.SerializeObject(new
                                 {
@@ -154,28 +155,39 @@ namespace app_el_sys
                             }
                         }
                         break;
+                    #endregion
                     case _action_key.USER_LOGIN:
                         break;
                     case _action_key.FILE_LOAD:
-                        string fi = Path.Combine(_path_root, para[0]), htm = string.Empty, text = string.Empty, word = string.Empty;
-                        string[] line = new string[] { };
-                        if (File.Exists(fi))
+                        #region
+                        if (para.Length > 2)
                         {
-                            text = File.ReadAllText(fi);
-                            line = text.Split(new string[] { Environment.NewLine }, StringSplitOptions.None);
-                            string tmp = Regex.Replace(text, "[^0-9a-zA-Z]+", " ").ToLower();
-                            var ws = tmp.Split(' ').Where(x => x.Length > 0)
-                                .GroupBy(x => x)
-                                .OrderByDescending(x => x.Count())
-                                .Select(x => new { w = x.Key, k = x.Count() })
-                                .ToArray();
-                            word = JsonConvert.SerializeObject(ws);
-                            htm = app.renderFile(line);
+                            string type = para[0], path = para[1].Replace('/', '\\').Trim(), file_name = para[2].Trim();
+                            if (string.IsNullOrEmpty(path)) path = _path_root;
+                            string fi = Path.Combine(path, file_name),
+                                htm = string.Empty,
+                                text = string.Empty,
+                                word = string.Empty;
+                            string[] line = new string[] { };
+                            if (File.Exists(fi))
+                            {
+                                text = File.ReadAllText(fi);
+                                line = text.Split(new char[] { '\n', '\r' }).Select(x => x.Trim()).Where(x => x != string.Empty).ToArray();
+                                string tmp = Regex.Replace(text, "[^0-9a-zA-Z]+", " ").ToLower();
+                                var ws = tmp.Split(' ').Where(x => x.Length > 0)
+                                    .GroupBy(x => x)
+                                    .OrderByDescending(x => x.Count())
+                                    .Select(x => new { w = x.Key, k = x.Count() })
+                                    .ToArray();
+                                word = JsonConvert.SerializeObject(ws);
+                                htm = app.renderFile(line);
+                            }
+                            _socketCurrent.Send(string.Format("{0}{1}{2}", s, _split_data, text));
+                            _socketCurrent.Send(string.Format("{0}{1}{2}", s, _split_data, word));
+                            _socketCurrent.Send(string.Format("{0}{1}{2}", s, _split_data, htm));
                         }
-                        _socketCurrent.Send(string.Format("{0}.{1}.{2}{3}{4}", action, para[0], "text", _split_data, text));
-                        _socketCurrent.Send(string.Format("{0}.{1}.{2}{3}{4}", action, para[0], "html", _split_data, htm));
-                        _socketCurrent.Send(string.Format("{0}.{1}.{2}{3}{4}", action, para[0], "word", _split_data, word));
                         break;
+                    #endregion
                     default:
                         if (EL.dicScript.ContainsKey(action))
                         {

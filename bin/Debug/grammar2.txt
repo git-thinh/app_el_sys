@@ -1,3 +1,5 @@
+file grammar2.txt: Grammar struct raw.
+
 7. It + takes/took+ someone + amount of time + to do something: (làm gì... mất bao nhiêu thời gian... hoc tieng anh) e.g. It takes me 5 minutes to get to school.e.g. It took him 10 minutes to do this exercise yesterday. 
 
 8. To prevent/stop + someone/something + From + V-ing: (ngăn cản ai/ cái gì... làm gì..)e.g. He prevented us from parking our car here.

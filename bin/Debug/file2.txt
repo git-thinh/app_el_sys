@@ -1,3 +1,5 @@
+file2.txt: Grammar structs
+
 * too...for
 - S + V + too + adj/adv + (for someone) + to do something
 = quá....để cho ai làm gì...

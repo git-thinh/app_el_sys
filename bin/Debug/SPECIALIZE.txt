@@ -1,3 +1,5 @@
+file SPECIALIZE.txt: Dictionary technology
+
 Accumulator                : Tổng
 
 Addition                   : Phép  cộng
